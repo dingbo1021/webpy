@@ -147,8 +147,7 @@ class para:
 
         ############################################################################################################
 
-            feedback = os.system(rootpath+'working.exe')
-            feedback = os.system(rootpath+'working.exe')
+        feedback = os.system(rootpath+'working.exe')
         #to be finished: give fcm file to queue, then check sessionid folder. 
         ############################################################################################################   
 #        feedback =0;   
