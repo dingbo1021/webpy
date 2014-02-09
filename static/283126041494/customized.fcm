@@ -1,0 +1,77 @@
+;-----------------------------------------------------------------
+; FASSP Parameter File Version Information
+;-----------------------------------------------------------------
+verstring	'Parameter File Version 2.0'
+runtype		fcm
+
+
+;-----------------------------------------------------------------
+; Target Parameters
+;-----------------------------------------------------------------
+targetname	vgrnbmw.ref	;Target reflectance filename
+targscale	1.00	;Target covariance scale factor
+tnsamp		53 			;Target sample size
+targperc	/25/	;Target percentage IFOV	
+targinback	3	;Class number target is embedded 
+
+
+;-----------------------------------------------------------------
+; Background Parameters
+;-----------------------------------------------------------------
+backname	/950824_05_Tree1_R.ref,950824_05_Grass1_R.ref,urban_road.ref/	;Background reflectance filename
+backscale	1.00	;Background covariance scale factor
+bnsamp		1000 			;Background sample size
+backperc	/50, 40, 10/	;Background class percent of scene
+backdof         -1                  ;Deg of freedom for ellipt t-distr (-1=Gaussian)
+numback	3	;Number of background classes
+
+
+;-----------------------------------------------------------------
+; Scene Parameters
+;-----------------------------------------------------------------
+metrange	10	;Meteorological range 
+	;(Enter vis. in km or 0 for models default value)
+solangle	60	;Solar zenith angle
+gndalt	0	;Ground altitude (km)
+model	2	;Atmospheric model: 
+	;1=Tropical 2=MidLat Summ 3=MidLat Wint 4=SubArc Summ 5=SubArc Win 6=US Standard
+shadeperc    	0.0 			;Percent of target in shade  
+skyperc      	100.0			;Percent of sky visible by target 
+wss         	0.0			;Surface wind speed in Meters/Secs
+ihaze	2	;Atmospheric haze: 
+	;0=No Aerosols 1=Rural-clr 2=Rural-Hazy 3=Navy Maritime  4=Maritime 5=Urban 6=Trop 
+icld	0	;Cloud index:  0=No Cloud   1=Cloud
+runcode 	1			;Modtran Resolution: 0=Modtran  1=Lowtran
+
+
+;-----------------------------------------------------------------
+; Sensor Parameters
+;-----------------------------------------------------------------
+sensorfile	HyMap.sen	;Sensor filename
+viewangle    	0    			;Sensor view nadir angle     
+noisefac	1.0	;Sensor noise factor
+gainfac	1.0	;Gain factor
+relcal	1.0	;Relative calibration error
+nbits        	12 			;Number of radiometric bits
+ber          	1.00e-9			;Communications link bit error rate
+platalt	1.0	;Sensor altitude (km) 
+tint	0.0001	;Integration time (seconds) 
+wavelengthchosen	/0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125/	;
+
+;-----------------------------------------------------------------
+; Processing Parameters
+;-----------------------------------------------------------------
+pfa		/1.0e-1, 1.0e-2, 1.0e-3	;Probability of false alarm  
+		 1.0e-4, 1.0e-5, 1.0e-6/ 
+numfeat		126			;Number of features (total number of bands to use)
+atmtype 	1			;Atmospheric Compensation:  None(0) ELM(1)
+xfrmtype	2 			;Transform Type: 
+	;Contig.Region(0) PC(1) Mult.Cont.Reg.(2) Bands(3)   
+algtype		2			;Algorithm: 
+	;Spectral Charact(0) Total Error(1) CEM(2) SAM(3) GSNR(4) MDQ(5) MFR(6)  
+mattype		0			;Matrix type: Covariance(0) or Correlation(1)   
+	;EigenVectors use: 0=ALL  1=Max.Positive or Enter Desired Number 
+eiguse 		1
+os		/  0 /			;Index offset of groups   
+grp		/ 126 /			;Number of channels in each group
+binfact		1			;Bin Factor  (Group sets of bands)

@@ -146,13 +146,10 @@ class para:
         open(rootpath+'static/'+session_key+'/customized.fcm', 'wb').write(FCMdata)
 
         ############################################################################################################
-
-            feedback = os.system(rootpath+'working.exe')
-            feedback = os.system(rootpath+'working.exe')
+        feedback = os.system(rootpath+'working.exe')
         #to be finished: give fcm file to queue, then check sessionid folder. 
         ############################################################################################################   
 #        feedback =0;   
-
         if feedback == -1:
             return render.error()
         Wvlength = readfilep(str(SensorName),rootpath+'resource/sensorWV/')
