@@ -1,0 +1,303 @@
+$def with (bkgall,bkgname2,sensor,target,WVall,percentall)
+
+<html> 
+<head> 
+<title> Leave your message here</title> 
+    <script type=text/javascript language=JavaScript>  
+        function addmen()
+        {  
+            var d = document.getElementById('id_wavelength_to_choose');  
+            var s = document.getElementById('id_wavelength_chosen');
+            var record = new Array(0);    
+//            alert(ddd.options.length);  
+            for(var i=0;i<d.options.length;i++)
+            {  
+//                alert(i);  
+                if(d.options[i].selected)
+                {  
+//                  alert(d.options[i].text);  
+                    var obj = new Option(d.options[i].text,d.options[i].value);  
+                    s.options.add(obj);
+                    record.push(i);
+                    document.getElementById('id_hiddentxt').value += d.options[i].value;
+                    document.getElementById('id_hiddentxt').value +='\n'                    
+                } 
+                
+            }
+            record.reverse();
+            for (var i=0;i<record.length;i++)
+            {
+                d.remove(record[i]);
+            }            
+        }  
+        function allmen()
+        {  
+            var d = document.getElementById('id_wavelength_to_choose');  
+            var s = document.getElementById('id_wavelength_chosen'); 
+ //           alert(d.options.length);  
+            for(var i=0;i<d.options.length;i++)
+            {  
+//                    alert(d.options[i].text);  
+                    var obj = new Option(d.options[i].text,d.options[i].value);  
+                    s.options.add(obj);
+                    document.getElementById('id_hiddentxt').value += d.options[i].value;
+                    document.getElementById('id_hiddentxt').value +='\n'
+            }
+            for (var i=d.length-1;i>-1;i--)
+            {
+                d.remove(i);
+            }
+            h = d.options.value;
+        }  
+        function returnmen()
+        {  
+            var d = document.getElementById('id_wavelength_to_choose');  
+            var r = document.getElementById('id_wavelength_chosen'); 
+            var record = new Array(0);
+            for(var i=0;i<r.options.length;i++)
+            {  
+                if(true==r.options[i].selected)
+                {  
+                    //alert(d.options[i].text);  
+                    var obj = new Option(r.options[i].text,r.options[i].value);  
+                    record.push(i);     
+                    d.options.add(obj);  
+                }  
+            }
+            record.reverse();
+            for (var i=0;i<record.length;i++)
+            {
+                r.remove(record[i]);
+            }
+            
+            document.getElementById('id_hiddentxt').value = '';
+            for(var i=0;i<r.options.length;i++)
+            {  
+                document.getElementById('id_hiddentxt').value += r.options[i].value;
+                document.getElementById('id_hiddentxt').value +='\n'
+            }            
+        }  
+        function createlist() 
+        { 
+            var d = document.getElementById('id_pfile_selection');  
+//            alert(ddd.options.length);  
+            for(var i=0;i<1;i++)
+            {  
+//                  alert(d.options[i].text);  
+                    var obj = new Option("ppppp",i);  
+                    d.options.add(obj);            
+                
+            }
+
+    
+        } 
+
+        function validate_required(field,alerttxt)
+        {
+            with (field)
+            {
+                if (length==0)
+                {alert(alerttxt);return false}
+                else {return true}
+            }
+        }
+        
+        function range_validate_required(field,low,high,alerttxt)
+        {
+            with (field)
+            {
+                if (value<low||value>high||isNaN(value))
+                {alert(alerttxt);return false}
+                else {return true}
+            }
+        }
+        
+        function count_validate_required(field1,field2,alerttxt)
+        {
+            var s = field2.value.split(",");
+            if(field1.length != s.length)
+            {alert(alerttxt);return false}
+            else {return true}   
+        }        
+        
+        function percent_validate_required(field,alerttxt)
+        {
+            with (field)
+            {
+                var s = value.split(",");
+                var sum = 0;
+                
+                for(var i = 0;i<s.length;i++)
+                { 
+                    if(isNaN(s[i]))
+                    {
+                        alert("Bkg Percentage should be NUMBER");return false
+                    }
+                    else
+                    {
+                        sum = sum + parseInt(s[i])
+                    }
+                
+                }
+                if(sum!=100)
+                {alert(alerttxt);return false}
+                else {return true}
+            }
+        }
+        function validate_form(thisform)
+        {
+            with (thisform)
+            {
+                
+                if (validate_required(document.getElementById('id_wavelength_chosen'),"At least 1 wavelength has to be chosen!")==false)
+                {document.getElementById("id_wavelength_chosen").style.backgroundColor = 'LightBlue ';return false}
+                if (range_validate_required(document.getElementById('id_Atmospheric_haze'),0,6,"Atmospheric Haze Wrong!")==false)
+                {document.getElementById("id_Atmospheric_haze").style.backgroundColor = 'LightBlue ';return false}
+                if (range_validate_required(document.getElementById('id_Solangle'),0,90,"Solar Angle Wrong!")==false)
+                {document.getElementById("id_Solangle").style.backgroundColor = 'LightBlue ';return false}
+                if (range_validate_required(document.getElementById('id_Atmospheric_model'),1,6,"Atmospheric Model Wrong!")==false)
+                {document.getElementById("id_Atmospheric_model").style.backgroundColor = 'LightBlue ';return false}                
+                if (range_validate_required(document.getElementById('id_Noisefac'),0,100,"Sensor Noise Factor Wrong!")==false)
+                {document.getElementById("id_Noisefac").style.backgroundColor = 'LightBlue ';return false}
+                if (range_validate_required(document.getElementById('id_Gainfac'),0,100," Sensor Gain Factor Wrong!")==false)
+                {document.getElementById("id_Gainfac").style.backgroundColor = 'LightBlue ';return false}
+                if (range_validate_required(document.getElementById('id_Relcal'),0,100,"Sensor Calibration Error Wrong!")==false)
+                {document.getElementById("id_Relcal").style.backgroundColor = 'LightBlue ';return false}
+                if (range_validate_required(document.getElementById('id_Tint'),0,1,"Sensor Integration Time Wrong!")==false)
+                {document.getElementById("id_Tint").style.backgroundColor = 'LightBlue ';return false}
+                if (range_validate_required(document.getElementById('id_Targscale'),0,100,"Target Scale Wrong!")==false)
+                {document.getElementById("id_Targscale").style.backgroundColor = 'LightBlue ';return false}
+                if (range_validate_required(document.getElementById('id_Targperc'),0,100,"Target Percentage Wrong!")==false)
+                {document.getElementById("id_Targperc").style.backgroundColor = 'LightBlue ';return false}
+                if (range_validate_required(document.getElementById('id_Targinback'),0,document.getElementById('id_Bkgname').options.length-1,"Target in Background Number Wrong!")==false)
+                {document.getElementById("id_Targinback").style.backgroundColor = 'LightBlue ';return false}
+                if (range_validate_required(document.getElementById('id_Bkgscale'),0,100,"Background Scale Wrong!")==false)
+                {document.getElementById("id_Bkgscale").style.backgroundColor = 'LightBlue ';return false}
+                if (percent_validate_required(document.getElementById('id_Backperc'),"Background Percentage should sum to 100, format like 50,40,10")==false)
+                {document.getElementById("id_Backperc").style.backgroundColor = 'LightBlue ';return false}
+                if (count_validate_required(document.getElementById('id_Bkgname'),document.getElementById('id_Backperc'),"Bkg file name count and Bkg % should be consistent")==false)
+                {document.getElementById("id_Backperc").style.backgroundColor = 'LightBlue ';return false}                
+            }
+        }
+
+        function formsubmit()
+        {
+            form = document.getElementById('id_wavelength_chosen');
+            document.forms[0].submit()
+        }        
+        function writeText(txt)
+        {
+            document.getElementById("description").innerHTML=txt;
+        }        
+        
+    </script>  
+    <style>
+        select[multiple="multiple"]{width:160px;height:200px}
+        select[name="Bkgname"]{width:160px;height:188px}
+        
+        span{font-size: 9pt}
+        label{font-size: 9pt; font-weight:normal}
+        
+        input[type="text"]{width:160px;height:20px}
+        select[name="Targinback"]{width:160px;height:20px}
+
+    </style>    
+    
+</head>
+
+<body> 
+<h1>Hyperspectral Imaging System Prediction Model  </h1>
+
+
+<h2>Leave your parameters</h2> 
+<form action="/para" onsubmit="return validate_form(this)" method="POST"><div style='display:none;'><input type='hidden' id='csrfmiddlewaretoken' name='csrfmiddlewaretoken' value='6b1aa0b2fee1f8a47d949a3cd91db436' /></div> 
+<font color="red"><strong> 
+<p id="description">PARAMETER HINT, WHEN MODIFYING</p> 
+</strong></font>
+<table style="width:220px;">
+    <tr>
+    
+    <td style="vertical-align:top;">
+    <h4>Scene</h4>    
+    <table>
+        <td><p><label for="id_Atmospheric_haze">Atmospheric Haze:</label> <input onfocus="writeText(&quot;0=No Aerosols, 1=Rural-clr, 2=Rural-Hazy, 3=Navy Maritime,  4=Maritime, 5=Urban, 6=Trop&quot;)" type="text" name="Atmospheric_haze" value="1" id="id_Atmospheric_haze" /></p>
+<p><label for="id_Ground_altitude">Ground Altitude:</label> <input onfocus="writeText(&quot;Ground Altitude(km)&quot;)" type="text" name="Ground_altitude" value="0.167" id="id_Ground_altitude" /></p>
+<p><label for="id_Solangle">Solar Angle:</label> <input onfocus="writeText(&quot;Solar Angle,0~90&quot;)" type="text" name="Solangle" value="44.5" id="id_Solangle" /></p>
+<p><label for="id_Atmospheric_model">Atmospheric Model:</label> <input onfocus="writeText(&quot;1=Tropical, 2=MidLat Summ, 3=MidLat Wint, 4=SubArc Summ, 5=SubArc Win, 6=US Standard&quot;)" type="text" name="Atmospheric_model" value="3" id="id_Atmospheric_model" /></p>
+<p><label for="id_icld">Cloud Index:</label> <input onfocus="writeText(&quot;0=No Cloud, 1 = Cloud&quot;)" type="text" name="icld" value="0" id="id_icld" /></p>
+<p><label for="id_Mrange">Meteorological Range:</label> <input onfocus="writeText(&quot;the range describe visibility, unit km&quot;)" type="text" name="Mrange" value="30" id="id_Mrange" /></p></td>
+    </table>
+    </td>
+        
+    <td style="vertical-align:top;">
+    <h4>Sensor</h4>
+    <table>
+        <td><p><label for="id_Sensorname">Sensor Name:</label> <input name="Sensorname" value="$sensor" readonly="readonly" onmouseover="writeText(&quot;Sensor File Name (read only)&quot;)" type="text" id="id_Sensorname" /></p>
+<p><label for="id_Noisefac">Noise Factor:</label> <input onfocus="writeText(&quot;Noise Factor(default 1)&quot;)" type="text" name="Noisefac" value="1.0" id="id_Noisefac" /></p>
+<p><label for="id_Gainfac">Gain Factor:</label> <input onfocus="writeText(&quot;Gain Factor(default 1)&quot;)" type="text" name="Gainfac" value="1.0" id="id_Gainfac" /></p>
+<p><label for="id_Relcal">Rltv Calibration Error(%):</label> <input onfocus="writeText(&quot;Relative Calibration Error (percent)&quot;)" type="text" name="Relcal" value="1.0" id="id_Relcal" /></p>
+<p><label for="id_Tint">Integration Time(s):</label> <input onfocus="writeText(&quot;Sensor Integration Time&quot;)" type="text" name="Tint" value="0.004" id="id_Tint" /></p>
+<p><label for="id_Platalt">Sensor Altitude(km):</label> <input onfocus="writeText(&quot;Sensor Altitude(km)&quot;)" type="text" name="Platalt" value="0.89" id="id_Platalt" /></p></td>
+    </table>
+    </td>
+    
+    
+    <td style="vertical-align:top;">
+    <h4>Target</h4>
+    <table>
+        <td><p><label for="id_Targname">Target file Name:</label> <input name="Targname" value="$target" readonly="readonly" onmouseover="writeText(&quot;Target File Name (readonly)&quot;)" type="text" id="id_Targname" /></p>
+<p><label for="id_Targscale">Target Scale:</label> <input onfocus="writeText(&quot;Target Covariance Scale Factor (default 1)&quot;)" type="text" name="Targscale" value="1.00" id="id_Targscale" /></p>
+<p><label for="id_Targperc">Target Percentage(%):</label> <input onfocus="writeText(&quot;Target Percentage IFOV&quot;)" type="text" name="Targperc" value="5" id="id_Targperc" /></p>
+<p><label for="id_Targinback">Target In which bkg:</label> <select onfocus="writeText(&quot;Background Class Number Target Embedded in&quot;)" name="Targinback" id="id_Targinback">
+$:bkgall
+</select></p></td>
+    </table>
+    </td>
+    
+    <td style="vertical-align:top;">
+    <h4>Background</h4>
+    <table>
+        <td><p><label for="id_Bkgname">Bkg file Name:</label> <select multiple="multiple" onfocus="writeText(&quot;Background Reflectance Filename&quot;)" name="Bkgname" id="id_Bkgname">
+$:bkgall
+</select></p>
+<p><label for="id_Bkgscale">Bkg Scale:</label> <input onfocus="writeText(&quot;Background Covariance Scale Factor (default 1)&quot;)" type="text" name="Bkgscale" value="1.00" id="id_Bkgscale" /></p>
+<p><label for="id_Backperc">Bkg Percentage(%):</label> <input onfocus="writeText(&quot;Background Class Percent of Scene&quot;)" type="text" name="Backperc" value="$percentall" id="id_Backperc" /><input type="hidden" name="Bkgname2" value="$:bkgname2" id="id_Bkgname2" /></p></td>
+    </table>
+    </td>    
+    
+    </tr>
+</table>   
+  
+<input type="hidden" name="hiddentxt" id="id_hiddentxt" /> 
+  
+<br><br><br> 
+<table style="width:400px;">
+    <tr>
+    <td>
+    <table>
+        <td><p><label for="id_wavelength_to_choose">Wavelength To Choose:</label> <select multiple="multiple" name="wavelength_to_choose" id="id_wavelength_to_choose">
+$:WVall
+</select></p></td>
+    </table>
+    </td>
+        
+    <td>
+    <table>
+        <td><p><label for="id_wavelength_chosen">Wavelength Chosen:</label> <select multiple="multiple" name="wavelength_chosen" id="id_wavelength_chosen">
+</select></p></td>
+    </table>
+    </td>
+    </tr>
+    
+</table> 
+
+<input type="hidden" id="id_hiddentxt" value="">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <input name="d" type="button" id="d" value="&lt;&lt;" onClick="returnmen();">  
+     <input name="d" type="button" id="d" value="&gt;&gt;" onClick="addmen();">  
+     <input name="d" type="button" id="d" value="add all" onClick="allmen();">       
+<p><input type="submit" value="Submit"></p> 
+</form>
+
+</body> 
+</html>

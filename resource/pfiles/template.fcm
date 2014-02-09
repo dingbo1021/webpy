@@ -1,0 +1,77 @@
+;-----------------------------------------------------------------
+; FASSP Parameter File Version Information
+;-----------------------------------------------------------------
+verstring	'Parameter File Version 2.0'
+runtype		fcm
+
+
+;-----------------------------------------------------------------
+; Target Parameters
+;-----------------------------------------------------------------
+targetname	targetnamehere		;Target reflectance filename
+targscale   	1.00				;Target covariance scale factor
+tnsamp		50 				;Target sample size
+targperc 	/12.5/	;Target percentage IFOV	
+targinback	1					;Class number target is embedded 
+
+
+;-----------------------------------------------------------------
+; Background Parameters
+;-----------------------------------------------------------------
+backname	/backnamehere/   	;Background reflectance filename
+backscale   	1.00				;Background covariance scale factor
+bnsamp		50   				;Background sample size
+backperc	/backperchere/  ;Background class percent of scene	
+backdof     /-1/      	;Deg of freedom for ellipt t-distr (-1=Gaussian)		
+numback		backnumhere				;Number of background classes
+
+
+;-----------------------------------------------------------------
+; Scene Parameters
+;-----------------------------------------------------------------
+metrange	30 				;Meteorological range 
+	;(Enter vis. in km or 0 for models default value)
+solangle 	44.5  			;Solar zenith angle
+gndalt       	0.167			;Ground altitude (km)
+model		2				;Atmospheric model: 
+	;1=Tropical 2=MidLat Summ 3=MidLat Wint 4=SubArc Summ 5=SubArc Win 6=US Standard
+shadeperc    	0.0 			;Percent of target in shade  
+skyperc      	100.0			;Percent of sky visible by target 
+wss         	0.0			;Surface wind speed in Meters/Secs
+ihaze		1				;Atmospheric haze: 
+	;0=No Aerosols 1=Rural-clr 2=Rural-Hazy 3=Navy Maritime  4=Maritime 5=Urban 6=Trop 
+icld		0				;Cloud index:  0=No Cloud   1=Cloud
+runcode 	1				;Modtran Resolution: 0=Modtran  1=Lowtran
+
+
+;-----------------------------------------------------------------
+; Sensor Parameters
+;-----------------------------------------------------------------
+sensorfile	sensornamehere		;Sensor filename
+viewangle    	0    		;Sensor view nadir angle     
+noisefac     	1.0			;Sensor noise factor
+gainfac     	1.0			;Gain factor
+relcal       	1.0			;Relative calibration error
+nbits        	12 			;Number of radiometric bits
+ber          	1.00e-9		;Communications link bit error rate
+platalt		    0.89			;Sensor altitude (km) 
+tint         	0.004			;Integration time (seconds) 
+wavelengthchosen /wavelengthchosen/ ;
+
+;-----------------------------------------------------------------
+; Processing Parameters
+;-----------------------------------------------------------------
+pfa		/1.0e-1, 1.0e-2, 1.0e-3	;Probability of false alarm  
+		 1.0e-4, 1.0e-5, 1.0e-6/ 	
+numfeat		115			;Number of features (total number of bands to use)
+atmtype 	1				;Atmospheric Compensation:  None(0) ELM(1)
+xfrmtype	2 				;Transform Type: 
+	;Contig.Region(0) PC(1) Mult.Cont.Reg.(2) Bands(3)   
+algtype		2			;Algorithm: 
+	;Spectral Charact(0) Total Error(1) CEM(2) SAM(3) GSNR(4) 
+mattype		0			;Matrix type: Covariance(0) or Correlation(1)   
+	;EigenVectors use: 0=ALL  1=Max.Positive or Enter Desired Number 
+eiguse 		1
+os		/5, 57, 77, 111, 168/		;Index offset of groups   
+grp		/42, 10, 12, 26, 25/		;Number of channels in each group
+binfact		1			;Bin Factor  (Group sets of bands)

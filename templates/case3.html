@@ -1,0 +1,432 @@
+
+<html> 
+<head> 
+<title> Leave your message here </title> 
+    <script type=text/javascript language=JavaScript>  
+        function addmen()
+        {  
+            var d = document.getElementById('id_wavelength_to_choose');  
+            var s = document.getElementById('id_wavelength_chosen');
+            var record = new Array(0);    
+//            alert(ddd.options.length);  
+            for(var i=0;i<d.options.length;i++)
+            {  
+//                alert(i);  
+                if(d.options[i].selected)
+                {  
+//                  alert(d.options[i].text);  
+                    var obj = new Option(d.options[i].text,d.options[i].value);  
+                    s.options.add(obj);
+                    record.push(i);
+                    document.getElementById('id_hiddentxt').value += d.options[i].value;
+                    document.getElementById('id_hiddentxt').value +='\n'                    
+                } 
+                
+            }
+            record.reverse();
+            for (var i=0;i<record.length;i++)
+            {
+                d.remove(record[i]);
+            }            
+        }  
+        function allmen()
+        {  
+            var d = document.getElementById('id_wavelength_to_choose');  
+            var s = document.getElementById('id_wavelength_chosen'); 
+ //           alert(d.options.length);  
+            for(var i=0;i<d.options.length;i++)
+            {  
+//                    alert(d.options[i].text);  
+                    var obj = new Option(d.options[i].text,d.options[i].value);  
+                    s.options.add(obj);
+                    document.getElementById('id_hiddentxt').value += d.options[i].value;
+                    document.getElementById('id_hiddentxt').value +='\n'
+            }
+            for (var i=d.length-1;i>-1;i--)
+            {
+                d.remove(i);
+            }
+            h = d.options.value;
+        }  
+        function returnmen()
+        {  
+            var d = document.getElementById('id_wavelength_to_choose');  
+            var r = document.getElementById('id_wavelength_chosen'); 
+            var record = new Array(0);
+            for(var i=0;i<r.options.length;i++)
+            {  
+                if(true==r.options[i].selected)
+                {  
+                    //alert(d.options[i].text);  
+                    var obj = new Option(r.options[i].text,r.options[i].value);  
+                    record.push(i);     
+                    d.options.add(obj);  
+                }  
+            }
+            record.reverse();
+            for (var i=0;i<record.length;i++)
+            {
+                r.remove(record[i]);
+            }
+            
+            document.getElementById('id_hiddentxt').value = '';
+            for(var i=0;i<r.options.length;i++)
+            {  
+                document.getElementById('id_hiddentxt').value += r.options[i].value;
+                document.getElementById('id_hiddentxt').value +='\n'
+            }            
+        }  
+        function createlist() 
+        { 
+            var d = document.getElementById('id_pfile_selection');  
+//            alert(ddd.options.length);  
+            for(var i=0;i<1;i++)
+            {  
+//                  alert(d.options[i].text);  
+                    var obj = new Option("ppppp",i);  
+                    d.options.add(obj);            
+                
+            }
+
+    
+        } 
+
+        function validate_required(field,alerttxt)
+        {
+            with (field)
+            {
+                if (length==0)
+                {alert(alerttxt);return false}
+                else {return true}
+            }
+        }
+        
+        function range_validate_required(field,low,high,alerttxt)
+        {
+            with (field)
+            {
+                if (value<low||value>high||isNaN(value))
+                {alert(alerttxt);return false}
+                else {return true}
+            }
+        }
+        
+        function count_validate_required(field1,field2,alerttxt)
+        {
+            var s = field2.value.split(",");
+            if(field1.length != s.length)
+            {alert(alerttxt);return false}
+            else {return true}   
+        }        
+        
+        function percent_validate_required(field,alerttxt)
+        {
+            with (field)
+            {
+                var s = value.split(",");
+                var sum = 0;
+                
+                for(var i = 0;i<s.length;i++)
+                { 
+                    if(isNaN(s[i]))
+                    {
+                        alert("Bkg Percentage should be NUMBER");return false
+                    }
+                    else
+                    {
+                        sum = sum + parseInt(s[i])
+                    }
+                
+                }
+                if(sum!=100)
+                {alert(alerttxt);return false}
+                else {return true}
+            }
+        }
+        function validate_form(thisform)
+        {
+            with (thisform)
+            {
+                
+                if (validate_required(document.getElementById('id_wavelength_chosen'),"At least 1 wavelength has to be chosen!")==false)
+                {document.getElementById("id_wavelength_chosen").style.backgroundColor = 'LightBlue ';return false}
+                if (range_validate_required(document.getElementById('id_Atmospheric_haze'),0,6,"Atmospheric Haze Wrong!")==false)
+                {document.getElementById("id_Atmospheric_haze").style.backgroundColor = 'LightBlue ';return false}
+                if (range_validate_required(document.getElementById('id_Solangle'),0,90,"Solar Angle Wrong!")==false)
+                {document.getElementById("id_Solangle").style.backgroundColor = 'LightBlue ';return false}
+                if (range_validate_required(document.getElementById('id_Atmospheric_model'),1,6,"Atmospheric Model Wrong!")==false)
+                {document.getElementById("id_Atmospheric_model").style.backgroundColor = 'LightBlue ';return false}                
+                if (range_validate_required(document.getElementById('id_Noisefac'),0,100,"Sensor Noise Factor Wrong!")==false)
+                {document.getElementById("id_Noisefac").style.backgroundColor = 'LightBlue ';return false}
+                if (range_validate_required(document.getElementById('id_Gainfac'),0,100," Sensor Gain Factor Wrong!")==false)
+                {document.getElementById("id_Gainfac").style.backgroundColor = 'LightBlue ';return false}
+                if (range_validate_required(document.getElementById('id_Relcal'),0,100,"Sensor Calibration Error Wrong!")==false)
+                {document.getElementById("id_Relcal").style.backgroundColor = 'LightBlue ';return false}
+                if (range_validate_required(document.getElementById('id_Tint'),0,1,"Sensor Integration Time Wrong!")==false)
+                {document.getElementById("id_Tint").style.backgroundColor = 'LightBlue ';return false}
+                if (range_validate_required(document.getElementById('id_Targscale'),0,100,"Target Scale Wrong!")==false)
+                {document.getElementById("id_Targscale").style.backgroundColor = 'LightBlue ';return false}
+                if (range_validate_required(document.getElementById('id_Targperc'),0,100,"Target Percentage Wrong!")==false)
+                {document.getElementById("id_Targperc").style.backgroundColor = 'LightBlue ';return false}
+                if (range_validate_required(document.getElementById('id_Targinback'),0,document.getElementById('id_Bkgname').options.length-1,"Target in Background Number Wrong!")==false)
+                {document.getElementById("id_Targinback").style.backgroundColor = 'LightBlue ';return false}
+                if (range_validate_required(document.getElementById('id_Bkgscale'),0,100,"Background Scale Wrong!")==false)
+                {document.getElementById("id_Bkgscale").style.backgroundColor = 'LightBlue ';return false}
+                if (percent_validate_required(document.getElementById('id_Backperc'),"Background Percentage should sum to 100, format like 50,40,10")==false)
+                {document.getElementById("id_Backperc").style.backgroundColor = 'LightBlue ';return false}
+                if (count_validate_required(document.getElementById('id_Bkgname'),document.getElementById('id_Backperc'),"Bkg file name count and Bkg % should be consistent")==false)
+                {document.getElementById("id_Backperc").style.backgroundColor = 'LightBlue ';return false}                
+            }
+        }
+
+        function formsubmit()
+        {
+            form = document.getElementById('id_wavelength_chosen');
+            document.forms[0].submit()
+        }        
+        function writeText(txt)
+        {
+            document.getElementById("description").innerHTML=txt;
+        }        
+        
+    </script>  
+    <style>
+        select[multiple="multiple"]{width:160px;height:200px}
+        select[name="Bkgname"]{width:160px;height:74px}
+        
+        span{font-size: 9pt}
+        label{font-size: 9pt; font-weight:normal}
+        
+        input[type="text"]{width:160px;height:20px}
+        select[name="Targinback"]{width:160px;height:20px}
+
+    </style>    
+    
+</head>
+
+<body> 
+<h1>Hyperspectral Imaging System Prediction Model</h1>
+
+
+
+<h2>Leave your parameters</h2> 
+<form action="/para" onsubmit="return validate_form(this)" method="POST"><div style='display:none;'><input type='hidden' id='csrfmiddlewaretoken' name='csrfmiddlewaretoken' value='6b1aa0b2fee1f8a47d949a3cd91db436' /></div> 
+<font color="red"><strong> 
+<p id="description">PARAMETER HINT, WHEN MODIFYING</p> 
+</strong></font>
+<table style="width:220px;">
+    <tr>
+    
+    <td style="vertical-align:top;">
+    <h4>Scene</h4>    
+    <table>
+        <td><p><label for="id_Atmospheric_haze">Atmospheric Haze:</label> <input onfocus="writeText(&quot;0=No Aerosols, 1=Rural-clr, 2=Rural-Hazy, 3=Navy Maritime,  4=Maritime, 5=Urban, 6=Trop&quot;)" type="text" name="Atmospheric_haze" value="2" id="id_Atmospheric_haze" /></p>
+<p><label for="id_Ground_altitude">Ground Altitude:</label> <input onfocus="writeText(&quot;Ground Altitude(km)&quot;)" type="text" name="Ground_altitude" value="0" id="id_Ground_altitude" /></p>
+<p><label for="id_Solangle">Solar Angle:</label> <input onfocus="writeText(&quot;Solar Angle,0~90&quot;)" type="text" name="Solangle" value="60" id="id_Solangle" /></p>
+<p><label for="id_Atmospheric_model">Atmospheric Model:</label> <input onfocus="writeText(&quot;1=Tropical, 2=MidLat Summ, 3=MidLat Wint, 4=SubArc Summ, 5=SubArc Win, 6=US Standard&quot;)" type="text" name="Atmospheric_model" value="2" id="id_Atmospheric_model" /></p>
+<p><label for="id_icld">Cloud Index:</label> <input onfocus="writeText(&quot;0=No Cloud, 1 = Cloud&quot;)" type="text" name="icld" value="0" id="id_icld" /></p>
+<p><label for="id_Mrange">Meteorological Range:</label> <input onfocus="writeText(&quot;the range describe visibility, unit km&quot;)" type="text" name="Mrange" value="10" id="id_Mrange" /></p></td>
+    </table>
+    </td>
+        
+    <td style="vertical-align:top;">
+    <h4>Sensor</h4>
+    <table>
+        <td><p><label for="id_Sensorname">Sensor Name:</label> <input name="Sensorname" value="HyMap.sen" readonly="readonly" onmouseover="writeText(&quot;Sensor File Name (read only)&quot;)" type="text" id="id_Sensorname" /></p>
+<p><label for="id_Noisefac">Noise Factor:</label> <input onfocus="writeText(&quot;Noise Factor(default 1)&quot;)" type="text" name="Noisefac" value="1.0" id="id_Noisefac" /></p>
+<p><label for="id_Gainfac">Gain Factor:</label> <input onfocus="writeText(&quot;Gain Factor(default 1)&quot;)" type="text" name="Gainfac" value="1.0" id="id_Gainfac" /></p>
+<p><label for="id_Relcal">Rltv Calibration Error(%):</label> <input onfocus="writeText(&quot;Relative Calibration Error (percent)&quot;)" type="text" name="Relcal" value="1.0" id="id_Relcal" /></p>
+<p><label for="id_Tint">Integration Time(s):</label> <input onfocus="writeText(&quot;Sensor Integration Time&quot;)" type="text" name="Tint" value="0.0001" id="id_Tint" /></p>
+<p><label for="id_Platalt">Sensor Altitude(km):</label> <input onfocus="writeText(&quot;Sensor Altitude(km)&quot;)" type="text" name="Platalt" value="1.0" id="id_Platalt" /></p></td>
+    </table>
+    </td>
+    
+    
+    <td style="vertical-align:top;">
+    <h4>Target</h4>
+    <table>
+        <td><p><label for="id_Targname">Target file Name:</label> <input name="Targname" value="vgrnbmw.ref" readonly="readonly" onmouseover="writeText(&quot;Target File Name (readonly)&quot;)" type="text" id="id_Targname" /></p>
+<p><label for="id_Targscale">Target Scale:</label> <input onfocus="writeText(&quot;Target Covariance Scale Factor (default 1)&quot;)" type="text" name="Targscale" value="1.00" id="id_Targscale" /></p>
+<p><label for="id_Targperc">Target Percentage(%):</label> <input onfocus="writeText(&quot;Target Percentage IFOV&quot;)" type="text" name="Targperc" value="25" id="id_Targperc" /></p>
+<p><label for="id_Targinback">Target In which bkg:</label> <select onfocus="writeText(&quot;Background Class Number Target Embedded in&quot;)" name="Targinback" id="id_Targinback">
+<option value="0">950824_05_Tree1_R.ref</option>
+<option value="1">950824_05_Grass1_R.ref</option>
+<option value="2" selected="selected">urban_road.ref</option>
+</select></p></td>
+    </table>
+    </td>
+    
+    <td style="vertical-align:top;">
+    <h4>Background</h4>
+    <table>
+        <td><p><label for="id_Bkgname">Bkg file Name:</label> <select multiple="multiple" onfocus="writeText(&quot;Background Reflectance Filename&quot;)" name="Bkgname" id="id_Bkgname">
+<option value="0">950824_05_Tree1_R.ref</option>
+<option value="1">950824_05_Grass1_R.ref</option>
+<option value="2">urban_road.ref</option>
+</select></p>
+<p><label for="id_Bkgscale">Bkg Scale:</label> <input onfocus="writeText(&quot;Background Covariance Scale Factor (default 1)&quot;)" type="text" name="Bkgscale" value="1.00" id="id_Bkgscale" /></p>
+<p><label for="id_Backperc">Bkg Percentage(%):</label> <input onfocus="writeText(&quot;Background Class Percent of Scene&quot;)" type="text" name="Backperc" value="50, 40, 10" id="id_Backperc" /><input type="hidden" name="Bkgname2" value="950824_05_Tree1_R.ref,950824_05_Grass1_R.ref,urban_road.ref" id="id_Bkgname2" /></p></td>
+    </table>
+    </td>    
+    
+    </tr>
+</table>   
+  
+<input type="hidden" name="hiddentxt" id="id_hiddentxt" /> 
+  
+<br><br><br> 
+<table style="width:400px;">
+    <tr>
+    <td>
+    <table>
+        <td><p><label for="id_wavelength_to_choose">Wavelength To Choose:</label> <select multiple="multiple" name="wavelength_to_choose" id="id_wavelength_to_choose">
+<option value="0">453.8</option>
+<option value="1">467.4</option>
+<option value="2">481.9</option>
+<option value="3">496.9</option>
+<option value="4">511.7</option>
+<option value="5">526.5</option>
+<option value="6">541.6</option>
+<option value="7">556.5</option>
+<option value="8">571.2</option>
+<option value="9">585.9</option>
+<option value="10">600.7</option>
+<option value="11">615.5</option>
+<option value="12">630.0</option>
+<option value="13">644.3</option>
+<option value="14">658.9</option>
+<option value="15">673.6</option>
+<option value="16">688.0</option>
+<option value="17">702.4</option>
+<option value="18">716.9</option>
+<option value="19">731.3</option>
+<option value="20">745.4</option>
+<option value="21">759.6</option>
+<option value="22">773.9</option>
+<option value="23">788.1</option>
+<option value="24">802.2</option>
+<option value="25">816.3</option>
+<option value="26">830.7</option>
+<option value="27">844.9</option>
+<option value="28">858.9</option>
+<option value="29">872.5</option>
+<option value="30">874.8</option>
+<option value="31">891.9</option>
+<option value="32">907.3</option>
+<option value="33">922.8</option>
+<option value="34">938.6</option>
+<option value="35">954.1</option>
+<option value="36">969.2</option>
+<option value="37">984.4</option>
+<option value="38">999.9</option>
+<option value="39">1014.9</option>
+<option value="40">1029.9</option>
+<option value="41">1045.1</option>
+<option value="42">1060.1</option>
+<option value="43">1074.6</option>
+<option value="44">1089.2</option>
+<option value="45">1104.1</option>
+<option value="46">1118.6</option>
+<option value="47">1133.0</option>
+<option value="48">1147.4</option>
+<option value="49">1161.8</option>
+<option value="50">1176.0</option>
+<option value="51">1190.2</option>
+<option value="52">1204.3</option>
+<option value="53">1218.3</option>
+<option value="54">1232.1</option>
+<option value="55">1246.1</option>
+<option value="56">1260.2</option>
+<option value="57">1274.1</option>
+<option value="58">1287.6</option>
+<option value="59">1301.2</option>
+<option value="60">1315.2</option>
+<option value="61">1328.9</option>
+<option value="62">1389.3</option>
+<option value="63">1404.2</option>
+<option value="64">1419.3</option>
+<option value="65">1433.5</option>
+<option value="66">1448.0</option>
+<option value="67">1462.4</option>
+<option value="68">1477.0</option>
+<option value="69">1490.9</option>
+<option value="70">1504.8</option>
+<option value="71">1518.6</option>
+<option value="72">1532.5</option>
+<option value="73">1546.1</option>
+<option value="74">1559.8</option>
+<option value="75">1573.2</option>
+<option value="76">1586.4</option>
+<option value="77">1599.5</option>
+<option value="78">1612.8</option>
+<option value="79">1626.0</option>
+<option value="80">1638.8</option>
+<option value="81">1651.7</option>
+<option value="82">1664.5</option>
+<option value="83">1677.2</option>
+<option value="84">1689.7</option>
+<option value="85">1702.3</option>
+<option value="86">1714.9</option>
+<option value="87">1727.3</option>
+<option value="88">1739.5</option>
+<option value="89">1751.8</option>
+<option value="90">1764.0</option>
+<option value="91">1776.0</option>
+<option value="92">1788.0</option>
+<option value="93">1799.9</option>
+<option value="94">1952.4</option>
+<option value="95">1971.7</option>
+<option value="96">1991.0</option>
+<option value="97">2010.1</option>
+<option value="98">2029.0</option>
+<option value="99">2048.0</option>
+<option value="100">2067.2</option>
+<option value="101">2086.2</option>
+<option value="102">2104.8</option>
+<option value="103">2123.0</option>
+<option value="104">2141.0</option>
+<option value="105">2159.1</option>
+<option value="106">2177.0</option>
+<option value="107">2194.6</option>
+<option value="108">2213.4</option>
+<option value="109">2231.0</option>
+<option value="110">2248.2</option>
+<option value="111">2265.7</option>
+<option value="112">2283.1</option>
+<option value="113">2300.6</option>
+<option value="114">2317.6</option>
+<option value="115">2334.5</option>
+<option value="116">2351.1</option>
+<option value="117">2367.6</option>
+<option value="118">2384.4</option>
+<option value="119">2401.1</option>
+<option value="120">2417.7</option>
+<option value="121">2433.7</option>
+<option value="122">2449.6</option>
+<option value="123">2465.3</option>
+<option value="124">2480.9</option>
+<option value="125">2496.3</option>
+</select></p></td>
+    </table>
+    </td>
+        
+    <td>
+    <table>
+        <td><p><label for="id_wavelength_chosen">Wavelength Chosen:</label> <select multiple="multiple" name="wavelength_chosen" id="id_wavelength_chosen">
+</select></p></td>
+    </table>
+    </td>
+    </tr>
+    
+</table> 
+
+<input type="hidden" id="id_hiddentxt" value="">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <input name="d" type="button" id="d" value="&lt;&lt;" onClick="returnmen();">  
+     <input name="d" type="button" id="d" value="&gt;&gt;" onClick="addmen();">  
+     <input name="d" type="button" id="d" value="add all" onClick="allmen();">       
+<p><input type="submit" value="Submit"></p> 
+</form>
+
+</body> 
+</html>

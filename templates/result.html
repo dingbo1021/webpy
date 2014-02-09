@@ -1,0 +1,73 @@
+$def with (SensorName,session_key, pltselectR, pltselectS,tgthidden,bkghidden)
+<html>
+<head>
+
+</head>
+<body>
+
+<h3>The result1 is , , 1.0, 1.0, 1.0,1.0</h3>
+
+<h3>The result2 is 1.0, 0.0144878, 0.00144794, 0.000144729, 1.44686e-005,1.44665e-006</h3>
+<h3>Sensor: $SensorName</h3>
+
+<h3>check back url = http://127.0.0.1:8080/result/$session_key</h3>
+<h3>Scene Mean Spectral Radiance</h3>
+<form action="/result" method="POST"><div style='display:none;'>
+<input type='hidden' id='session_key' name='session_key' value='$session_key' /></div> 
+<input type='hidden' id='SensorName' name='SensorName' value='$SensorName' /></div> 
+<table>
+	<tr>
+	
+	<td>
+	<table>
+		<td><img src="/static/$session_key/rad.png"/></td>
+	</table>
+	</td>
+		
+	<td>
+	<table>
+		<td><p><label for="id_BkgnameR_0">Choose to plot:</label> <ul>
+        $:pltselectR
+	</table>
+	</td>
+    
+    </tr>
+</table>
+<a href="/static/$session_key/LBT.txt">Right Click to Download Radiance File</a> 
+
+<p></p>
+<h3>Scene Signal-to-Noise Ratio</h3>
+
+<table>
+	<tr>
+	
+	<td>
+	<table>
+		<td><img src="./static/$session_key/snr.png"/></td>
+	</table>
+	</td>
+		
+	<td>
+	<table>
+		<td><p><label for="id_BkgnameS_0">Choose to plot:</label> <ul>
+        $:pltselectS
+</ul><input type="hidden" name="tgtname" value="$tgthidden" id="id_tgtname" />
+<input type="hidden" name="bkgname" value="$bkghidden" id="id_bkgname" /></p><p></p><input type="submit" value="Submit"> </td>
+	</table>
+	</td>
+    
+    </tr>
+</table>
+</form>
+
+
+<a href="/static/$session_key/SNR.txt">Right Click to Download SNR File</a> 
+<p></p>
+<h3>ROC Curve</h3>
+<img src="/static/$session_key/roc.png"/>
+<p></p>
+<a href="/static/$session_key/ROC.txt">Right Click to Download ROC File</a> 
+<p></p>
+<a href="/static/$session_key/customized.fcm">Right Click to Download Scenario Definition File</a> 
+</body>
+</html> 

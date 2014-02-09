@@ -1,0 +1,201 @@
+
+<html> 
+<head> 
+<title> Leave your message here </title> 
+	<script type=text/javascript language=JavaScript>  
+        function addmen()
+		{  
+            var d = document.getElementById('id_BKG_tochoose');  
+            var s = document.getElementById('id_BKG_chosen');
+			var record = new Array(0);	
+//            alert(ddd.options.length);  
+            for(var i=0;i<d.options.length;i++)
+			{  
+//			    alert(i);  
+                if(d.options[i].selected)
+				{  
+//                  alert(d.options[i].text);  
+                    var obj = new Option(d.options[i].text,d.options[i].value);  
+                    s.options.add(obj);
+					record.push(i);
+					document.getElementById('id_hiddentxt').value += d.options[i].value;
+					document.getElementById('id_hiddentxt').value +=','					
+                } 
+				
+            }
+			record.reverse();
+            for (var i=0;i<record.length;i++)
+			{
+			    d.remove(record[i]);
+			}			
+        }  
+        function allmen()
+		{  
+            var d = document.getElementById('id_BKG_tochoose');  
+            var s = document.getElementById('id_BKG_chosen'); 
+ //           alert(d.options.length);  
+            for(var i=0;i<d.options.length;i++)
+			{  
+//                    alert(d.options[i].text);  
+                    var obj = new Option(d.options[i].text,d.options[i].value);  
+                    s.options.add(obj);
+					document.getElementById('id_hiddentxt').value += d.options[i].value;
+					document.getElementById('id_hiddentxt').value +=','
+            }
+            for (var i=d.length-1;i>-1;i--)
+			{
+			    d.remove(i);
+			}
+			h = d.options.value;
+        }  
+        function returnmen()
+		{  
+            var d = document.getElementById('id_BKG_tochoose');  
+            var r = document.getElementById('id_BKG_chosen'); 
+			var record = new Array(0);
+            for(var i=0;i<r.options.length;i++)
+			{  
+                if(true==r.options[i].selected)
+				{  
+                    //alert(d.options[i].text);  
+                    var obj = new Option(r.options[i].text,r.options[i].value);  
+                    record.push(i);	 
+                    d.options.add(obj);  
+                }  
+            }
+			record.reverse();
+            for (var i=0;i<record.length;i++)
+			{
+			    r.remove(record[i]);
+			}
+			
+			document.getElementById('id_hiddentxt').value = '';
+            for(var i=0;i<r.options.length;i++)
+			{  
+				document.getElementById('id_hiddentxt').value += r.options[i].value;
+				document.getElementById('id_hiddentxt').value +=','
+            }			
+        }  
+		function createlist() 
+		{ 
+            var d = document.getElementById('id_pfile_selection');  
+//            alert(ddd.options.length);  
+            for(var i=0;i<1;i++)
+			{  
+//                  alert(d.options[i].text);  
+                    var obj = new Option("ppppp",i);  
+                    d.options.add(obj);			
+				
+            }
+
+	
+		} 
+
+		function validate_required(field,alerttxt)
+		{
+			with (field)
+			{
+				if (length==0)
+				{alert(alerttxt);return false}
+				else {return true}
+			}
+		}
+
+		function validate_form(thisform)
+		{
+			with (thisform)
+			{
+				if (validate_required(document.getElementById('id_BKG_chosen'),"At least 1 BKG has to be chosen!")==false)
+				{return false}
+			}
+		}
+
+		function formsubmit()
+		{
+		    form = document.getElementById('id_BKG_chosen');
+			document.forms[0].submit()
+		}	
+		function writeText(txt)
+		{
+			document.getElementById("description").innerHTML=txt;
+		}
+		
+    </script>  
+    <style>
+	    select{width:160px;height:20px}
+	    select[multiple="multiple"]{width:160px;height:200px}
+        span{font-size: 9pt}
+		label{font-size: 10pt; font-weight:bold}
+		label[for="id_BKG_tochoose"]{font-weight:normal}
+		label[for="id_BKG_chosen"]{font-weight:normal}
+		input[type="text"]{width:160px;height:20px}
+    </style>	
+	
+</head>
+
+<body> 
+<h1>Hyperspectral Imaging System Prediction Model</h1>
+
+<h2>Leave your parameters</h2> 
+<form action="/customize" onsubmit="return validate_form(this)" method="POST"><div style='display:none;'><input type='hidden'></div> 
+   
+  
+<p><label for="id_sensor_selection">Sensor selection:</label> <select name="sensor_selection" id="id_sensor_selection">
+<option value="HyMap.sen">Hymap</option>
+<option value="hyperion.sen">Hyperion</option>
+<option value="spectir_vs2.sen">spectir_vs2</option>
+</select></p>
+<p><label for="id_target_selection">Target selection:</label> <select name="target_selection" id="id_target_selection">
+<option value="vgrnbmw.ref">Green BMW</option>
+<option value="grnwood.ref">Green Wood</option>
+<option value="grnwood_ASD.ref">Green Wood ASD</option>
+<option value="yelwood_ASD.ref">Yellow Wood ASD</option>
+<option value="playground_allpixels.ref">Avon Asphalt ALLPIXELS</option>
+<option value="whitetarp.ref">White Tarp</option>
+<option value="blacktarp.ref">Black Tarp</option>
+<option value="avongrass.ref">Avon Grass</option>
+</select><input type="hidden" name="hiddentxt" id="id_hiddentxt" /></p> 
+  
+<label>Background Selection: </label>  
+<table style="width:400px;">
+	<tr>
+	<td>
+	<table>
+		<td><p><label for="id_BKG_tochoose">Background to Choose:</label> <select multiple="multiple" name="BKG_tochoose" id="id_BKG_tochoose">
+<option value="950824_05_Tree1_R.ref">TREE 950824</option>
+<option value="950824_05_Grass1_R.ref">GRASS 950824</option>
+<option value="urban_road.ref">ROAD</option>
+<option value="asphalt_ASD.ref">Avon Asphalt All</option>
+<option value="asphalt_ASD1.ref">Avon Asphalt 1</option>
+<option value="asphalt_ASD2.ref">Avon Asphalt 2</option>
+<option value="asphalt_Compensated.ref">Avon Asphalt Compensated</option>
+<option value="playground_allpixels.ref">Avon Asphalt ALLPIXELS</option>
+<option value="avongrass.ref">Avon Grass</option>
+<option value="whitetarp.ref">White Tarp</option>
+<option value="blacktarp.ref">Black Tarp</option>
+<option value="yelwood_ASD.ref">Yellow Wood ASD</option>
+<option value="grnwood_ASD.ref">Green Wood ASD</option>
+</select></p></td>
+	</table>
+	</td>
+		
+	<td>
+	<table>
+		<td><p><label for="id_BKG_chosen">Background Chosen:</label> <select multiple="multiple" name="BKG_chosen" id="id_BKG_chosen">
+</select></p></td>
+	</table>
+	</td>
+	</tr>
+	
+</table> 
+
+<input type="hidden" id="id_hiddentxt" value="">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	 <input name="d" type="button" id="d" value="&lt;&lt;" onClick="returnmen();">  
+	 <input name="d" type="button" id="d" value="&gt;&gt;" onClick="addmen();">  
+     <input name="d" type="button" id="d" value="add all" onClick="allmen();">  	 
+<p><input type="submit" value="Submit"></p> 
+</form>
+
+</body> 
+</html>

@@ -1,0 +1,502 @@
+
+<html> 
+<head> 
+<title> Leave your message here </title> 
+    <script type=text/javascript language=JavaScript>  
+        function addmen()
+        {  
+            var d = document.getElementById('id_wavelength_to_choose');  
+            var s = document.getElementById('id_wavelength_chosen');
+            var record = new Array(0);    
+//            alert(ddd.options.length);  
+            for(var i=0;i<d.options.length;i++)
+            {  
+//                alert(i);  
+                if(d.options[i].selected)
+                {  
+//                  alert(d.options[i].text);  
+                    var obj = new Option(d.options[i].text,d.options[i].value);  
+                    s.options.add(obj);
+                    record.push(i);
+                    document.getElementById('id_hiddentxt').value += d.options[i].value;
+                    document.getElementById('id_hiddentxt').value +='\n'                    
+                } 
+                
+            }
+            record.reverse();
+            for (var i=0;i<record.length;i++)
+            {
+                d.remove(record[i]);
+            }            
+        }  
+        function allmen()
+        {  
+            var d = document.getElementById('id_wavelength_to_choose');  
+            var s = document.getElementById('id_wavelength_chosen'); 
+ //           alert(d.options.length);  
+            for(var i=0;i<d.options.length;i++)
+            {  
+//                    alert(d.options[i].text);  
+                    var obj = new Option(d.options[i].text,d.options[i].value);  
+                    s.options.add(obj);
+                    document.getElementById('id_hiddentxt').value += d.options[i].value;
+                    document.getElementById('id_hiddentxt').value +='\n'
+            }
+            for (var i=d.length-1;i>-1;i--)
+            {
+                d.remove(i);
+            }
+            h = d.options.value;
+        }  
+        function returnmen()
+        {  
+            var d = document.getElementById('id_wavelength_to_choose');  
+            var r = document.getElementById('id_wavelength_chosen'); 
+            var record = new Array(0);
+            for(var i=0;i<r.options.length;i++)
+            {  
+                if(true==r.options[i].selected)
+                {  
+                    //alert(d.options[i].text);  
+                    var obj = new Option(r.options[i].text,r.options[i].value);  
+                    record.push(i);     
+                    d.options.add(obj);  
+                }  
+            }
+            record.reverse();
+            for (var i=0;i<record.length;i++)
+            {
+                r.remove(record[i]);
+            }
+            
+            document.getElementById('id_hiddentxt').value = '';
+            for(var i=0;i<r.options.length;i++)
+            {  
+                document.getElementById('id_hiddentxt').value += r.options[i].value;
+                document.getElementById('id_hiddentxt').value +='\n'
+            }            
+        }  
+        function createlist() 
+        { 
+            var d = document.getElementById('id_pfile_selection');  
+//            alert(ddd.options.length);  
+            for(var i=0;i<1;i++)
+            {  
+//                  alert(d.options[i].text);  
+                    var obj = new Option("ppppp",i);  
+                    d.options.add(obj);            
+                
+            }
+
+    
+        } 
+
+        function validate_required(field,alerttxt)
+        {
+            with (field)
+            {
+                if (length==0)
+                {alert(alerttxt);return false}
+                else {return true}
+            }
+        }
+        
+        function range_validate_required(field,low,high,alerttxt)
+        {
+            with (field)
+            {
+                if (value<low||value>high||isNaN(value))
+                {alert(alerttxt);return false}
+                else {return true}
+            }
+        }
+        
+        function count_validate_required(field1,field2,alerttxt)
+        {
+            var s = field2.value.split(",");
+            if(field1.length != s.length)
+            {alert(alerttxt);return false}
+            else {return true}   
+        }        
+        
+        function percent_validate_required(field,alerttxt)
+        {
+            with (field)
+            {
+                var s = value.split(",");
+                var sum = 0;
+                
+                for(var i = 0;i<s.length;i++)
+                { 
+                    if(isNaN(s[i]))
+                    {
+                        alert("Bkg Percentage should be NUMBER");return false
+                    }
+                    else
+                    {
+                        sum = sum + parseInt(s[i])
+                    }
+                
+                }
+                if(sum!=100)
+                {alert(alerttxt);return false}
+                else {return true}
+            }
+        }
+        function validate_form(thisform)
+        {
+            with (thisform)
+            {
+                
+                if (validate_required(document.getElementById('id_wavelength_chosen'),"At least 1 wavelength has to be chosen!")==false)
+                {document.getElementById("id_wavelength_chosen").style.backgroundColor = 'LightBlue ';return false}
+                if (range_validate_required(document.getElementById('id_Atmospheric_haze'),0,6,"Atmospheric Haze Wrong!")==false)
+                {document.getElementById("id_Atmospheric_haze").style.backgroundColor = 'LightBlue ';return false}
+                if (range_validate_required(document.getElementById('id_Solangle'),0,90,"Solar Angle Wrong!")==false)
+                {document.getElementById("id_Solangle").style.backgroundColor = 'LightBlue ';return false}
+                if (range_validate_required(document.getElementById('id_Atmospheric_model'),1,6,"Atmospheric Model Wrong!")==false)
+                {document.getElementById("id_Atmospheric_model").style.backgroundColor = 'LightBlue ';return false}                
+                if (range_validate_required(document.getElementById('id_Noisefac'),0,100,"Sensor Noise Factor Wrong!")==false)
+                {document.getElementById("id_Noisefac").style.backgroundColor = 'LightBlue ';return false}
+                if (range_validate_required(document.getElementById('id_Gainfac'),0,100," Sensor Gain Factor Wrong!")==false)
+                {document.getElementById("id_Gainfac").style.backgroundColor = 'LightBlue ';return false}
+                if (range_validate_required(document.getElementById('id_Relcal'),0,100,"Sensor Calibration Error Wrong!")==false)
+                {document.getElementById("id_Relcal").style.backgroundColor = 'LightBlue ';return false}
+                if (range_validate_required(document.getElementById('id_Tint'),0,1,"Sensor Integration Time Wrong!")==false)
+                {document.getElementById("id_Tint").style.backgroundColor = 'LightBlue ';return false}
+                if (range_validate_required(document.getElementById('id_Targscale'),0,100,"Target Scale Wrong!")==false)
+                {document.getElementById("id_Targscale").style.backgroundColor = 'LightBlue ';return false}
+                if (range_validate_required(document.getElementById('id_Targperc'),0,100,"Target Percentage Wrong!")==false)
+                {document.getElementById("id_Targperc").style.backgroundColor = 'LightBlue ';return false}
+                if (range_validate_required(document.getElementById('id_Targinback'),0,document.getElementById('id_Bkgname').options.length-1,"Target in Background Number Wrong!")==false)
+                {document.getElementById("id_Targinback").style.backgroundColor = 'LightBlue ';return false}
+                if (range_validate_required(document.getElementById('id_Bkgscale'),0,100,"Background Scale Wrong!")==false)
+                {document.getElementById("id_Bkgscale").style.backgroundColor = 'LightBlue ';return false}
+                if (percent_validate_required(document.getElementById('id_Backperc'),"Background Percentage should sum to 100, format like 50,40,10")==false)
+                {document.getElementById("id_Backperc").style.backgroundColor = 'LightBlue ';return false}
+                if (count_validate_required(document.getElementById('id_Bkgname'),document.getElementById('id_Backperc'),"Bkg file name count and Bkg % should be consistent")==false)
+                {document.getElementById("id_Backperc").style.backgroundColor = 'LightBlue ';return false}                
+            }
+        }
+
+        function formsubmit()
+        {
+            form = document.getElementById('id_wavelength_chosen');
+            document.forms[0].submit()
+        }        
+        function writeText(txt)
+        {
+            document.getElementById("description").innerHTML=txt;
+        }        
+        
+    </script>  
+    <style>
+        select[multiple="multiple"]{width:160px;height:200px}
+        select[name="Bkgname"]{width:160px;height:74px}
+        
+        span{font-size: 9pt}
+        label{font-size: 9pt; font-weight:normal}
+        
+        input[type="text"]{width:160px;height:20px}
+        select[name="Targinback"]{width:160px;height:20px}
+
+    </style>    
+    
+</head>
+
+<body> 
+<h1>Hyperspectral Imaging System Prediction Model</h1>
+
+
+
+<h2>Leave your parameters</h2> 
+<form action="/para" onsubmit="return validate_form(this)" method="POST"><div style='display:none;'><input type='hidden' id='csrfmiddlewaretoken' name='csrfmiddlewaretoken' value='6b1aa0b2fee1f8a47d949a3cd91db436' /></div> 
+<font color="red"><strong> 
+<p id="description">PARAMETER HINT, WHEN MODIFYING</p> 
+</strong></font>
+<table style="width:220px;">
+    <tr>
+    
+    <td style="vertical-align:top;">
+    <h4>Scene</h4>    
+    <table>
+        <td><p><label for="id_Atmospheric_haze">Atmospheric Haze:</label> <input onfocus="writeText(&quot;0=No Aerosols, 1=Rural-clr, 2=Rural-Hazy, 3=Navy Maritime,  4=Maritime, 5=Urban, 6=Trop&quot;)" type="text" name="Atmospheric_haze" value="1" id="id_Atmospheric_haze" /></p>
+<p><label for="id_Ground_altitude">Ground Altitude:</label> <input onfocus="writeText(&quot;Ground Altitude(km)&quot;)" type="text" name="Ground_altitude" value="0.00" id="id_Ground_altitude" /></p>
+<p><label for="id_Solangle">Solar Angle:</label> <input onfocus="writeText(&quot;Solar Angle,0~90&quot;)" type="text" name="Solangle" value="40.0" id="id_Solangle" /></p>
+<p><label for="id_Atmospheric_model">Atmospheric Model:</label> <input onfocus="writeText(&quot;1=Tropical, 2=MidLat Summ, 3=MidLat Wint, 4=SubArc Summ, 5=SubArc Win, 6=US Standard&quot;)" type="text" name="Atmospheric_model" value="3" id="id_Atmospheric_model" /></p>
+<p><label for="id_icld">Cloud Index:</label> <input onfocus="writeText(&quot;0=No Cloud, 1 = Cloud&quot;)" type="text" name="icld" value="0" id="id_icld" /></p>
+<p><label for="id_Mrange">Meteorological Range:</label> <input onfocus="writeText(&quot;the range describe visibility, unit km&quot;)" type="text" name="Mrange" value="30" id="id_Mrange" /></p></td>
+    </table>
+    </td>
+        
+    <td style="vertical-align:top;">
+    <h4>Sensor</h4>
+    <table>
+        <td><p><label for="id_Sensorname">Sensor Name:</label> <input name="Sensorname" value="hyperion.sen" readonly="readonly" onmouseover="writeText(&quot;Sensor File Name (read only)&quot;)" type="text" id="id_Sensorname" /></p>
+<p><label for="id_Noisefac">Noise Factor:</label> <input onfocus="writeText(&quot;Noise Factor(default 1)&quot;)" type="text" name="Noisefac" value="1.0" id="id_Noisefac" /></p>
+<p><label for="id_Gainfac">Gain Factor:</label> <input onfocus="writeText(&quot;Gain Factor(default 1)&quot;)" type="text" name="Gainfac" value="1.0" id="id_Gainfac" /></p>
+<p><label for="id_Relcal">Rltv Calibration Error(%):</label> <input onfocus="writeText(&quot;Relative Calibration Error (percent)&quot;)" type="text" name="Relcal" value="0.0" id="id_Relcal" /></p>
+<p><label for="id_Tint">Integration Time(s):</label> <input onfocus="writeText(&quot;Sensor Integration Time&quot;)" type="text" name="Tint" value="0.004" id="id_Tint" /></p>
+<p><label for="id_Platalt">Sensor Altitude(km):</label> <input onfocus="writeText(&quot;Sensor Altitude(km)&quot;)" type="text" name="Platalt" value="705.0" id="id_Platalt" /></p></td>
+    </table>
+    </td>
+    
+    
+    <td style="vertical-align:top;">
+    <h4>Target</h4>
+    <table>
+        <td><p><label for="id_Targname">Target file Name:</label> <input name="Targname" value="vgrnbmw.ref" readonly="readonly" onmouseover="writeText(&quot;Target File Name (readonly)&quot;)" type="text" id="id_Targname" /></p>
+<p><label for="id_Targscale">Target Scale:</label> <input onfocus="writeText(&quot;Target Covariance Scale Factor (default 1)&quot;)" type="text" name="Targscale" value="1.00" id="id_Targscale" /></p>
+<p><label for="id_Targperc">Target Percentage(%):</label> <input onfocus="writeText(&quot;Target Percentage IFOV&quot;)" type="text" name="Targperc" value="5" id="id_Targperc" /></p>
+<p><label for="id_Targinback">Target In which bkg:</label> <select onfocus="writeText(&quot;Background Class Number Target Embedded in&quot;)" name="Targinback" id="id_Targinback">
+<option value="0">950824_05_Grass1_R.ref</option>
+</select></p></td>
+    </table>
+    </td>
+    
+    <td style="vertical-align:top;">
+    <h4>Background</h4>
+    <table>
+        <td><p><label for="id_Bkgname">Bkg file Name:</label> <select multiple="multiple" onfocus="writeText(&quot;Background Reflectance Filename&quot;)" name="Bkgname" id="id_Bkgname">
+<option value="0">950824_05_Grass1_R.ref</option>
+</select></p>
+<p><label for="id_Bkgscale">Bkg Scale:</label> <input onfocus="writeText(&quot;Background Covariance Scale Factor (default 1)&quot;)" type="text" name="Bkgscale" value="1.00" id="id_Bkgscale" /></p>
+<p><label for="id_Backperc">Bkg Percentage(%):</label> <input onfocus="writeText(&quot;Background Class Percent of Scene&quot;)" type="text" name="Backperc" value="100" id="id_Backperc" /><input type="hidden" name="Bkgname2" value="950824_05_Grass1_R.ref" id="id_Bkgname2" /></p></td>
+    </table>
+    </td>    
+    
+    </tr>
+</table>   
+  
+<input type="hidden" name="hiddentxt" id="id_hiddentxt" /> 
+  
+<br><br><br> 
+<table style="width:400px;">
+    <tr>
+    <td>
+    <table>
+        <td><p><label for="id_wavelength_to_choose">Wavelength To Choose:</label> <select multiple="multiple" name="wavelength_to_choose" id="id_wavelength_to_choose">
+<option value="0">407.21</option>
+<option value="1">417.38</option>
+<option value="2">427.55</option>
+<option value="3">437.72</option>
+<option value="4">447.89</option>
+<option value="5">458.06</option>
+<option value="6">468.23</option>
+<option value="7">478.4</option>
+<option value="8">488.57</option>
+<option value="9">498.74</option>
+<option value="10">508.91</option>
+<option value="11">519.08</option>
+<option value="12">529.25</option>
+<option value="13">539.42</option>
+<option value="14">549.59</option>
+<option value="15">559.75</option>
+<option value="16">569.92</option>
+<option value="17">580.09</option>
+<option value="18">590.26</option>
+<option value="19">600.43</option>
+<option value="20">610.6</option>
+<option value="21">620.77</option>
+<option value="22">630.94</option>
+<option value="23">641.11</option>
+<option value="24">651.28</option>
+<option value="25">661.45</option>
+<option value="26">671.62</option>
+<option value="27">681.79</option>
+<option value="28">691.96</option>
+<option value="29">702.12</option>
+<option value="30">712.29</option>
+<option value="31">722.46</option>
+<option value="32">732.63</option>
+<option value="33">742.8</option>
+<option value="34">752.97</option>
+<option value="35">763.14</option>
+<option value="36">773.31</option>
+<option value="37">783.48</option>
+<option value="38">793.65</option>
+<option value="39">803.82</option>
+<option value="40">813.99</option>
+<option value="41">824.16</option>
+<option value="42">834.33</option>
+<option value="43">844.5</option>
+<option value="44">854.66</option>
+<option value="45">864.83</option>
+<option value="46">875.0</option>
+<option value="47">885.17</option>
+<option value="48">895.34</option>
+<option value="49">905.51</option>
+<option value="50">912.53</option>
+<option value="51">922.62</option>
+<option value="52">932.72</option>
+<option value="53">942.81</option>
+<option value="54">952.89</option>
+<option value="55">962.98</option>
+<option value="56">973.07</option>
+<option value="57">983.16</option>
+<option value="58">993.25</option>
+<option value="59">1003.37</option>
+<option value="60">1013.37</option>
+<option value="61">1023.47</option>
+<option value="62">1033.57</option>
+<option value="63">1043.67</option>
+<option value="64">1053.77</option>
+<option value="65">1063.86</option>
+<option value="66">1073.96</option>
+<option value="67">1084.06</option>
+<option value="68">1094.16</option>
+<option value="69">1104.26</option>
+<option value="70">1114.26</option>
+<option value="71">1124.35</option>
+<option value="72">1134.45</option>
+<option value="73">1144.55</option>
+<option value="74">1154.65</option>
+<option value="75">1164.75</option>
+<option value="76">1174.84</option>
+<option value="77">1184.94</option>
+<option value="78">1195.04</option>
+<option value="79">1205.14</option>
+<option value="80">1215.24</option>
+<option value="81">1225.24</option>
+<option value="82">1235.33</option>
+<option value="83">1245.43</option>
+<option value="84">1255.53</option>
+<option value="85">1265.63</option>
+<option value="86">1275.73</option>
+<option value="87">1285.83</option>
+<option value="88">1295.92</option>
+<option value="89">1306.02</option>
+<option value="90">1316.12</option>
+<option value="91">1326.12</option>
+<option value="92">1336.22</option>
+<option value="93">1346.32</option>
+<option value="94">1356.41</option>
+<option value="95">1366.51</option>
+<option value="96">1376.61</option>
+<option value="97">1386.71</option>
+<option value="98">1396.81</option>
+<option value="99">1406.9</option>
+<option value="100">1417.0</option>
+<option value="101">1427.0</option>
+<option value="102">1437.1</option>
+<option value="103">1447.2</option>
+<option value="104">1457.3</option>
+<option value="105">1467.39</option>
+<option value="106">1477.49</option>
+<option value="107">1487.59</option>
+<option value="108">1497.69</option>
+<option value="109">1507.79</option>
+<option value="110">1517.89</option>
+<option value="111">1527.98</option>
+<option value="112">1537.98</option>
+<option value="113">1548.08</option>
+<option value="114">1558.18</option>
+<option value="115">1568.28</option>
+<option value="116">1578.37</option>
+<option value="117">1588.47</option>
+<option value="118">1598.57</option>
+<option value="119">1608.67</option>
+<option value="120">1618.77</option>
+<option value="121">1628.87</option>
+<option value="122">1638.86</option>
+<option value="123">1648.96</option>
+<option value="124">1659.06</option>
+<option value="125">1669.16</option>
+<option value="126">1679.26</option>
+<option value="127">1689.36</option>
+<option value="128">1699.45</option>
+<option value="129">1709.55</option>
+<option value="130">1719.65</option>
+<option value="131">1729.75</option>
+<option value="132">1739.75</option>
+<option value="133">1749.85</option>
+<option value="134">1759.94</option>
+<option value="135">1770.04</option>
+<option value="136">1780.14</option>
+<option value="137">1790.24</option>
+<option value="138">1800.34</option>
+<option value="139">1810.43</option>
+<option value="140">1820.53</option>
+<option value="141">1830.63</option>
+<option value="142">1840.63</option>
+<option value="143">1850.73</option>
+<option value="144">1860.83</option>
+<option value="145">1870.92</option>
+<option value="146">1881.02</option>
+<option value="147">1891.12</option>
+<option value="148">1901.22</option>
+<option value="149">1911.32</option>
+<option value="150">1921.42</option>
+<option value="151">1931.51</option>
+<option value="152">1941.61</option>
+<option value="153">1951.61</option>
+<option value="154">1961.71</option>
+<option value="155">1971.81</option>
+<option value="156">1981.9</option>
+<option value="157">1992.0</option>
+<option value="158">2002.1</option>
+<option value="159">2012.2</option>
+<option value="160">2022.3</option>
+<option value="161">2032.4</option>
+<option value="162">2042.49</option>
+<option value="163">2052.49</option>
+<option value="164">2062.59</option>
+<option value="165">2072.69</option>
+<option value="166">2082.79</option>
+<option value="167">2092.89</option>
+<option value="168">2102.98</option>
+<option value="169">2113.08</option>
+<option value="170">2123.18</option>
+<option value="171">2133.28</option>
+<option value="172">2143.38</option>
+<option value="173">2153.38</option>
+<option value="174">2163.47</option>
+<option value="175">2173.57</option>
+<option value="176">2183.67</option>
+<option value="177">2193.77</option>
+<option value="178">2203.87</option>
+<option value="179">2213.96</option>
+<option value="180">2224.06</option>
+<option value="181">2234.16</option>
+<option value="182">2244.26</option>
+<option value="183">2254.26</option>
+<option value="184">2264.36</option>
+<option value="185">2274.45</option>
+<option value="186">2284.55</option>
+<option value="187">2294.65</option>
+<option value="188">2304.75</option>
+<option value="189">2314.85</option>
+<option value="190">2324.95</option>
+<option value="191">2335.04</option>
+<option value="192">2345.14</option>
+<option value="193">2355.24</option>
+<option value="194">2365.24</option>
+<option value="195">2375.34</option>
+<option value="196">2385.43</option>
+<option value="197">2395.53</option>
+<option value="198">2405.63</option>
+<option value="199">2415.73</option>
+</select></p></td>
+    </table>
+    </td>
+        
+    <td>
+    <table>
+        <td><p><label for="id_wavelength_chosen">Wavelength Chosen:</label> <select multiple="multiple" name="wavelength_chosen" id="id_wavelength_chosen">
+</select></p></td>
+    </table>
+    </td>
+    </tr>
+    
+</table> 
+
+<input type="hidden" id="id_hiddentxt" value="">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+     <input name="d" type="button" id="d" value="&lt;&lt;" onClick="returnmen();">  
+     <input name="d" type="button" id="d" value="&gt;&gt;" onClick="addmen();">  
+     <input name="d" type="button" id="d" value="add all" onClick="allmen();">       
+<p><input type="submit" value="Submit"></p> 
+</form>
+
+</body> 
+</html>
