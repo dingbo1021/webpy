@@ -151,7 +151,7 @@ class para:
         #to be finished: give fcm file to queue, then check sessionid folder. 
         ############################################################################################################   
 #        feedback =0;   
-
+        FCMdata=''
         if feedback == -1:
             return render.error()
         Wvlength = readfilep(str(SensorName),rootpath+'resource/sensorWV/')
@@ -203,12 +203,12 @@ class para:
         plt2.savefig(rootpath+'static/'+session_key+"/snr.png",dpi=100)
         plt2.clf()
 
-        Pdmin = ROC[0:7]
-        Pfa = ROC[7:14]
+        Pdmin = ROC[0:73]
+        Pfa = ROC[73:146]
         
         plt3.semilogx(Pfa,Pdmin)            
         plt3.plot(Pfa,Pdmin,"b")
-        plt3.axis([1e-6, 1, 0, 1.1])
+        plt3.axis([1e-4, 1, 0, 1.1])
         plt3.title('ROC Curve')
         plt3.xlabel('Probability of False Alarm')
         plt3.ylabel('Probability of Detection')
@@ -247,7 +247,7 @@ class para:
         
         #write LBT, SNR, ROC file to corresponding folder
         dataROC.insert(0,'P detection\n')
-        dataROC.insert(8,'P false alarm\n')
+        dataROC.insert(74,'P false alarm\n')
         
 #        open(path+'ROC.txt', 'wb').write(''.join(dataROC))
 #        open(path+'LBT.txt', 'wb').write(''.join(dataL))
@@ -366,7 +366,7 @@ if __name__ == "__main__":
     app.run()
 
 def readWVfile(filename):
-    str1 = rootpath+'sensorWV\\'
+    str1 = rootpath+'resource/sensorWV/'
     str2 = filename;
     str3 = '.txt'
     txt = open(str1+str2+str3,'r')
