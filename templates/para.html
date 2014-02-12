@@ -77,6 +77,10 @@ $def with (bkgall,bkgname2,sensor,target,WVall,percentall)
                 document.getElementById('id_hiddentxt').value +='\n'
             }            
         }  
+        function clearhiddentxt()
+        {
+            document.getElementById('id_hiddentxt').value = '';
+        }
         function createlist() 
         { 
             var d = document.getElementById('id_pfile_selection');  
@@ -205,7 +209,7 @@ $def with (bkgall,bkgname2,sensor,target,WVall,percentall)
     
 </head>
 
-<body> 
+<body onload="clearhiddentxt()">
 <h1>Hyperspectral Imaging System Prediction Model  </h1>
 
 
@@ -267,10 +271,7 @@ $:bkgall
     
     </tr>
 </table>   
-  
 <input type="hidden" name="hiddentxt" id="id_hiddentxt" /> 
-  
-<br><br><br> 
 <table style="width:400px;">
     <tr>
     <td>
