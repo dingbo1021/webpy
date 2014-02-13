@@ -14590,3 +14590,3234 @@
 
 
 
+2014/02/11 16:02:33   FileDir setting completed.     
+2014/02/11 16:02:33   Background construct over     
+2014/02/11 16:02:33   Target construct over     
+2014/02/11 16:02:33   Scene construct over     
+2014/02/11 16:02:33   Sensor construct over     
+2014/02/11 16:02:33   Processing construct over     
+2014/02/11 16:02:33   readWavelengthsMeansandCov Done     
+2014/02/11 16:02:33   LinearInterpolation1D Done     
+2014/02/11 16:02:33   LinearInterpolation2D Done     
+2014/02/11 16:02:33   1    //Writespec_albFile background
+2014/02/11 16:02:33   0    //MeansB[i] done
+2014/02/11 16:02:33   0    ReadAllColumnFromTAPE7
+2014/02/11 16:02:33   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 16:02:33   1    //ReadAllColumnFromTAPE7
+2014/02/11 16:02:33   0    ReadAllColumnFromTAPE7 done
+2014/02/11 16:02:34   readWavelengthsMeansandCov Done     
+2014/02/11 16:02:34   LinearInterpolation1D Done     
+2014/02/11 16:02:34   LinearInterpolation2D Done     
+2014/02/11 16:02:34   1    //Writespec_albFile background
+2014/02/11 16:02:34   1    //MeansB[i] done
+2014/02/11 16:02:34   1    ReadAllColumnFromTAPE7
+2014/02/11 16:02:34   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 16:02:34   2    //ReadAllColumnFromTAPE7
+2014/02/11 16:02:34   1    ReadAllColumnFromTAPE7 done
+2014/02/11 16:02:34   readWavelengthsMeansandCov Done     
+2014/02/11 16:02:34   LinearInterpolation1D Done     
+2014/02/11 16:02:34   LinearInterpolation2D Done     
+2014/02/11 16:02:34   1    //Writespec_albFile background
+2014/02/11 16:02:35   2    //MeansB[i] done
+2014/02/11 16:02:35   2    ReadAllColumnFromTAPE7
+2014/02/11 16:02:35   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 16:02:35   3    //ReadAllColumnFromTAPE7
+2014/02/11 16:02:35   2    ReadAllColumnFromTAPE7 done
+2014/02/11 16:02:35   1    //Writespec_albFile background mean
+2014/02/11 16:02:35   avg    //MeansBavg done
+2014/02/11 16:02:35   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 16:02:35   4    //ReadAllColumnFromTAPE7
+2014/02/11 16:02:36   readWavelengthsMeansandCov Done     
+2014/02/11 16:02:36   LinearInterpolation1D Done     
+2014/02/11 16:02:36   LinearInterpolation2D Done     
+2014/02/11 16:02:36   1    //target in black NO.
+2014/02/11 16:02:36   1    //Writespec_albFile T in B
+2014/02/11 16:02:36   4    ReadAllColumnFromTAPE7
+2014/02/11 16:02:36   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 16:02:36   5    //ReadAllColumnFromTAPE7
+2014/02/11 16:02:36   4    ReadAllColumnFromTAPE7 done
+2014/02/11 16:02:37   5    ReadAllColumnFromTAPE7
+2014/02/11 16:02:37   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 16:02:37   6    //ReadAllColumnFromTAPE7
+2014/02/11 16:02:37   5    ReadAllColumnFromTAPE7 done
+2014/02/11 16:02:37   0    Albedo[i] done
+2014/02/11 16:02:37   6    ReadAllColumnFromTAPE7
+2014/02/11 16:02:37   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 16:02:37   7    //ReadAllColumnFromTAPE7
+2014/02/11 16:02:37   6    ReadAllColumnFromTAPE7 done
+2014/02/11 16:02:37   1    Albedo[i] done
+2014/02/11 16:02:37   GenRespFunction     
+2014/02/11 16:02:37   1    //genResp done
+2014/02/11 16:02:37   2    //genResp done
+2014/02/11 16:02:37   3    //genResp done
+2014/02/11 16:02:37   4    //genResp done
+2014/02/11 16:02:37   5    //genResp done
+2014/02/11 16:02:37   6    //genResp done
+2014/02/11 16:02:37   7    //genResp done
+2014/02/11 16:02:37   GenRespFunction done     
+2014/02/11 16:02:37   CovBavePath Done     
+2014/02/11 16:02:37   SensorProcessNoise done     
+2014/02/11 16:02:37   SensorProcessNoise done     
+2014/02/11 16:02:37   SensorProcessNoise done     
+2014/02/11 16:02:38   SensorProcessNoise done     
+2014/02/11 16:02:38   Adding Noise Done     
+2014/02/11 16:02:38   SensorProcessNoise done     
+2014/02/11 16:02:38   LT, SNR output Done     
+2014/02/11 16:02:38   12643.4    low
+2014/02/11 16:02:38   w calculation Done     
+2014/02/11 16:02:38   0.0469187    MT
+2014/02/11 16:02:38   0.000111463    CT
+2014/02/11 16:02:38   -0.000559952    MBi
+2014/02/11 16:02:38   8.31445e-005    CBi
+2014/02/11 16:02:38   0.00166327    MBi
+2014/02/11 16:02:38   0.000103339    CBi
+2014/02/11 16:02:39   -0.000457986    MBi
+2014/02/11 16:02:39   4.08774e-005    CBi
+2014/02/11 16:02:39   LinearInterpolation1D Done     
+2014/02/11 16:02:39   LinearInterpolation1D Done     
+
+
+
+2014/02/11 18:17:20   FileDir setting completed.     
+2014/02/11 18:17:20   Background construct over     
+2014/02/11 18:17:20   Target construct over     
+2014/02/11 18:17:20   Scene construct over     
+2014/02/11 18:17:20   Sensor construct over     
+2014/02/11 18:17:20   Processing construct over     
+2014/02/11 18:17:20   readWavelengthsMeansandCov Done     
+2014/02/11 18:17:20   LinearInterpolation1D Done     
+2014/02/11 18:17:20   LinearInterpolation2D Done     
+2014/02/11 18:17:20   1    //Writespec_albFile background
+2014/02/11 18:17:20   0    //MeansB[i] done
+2014/02/11 18:17:20   0    ReadAllColumnFromTAPE7
+2014/02/11 18:17:20   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 18:17:20   1    //ReadAllColumnFromTAPE7
+2014/02/11 18:17:20   0    ReadAllColumnFromTAPE7 done
+2014/02/11 18:17:21   readWavelengthsMeansandCov Done     
+2014/02/11 18:17:21   LinearInterpolation1D Done     
+2014/02/11 18:17:21   LinearInterpolation2D Done     
+2014/02/11 18:17:21   1    //Writespec_albFile background
+2014/02/11 18:17:21   1    //MeansB[i] done
+2014/02/11 18:17:21   1    ReadAllColumnFromTAPE7
+2014/02/11 18:17:21   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 18:17:21   2    //ReadAllColumnFromTAPE7
+2014/02/11 18:17:21   1    ReadAllColumnFromTAPE7 done
+2014/02/11 18:17:21   readWavelengthsMeansandCov Done     
+2014/02/11 18:17:21   LinearInterpolation1D Done     
+2014/02/11 18:17:21   LinearInterpolation2D Done     
+2014/02/11 18:17:21   1    //Writespec_albFile background
+2014/02/11 18:17:22   2    //MeansB[i] done
+2014/02/11 18:17:22   2    ReadAllColumnFromTAPE7
+2014/02/11 18:17:22   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 18:17:22   3    //ReadAllColumnFromTAPE7
+2014/02/11 18:17:22   2    ReadAllColumnFromTAPE7 done
+2014/02/11 18:17:22   1    //Writespec_albFile background mean
+2014/02/11 18:17:22   avg    //MeansBavg done
+2014/02/11 18:17:22   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 18:17:22   4    //ReadAllColumnFromTAPE7
+2014/02/11 18:17:22   readWavelengthsMeansandCov Done     
+2014/02/11 18:17:22   LinearInterpolation1D Done     
+2014/02/11 18:17:23   LinearInterpolation2D Done     
+2014/02/11 18:17:23   1    //target in black NO.
+2014/02/11 18:17:23   1    //Writespec_albFile T in B
+2014/02/11 18:17:23   4    ReadAllColumnFromTAPE7
+2014/02/11 18:17:23   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 18:17:23   5    //ReadAllColumnFromTAPE7
+2014/02/11 18:17:23   4    ReadAllColumnFromTAPE7 done
+2014/02/11 18:17:23   5    ReadAllColumnFromTAPE7
+2014/02/11 18:17:23   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 18:17:23   6    //ReadAllColumnFromTAPE7
+2014/02/11 18:17:23   5    ReadAllColumnFromTAPE7 done
+2014/02/11 18:17:23   0    Albedo[i] done
+2014/02/11 18:17:24   6    ReadAllColumnFromTAPE7
+2014/02/11 18:17:24   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 18:17:24   7    //ReadAllColumnFromTAPE7
+2014/02/11 18:17:24   6    ReadAllColumnFromTAPE7 done
+2014/02/11 18:17:24   1    Albedo[i] done
+2014/02/11 18:17:24   GenRespFunction     
+2014/02/11 18:17:24   1    //genResp done
+2014/02/11 18:17:24   2    //genResp done
+2014/02/11 18:17:24   3    //genResp done
+2014/02/11 18:17:24   4    //genResp done
+2014/02/11 18:17:24   5    //genResp done
+2014/02/11 18:17:24   6    //genResp done
+2014/02/11 18:17:24   7    //genResp done
+2014/02/11 18:17:24   GenRespFunction done     
+2014/02/11 18:17:24   CovBavePath Done     
+2014/02/11 18:17:24   SensorProcessNoise done     
+2014/02/11 18:17:24   SensorProcessNoise done     
+2014/02/11 18:17:24   SensorProcessNoise done     
+2014/02/11 18:17:24   SensorProcessNoise done     
+2014/02/11 18:17:24   Adding Noise Done     
+2014/02/11 18:17:25   SensorProcessNoise done     
+2014/02/11 18:17:25   LT, SNR output Done     
+2014/02/11 18:17:25   12643.4    low
+2014/02/11 18:17:25   w calculation Done     
+2014/02/11 18:17:25   0.0469187    MT
+2014/02/11 18:17:25   0.000111463    CT
+2014/02/11 18:17:25   -0.000559952    MBi
+2014/02/11 18:17:25   8.31445e-005    CBi
+2014/02/11 18:17:25   0.00166327    MBi
+2014/02/11 18:17:25   0.000103339    CBi
+2014/02/11 18:17:25   -0.000457986    MBi
+2014/02/11 18:17:25   4.08774e-005    CBi
+2014/02/11 18:17:25   LinearInterpolation1D Done     
+2014/02/11 18:17:25   LinearInterpolation1D Done     
+
+
+
+2014/02/11 18:17:28   FileDir setting completed.     
+2014/02/11 18:17:28   Background construct over     
+2014/02/11 18:17:28   Target construct over     
+2014/02/11 18:17:28   Scene construct over     
+2014/02/11 18:17:28   Sensor construct over     
+2014/02/11 18:17:28   Processing construct over     
+2014/02/11 18:17:28   readWavelengthsMeansandCov Done     
+2014/02/11 18:17:28   LinearInterpolation1D Done     
+2014/02/11 18:17:28   LinearInterpolation2D Done     
+2014/02/11 18:17:28   1    //Writespec_albFile background
+2014/02/11 18:17:29   0    //MeansB[i] done
+2014/02/11 18:17:29   0    ReadAllColumnFromTAPE7
+2014/02/11 18:17:29   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 18:17:29   1    //ReadAllColumnFromTAPE7
+2014/02/11 18:17:29   0    ReadAllColumnFromTAPE7 done
+2014/02/11 18:17:29   readWavelengthsMeansandCov Done     
+2014/02/11 18:17:29   LinearInterpolation1D Done     
+2014/02/11 18:17:29   LinearInterpolation2D Done     
+2014/02/11 18:17:29   1    //Writespec_albFile background
+2014/02/11 18:17:29   1    //MeansB[i] done
+2014/02/11 18:17:29   1    ReadAllColumnFromTAPE7
+2014/02/11 18:17:29   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 18:17:29   2    //ReadAllColumnFromTAPE7
+2014/02/11 18:17:29   1    ReadAllColumnFromTAPE7 done
+2014/02/11 18:17:30   readWavelengthsMeansandCov Done     
+2014/02/11 18:17:30   LinearInterpolation1D Done     
+2014/02/11 18:17:30   LinearInterpolation2D Done     
+2014/02/11 18:17:30   1    //Writespec_albFile background
+2014/02/11 18:17:30   2    //MeansB[i] done
+2014/02/11 18:17:30   2    ReadAllColumnFromTAPE7
+2014/02/11 18:17:30   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 18:17:30   3    //ReadAllColumnFromTAPE7
+2014/02/11 18:17:30   2    ReadAllColumnFromTAPE7 done
+2014/02/11 18:17:30   1    //Writespec_albFile background mean
+2014/02/11 18:17:31   avg    //MeansBavg done
+2014/02/11 18:17:31   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 18:17:31   4    //ReadAllColumnFromTAPE7
+2014/02/11 18:17:31   readWavelengthsMeansandCov Done     
+2014/02/11 18:17:31   LinearInterpolation1D Done     
+2014/02/11 18:17:31   LinearInterpolation2D Done     
+2014/02/11 18:17:31   1    //target in black NO.
+2014/02/11 18:17:31   1    //Writespec_albFile T in B
+2014/02/11 18:17:31   4    ReadAllColumnFromTAPE7
+2014/02/11 18:17:31   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 18:17:31   5    //ReadAllColumnFromTAPE7
+2014/02/11 18:17:31   4    ReadAllColumnFromTAPE7 done
+2014/02/11 18:17:32   5    ReadAllColumnFromTAPE7
+2014/02/11 18:17:32   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 18:17:32   6    //ReadAllColumnFromTAPE7
+2014/02/11 18:17:32   5    ReadAllColumnFromTAPE7 done
+2014/02/11 18:17:32   0    Albedo[i] done
+2014/02/11 18:17:32   6    ReadAllColumnFromTAPE7
+2014/02/11 18:17:32   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 18:17:32   7    //ReadAllColumnFromTAPE7
+2014/02/11 18:17:32   6    ReadAllColumnFromTAPE7 done
+2014/02/11 18:17:32   1    Albedo[i] done
+2014/02/11 18:17:32   GenRespFunction     
+2014/02/11 18:17:32   1    //genResp done
+2014/02/11 18:17:32   2    //genResp done
+2014/02/11 18:17:32   3    //genResp done
+2014/02/11 18:17:32   4    //genResp done
+2014/02/11 18:17:32   5    //genResp done
+2014/02/11 18:17:32   6    //genResp done
+2014/02/11 18:17:32   7    //genResp done
+2014/02/11 18:17:32   GenRespFunction done     
+2014/02/11 18:17:32   CovBavePath Done     
+2014/02/11 18:17:32   SensorProcessNoise done     
+2014/02/11 18:17:33   SensorProcessNoise done     
+2014/02/11 18:17:33   SensorProcessNoise done     
+2014/02/11 18:17:33   SensorProcessNoise done     
+2014/02/11 18:17:33   Adding Noise Done     
+2014/02/11 18:17:33   SensorProcessNoise done     
+2014/02/11 18:17:33   LT, SNR output Done     
+2014/02/11 18:17:35   12643.4    low
+2014/02/11 18:17:35   w calculation Done     
+2014/02/11 18:17:35   0.0469187    MT
+2014/02/11 18:17:36   0.000111463    CT
+2014/02/11 18:17:36   -0.000559952    MBi
+2014/02/11 18:17:36   8.31445e-005    CBi
+2014/02/11 18:17:36   0.00166327    MBi
+2014/02/11 18:17:36   0.000103339    CBi
+2014/02/11 18:17:36   -0.000457986    MBi
+2014/02/11 18:17:36   4.08774e-005    CBi
+2014/02/11 18:17:36   LinearInterpolation1D Done     
+2014/02/11 18:17:36   LinearInterpolation1D Done     
+
+
+
+2014/02/11 18:19:40   FileDir setting completed.     
+2014/02/11 18:19:40   Background construct over     
+2014/02/11 18:19:40   Target construct over     
+2014/02/11 18:19:40   Scene construct over     
+2014/02/11 18:19:40   Sensor construct over     
+2014/02/11 18:19:40   Processing construct over     
+2014/02/11 18:19:40   readWavelengthsMeansandCov Done     
+2014/02/11 18:19:40   LinearInterpolation1D Done     
+2014/02/11 18:19:40   LinearInterpolation2D Done     
+2014/02/11 18:19:40   1    //Writespec_albFile background
+2014/02/11 18:19:41   0    //MeansB[i] done
+2014/02/11 18:19:41   0    ReadAllColumnFromTAPE7
+2014/02/11 18:19:41   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 18:19:41   1    //ReadAllColumnFromTAPE7
+2014/02/11 18:19:41   0    ReadAllColumnFromTAPE7 done
+2014/02/11 18:19:41   readWavelengthsMeansandCov Done     
+2014/02/11 18:19:41   LinearInterpolation1D Done     
+2014/02/11 18:19:41   LinearInterpolation2D Done     
+2014/02/11 18:19:41   1    //Writespec_albFile background
+2014/02/11 18:19:41   1    //MeansB[i] done
+2014/02/11 18:19:41   1    ReadAllColumnFromTAPE7
+2014/02/11 18:19:41   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 18:19:41   2    //ReadAllColumnFromTAPE7
+2014/02/11 18:19:41   1    ReadAllColumnFromTAPE7 done
+2014/02/11 18:19:42   readWavelengthsMeansandCov Done     
+2014/02/11 18:19:42   LinearInterpolation1D Done     
+2014/02/11 18:19:42   LinearInterpolation2D Done     
+2014/02/11 18:19:42   1    //Writespec_albFile background
+2014/02/11 18:19:42   2    //MeansB[i] done
+2014/02/11 18:19:42   2    ReadAllColumnFromTAPE7
+2014/02/11 18:19:42   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 18:19:42   3    //ReadAllColumnFromTAPE7
+2014/02/11 18:19:42   2    ReadAllColumnFromTAPE7 done
+2014/02/11 18:19:42   1    //Writespec_albFile background mean
+2014/02/11 18:19:43   avg    //MeansBavg done
+2014/02/11 18:19:43   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 18:19:43   4    //ReadAllColumnFromTAPE7
+2014/02/11 18:19:43   readWavelengthsMeansandCov Done     
+2014/02/11 18:19:43   LinearInterpolation1D Done     
+2014/02/11 18:19:43   LinearInterpolation2D Done     
+2014/02/11 18:19:43   1    //target in black NO.
+2014/02/11 18:19:43   1    //Writespec_albFile T in B
+2014/02/11 18:19:43   4    ReadAllColumnFromTAPE7
+2014/02/11 18:19:43   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 18:19:43   5    //ReadAllColumnFromTAPE7
+2014/02/11 18:19:43   4    ReadAllColumnFromTAPE7 done
+2014/02/11 18:19:44   5    ReadAllColumnFromTAPE7
+2014/02/11 18:19:44   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 18:19:44   6    //ReadAllColumnFromTAPE7
+2014/02/11 18:19:44   5    ReadAllColumnFromTAPE7 done
+2014/02/11 18:19:44   0    Albedo[i] done
+2014/02/11 18:19:44   6    ReadAllColumnFromTAPE7
+2014/02/11 18:19:44   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 18:19:44   7    //ReadAllColumnFromTAPE7
+2014/02/11 18:19:44   6    ReadAllColumnFromTAPE7 done
+2014/02/11 18:19:44   1    Albedo[i] done
+2014/02/11 18:19:44   GenRespFunction     
+2014/02/11 18:19:44   1    //genResp done
+2014/02/11 18:19:44   2    //genResp done
+2014/02/11 18:19:44   3    //genResp done
+2014/02/11 18:19:44   4    //genResp done
+2014/02/11 18:19:44   5    //genResp done
+2014/02/11 18:19:44   6    //genResp done
+2014/02/11 18:19:44   7    //genResp done
+2014/02/11 18:19:44   GenRespFunction done     
+2014/02/11 18:19:44   CovBavePath Done     
+2014/02/11 18:19:44   SensorProcessNoise done     
+2014/02/11 18:19:44   SensorProcessNoise done     
+2014/02/11 18:19:45   SensorProcessNoise done     
+2014/02/11 18:19:45   SensorProcessNoise done     
+2014/02/11 18:19:45   Adding Noise Done     
+2014/02/11 18:19:45   SensorProcessNoise done     
+2014/02/11 18:19:45   LT, SNR output Done     
+2014/02/11 18:19:47   12643.4    low
+2014/02/11 18:19:47   w calculation Done     
+2014/02/11 18:19:47   0.0469187    MT
+2014/02/11 18:19:47   0.000111463    CT
+2014/02/11 18:19:47   -0.000559952    MBi
+2014/02/11 18:19:47   8.31445e-005    CBi
+2014/02/11 18:19:48   0.00166327    MBi
+2014/02/11 18:19:48   0.000103339    CBi
+2014/02/11 18:19:48   -0.000457986    MBi
+2014/02/11 18:19:48   4.08774e-005    CBi
+2014/02/11 18:19:48   LinearInterpolation1D Done     
+2014/02/11 18:19:48   LinearInterpolation1D Done     
+
+
+
+2014/02/11 18:23:25   FileDir setting completed.     
+2014/02/11 18:23:25   Background construct over     
+2014/02/11 18:23:25   Target construct over     
+2014/02/11 18:23:25   Scene construct over     
+2014/02/11 18:23:25   Sensor construct over     
+2014/02/11 18:23:25   Processing construct over     
+2014/02/11 18:23:25   readWavelengthsMeansandCov Done     
+2014/02/11 18:23:25   LinearInterpolation1D Done     
+2014/02/11 18:23:25   LinearInterpolation2D Done     
+2014/02/11 18:23:25   1    //Writespec_albFile background
+2014/02/11 18:23:25   0    //MeansB[i] done
+2014/02/11 18:23:25   0    ReadAllColumnFromTAPE7
+2014/02/11 18:23:25   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 18:23:25   1    //ReadAllColumnFromTAPE7
+2014/02/11 18:23:25   0    ReadAllColumnFromTAPE7 done
+2014/02/11 18:23:25   readWavelengthsMeansandCov Done     
+2014/02/11 18:23:25   LinearInterpolation1D Done     
+2014/02/11 18:23:25   LinearInterpolation2D Done     
+2014/02/11 18:23:25   1    //Writespec_albFile background
+2014/02/11 18:23:26   1    //MeansB[i] done
+2014/02/11 18:23:26   1    ReadAllColumnFromTAPE7
+2014/02/11 18:23:26   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 18:23:26   2    //ReadAllColumnFromTAPE7
+2014/02/11 18:23:26   1    ReadAllColumnFromTAPE7 done
+2014/02/11 18:23:26   readWavelengthsMeansandCov Done     
+2014/02/11 18:23:26   LinearInterpolation1D Done     
+2014/02/11 18:23:26   LinearInterpolation2D Done     
+2014/02/11 18:23:26   1    //Writespec_albFile background
+2014/02/11 18:23:27   2    //MeansB[i] done
+2014/02/11 18:23:27   2    ReadAllColumnFromTAPE7
+2014/02/11 18:23:27   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 18:23:27   3    //ReadAllColumnFromTAPE7
+2014/02/11 18:23:27   2    ReadAllColumnFromTAPE7 done
+2014/02/11 18:23:27   1    //Writespec_albFile background mean
+2014/02/11 18:23:27   avg    //MeansBavg done
+2014/02/11 18:23:27   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 18:23:27   4    //ReadAllColumnFromTAPE7
+2014/02/11 18:23:27   readWavelengthsMeansandCov Done     
+2014/02/11 18:23:27   LinearInterpolation1D Done     
+2014/02/11 18:23:27   LinearInterpolation2D Done     
+2014/02/11 18:23:27   1    //target in black NO.
+2014/02/11 18:23:27   1    //Writespec_albFile T in B
+2014/02/11 18:23:28   4    ReadAllColumnFromTAPE7
+2014/02/11 18:23:28   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 18:23:28   5    //ReadAllColumnFromTAPE7
+2014/02/11 18:23:28   4    ReadAllColumnFromTAPE7 done
+2014/02/11 18:23:28   5    ReadAllColumnFromTAPE7
+2014/02/11 18:23:28   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 18:23:28   6    //ReadAllColumnFromTAPE7
+2014/02/11 18:23:28   5    ReadAllColumnFromTAPE7 done
+2014/02/11 18:23:28   0    Albedo[i] done
+2014/02/11 18:23:29   6    ReadAllColumnFromTAPE7
+2014/02/11 18:23:29   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 18:23:29   7    //ReadAllColumnFromTAPE7
+2014/02/11 18:23:29   6    ReadAllColumnFromTAPE7 done
+2014/02/11 18:23:29   1    Albedo[i] done
+2014/02/11 18:23:29   GenRespFunction     
+2014/02/11 18:23:29   1    //genResp done
+2014/02/11 18:23:29   2    //genResp done
+2014/02/11 18:23:29   3    //genResp done
+2014/02/11 18:23:29   4    //genResp done
+2014/02/11 18:23:29   5    //genResp done
+2014/02/11 18:23:29   6    //genResp done
+2014/02/11 18:23:29   7    //genResp done
+2014/02/11 18:23:29   GenRespFunction done     
+2014/02/11 18:23:29   CovBavePath Done     
+2014/02/11 18:23:29   SensorProcessNoise done     
+2014/02/11 18:23:29   SensorProcessNoise done     
+2014/02/11 18:23:29   SensorProcessNoise done     
+2014/02/11 18:23:29   SensorProcessNoise done     
+2014/02/11 18:23:29   Adding Noise Done     
+2014/02/11 18:23:29   SensorProcessNoise done     
+2014/02/11 18:23:29   LT, SNR output Done     
+2014/02/11 18:23:30   12643.4    low
+2014/02/11 18:23:30   w calculation Done     
+2014/02/11 18:23:30   0.0469187    MT
+2014/02/11 18:23:30   0.000111463    CT
+2014/02/11 18:23:30   -0.000559952    MBi
+2014/02/11 18:23:30   8.31445e-005    CBi
+2014/02/11 18:23:30   0.00166327    MBi
+2014/02/11 18:23:30   0.000103339    CBi
+2014/02/11 18:23:30   -0.000457986    MBi
+2014/02/11 18:23:30   4.08774e-005    CBi
+2014/02/11 18:23:30   LinearInterpolation1D Done     
+2014/02/11 18:23:30   LinearInterpolation1D Done     
+
+
+
+2014/02/11 20:20:07   FileDir setting completed.     
+2014/02/11 20:20:07   Background construct over     
+2014/02/11 20:20:07   Target construct over     
+2014/02/11 20:20:07   Scene construct over     
+2014/02/11 20:20:07   Sensor construct over     
+2014/02/11 20:20:07   Processing construct over     
+2014/02/11 20:20:07   readWavelengthsMeansandCov Done     
+2014/02/11 20:20:07   LinearInterpolation1D Done     
+2014/02/11 20:20:07   LinearInterpolation2D Done     
+2014/02/11 20:20:07   1    //Writespec_albFile background
+2014/02/11 20:20:07   0    //MeansB[i] done
+2014/02/11 20:20:07   0    ReadAllColumnFromTAPE7
+2014/02/11 20:20:07   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 20:20:07   1    //ReadAllColumnFromTAPE7
+2014/02/11 20:20:07   0    ReadAllColumnFromTAPE7 done
+2014/02/11 20:20:08   readWavelengthsMeansandCov Done     
+2014/02/11 20:20:08   LinearInterpolation1D Done     
+2014/02/11 20:20:08   LinearInterpolation2D Done     
+2014/02/11 20:20:08   1    //Writespec_albFile background
+2014/02/11 20:20:08   1    //MeansB[i] done
+2014/02/11 20:20:08   1    ReadAllColumnFromTAPE7
+2014/02/11 20:20:08   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 20:20:08   2    //ReadAllColumnFromTAPE7
+2014/02/11 20:20:08   1    ReadAllColumnFromTAPE7 done
+2014/02/11 20:20:08   readWavelengthsMeansandCov Done     
+2014/02/11 20:20:08   LinearInterpolation1D Done     
+2014/02/11 20:20:08   LinearInterpolation2D Done     
+2014/02/11 20:20:08   1    //Writespec_albFile background
+2014/02/11 20:20:09   2    //MeansB[i] done
+2014/02/11 20:20:09   2    ReadAllColumnFromTAPE7
+2014/02/11 20:20:09   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 20:20:09   3    //ReadAllColumnFromTAPE7
+2014/02/11 20:20:09   2    ReadAllColumnFromTAPE7 done
+2014/02/11 20:20:09   1    //Writespec_albFile background mean
+2014/02/11 20:20:09   avg    //MeansBavg done
+2014/02/11 20:20:09   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 20:20:09   4    //ReadAllColumnFromTAPE7
+2014/02/11 20:20:09   readWavelengthsMeansandCov Done     
+2014/02/11 20:20:09   LinearInterpolation1D Done     
+2014/02/11 20:20:09   LinearInterpolation2D Done     
+2014/02/11 20:20:09   3    //target in black NO.
+2014/02/11 20:20:09   1    //Writespec_albFile T in B
+2014/02/11 20:20:10   4    ReadAllColumnFromTAPE7
+2014/02/11 20:20:10   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 20:20:10   5    //ReadAllColumnFromTAPE7
+2014/02/11 20:20:10   4    ReadAllColumnFromTAPE7 done
+2014/02/11 20:20:10   5    ReadAllColumnFromTAPE7
+2014/02/11 20:20:10   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 20:20:10   6    //ReadAllColumnFromTAPE7
+2014/02/11 20:20:10   5    ReadAllColumnFromTAPE7 done
+2014/02/11 20:20:10   0    Albedo[i] done
+2014/02/11 20:20:11   6    ReadAllColumnFromTAPE7
+2014/02/11 20:20:11   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 20:20:11   7    //ReadAllColumnFromTAPE7
+2014/02/11 20:20:11   6    ReadAllColumnFromTAPE7 done
+2014/02/11 20:20:11   1    Albedo[i] done
+2014/02/11 20:20:11   GenRespFunction     
+2014/02/11 20:20:11   1    //genResp done
+2014/02/11 20:20:11   2    //genResp done
+2014/02/11 20:20:11   3    //genResp done
+2014/02/11 20:20:11   4    //genResp done
+2014/02/11 20:20:11   5    //genResp done
+2014/02/11 20:20:11   6    //genResp done
+2014/02/11 20:20:11   7    //genResp done
+2014/02/11 20:20:11   GenRespFunction done     
+2014/02/11 20:20:11   CovBavePath Done     
+2014/02/11 20:20:11   SensorProcessNoise done     
+2014/02/11 20:20:11   SensorProcessNoise done     
+2014/02/11 20:20:11   SensorProcessNoise done     
+2014/02/11 20:20:11   SensorProcessNoise done     
+2014/02/11 20:20:11   Adding Noise Done     
+2014/02/11 20:20:11   SensorProcessNoise done     
+2014/02/11 20:20:11   LT, SNR output Done     
+2014/02/11 20:20:11   3266.9    low
+2014/02/11 20:20:11   w calculation Done     
+2014/02/11 20:20:11   0.278514    MT
+2014/02/11 20:20:11   0.00272574    CT
+2014/02/11 20:20:11   -0.000662631    MBi
+2014/02/11 20:20:11   0.000227667    CBi
+2014/02/11 20:20:11   -0.0108158    MBi
+2014/02/11 20:20:11   0.00267498    CBi
+2014/02/11 20:20:11   0.0496616    MBi
+2014/02/11 20:20:11   0.00163484    CBi
+2014/02/11 20:20:11   LinearInterpolation1D Done     
+2014/02/11 20:20:11   LinearInterpolation1D Done     
+
+
+
+2014/02/11 20:20:22   FileDir setting completed.     
+2014/02/11 20:20:22   Background construct over     
+2014/02/11 20:20:22   Target construct over     
+2014/02/11 20:20:22   Scene construct over     
+2014/02/11 20:20:22   Sensor construct over     
+2014/02/11 20:20:22   Processing construct over     
+2014/02/11 20:20:22   readWavelengthsMeansandCov Done     
+2014/02/11 20:20:22   LinearInterpolation1D Done     
+2014/02/11 20:20:22   LinearInterpolation2D Done     
+2014/02/11 20:20:22   1    //Writespec_albFile background
+2014/02/11 20:20:23   0    //MeansB[i] done
+2014/02/11 20:20:23   0    ReadAllColumnFromTAPE7
+2014/02/11 20:20:23   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 20:20:23   1    //ReadAllColumnFromTAPE7
+2014/02/11 20:20:23   0    ReadAllColumnFromTAPE7 done
+2014/02/11 20:20:23   readWavelengthsMeansandCov Done     
+2014/02/11 20:20:23   LinearInterpolation1D Done     
+2014/02/11 20:20:23   LinearInterpolation2D Done     
+2014/02/11 20:20:23   1    //Writespec_albFile background
+2014/02/11 20:20:23   1    //MeansB[i] done
+2014/02/11 20:20:23   1    ReadAllColumnFromTAPE7
+2014/02/11 20:20:23   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 20:20:23   2    //ReadAllColumnFromTAPE7
+2014/02/11 20:20:23   1    ReadAllColumnFromTAPE7 done
+2014/02/11 20:20:23   readWavelengthsMeansandCov Done     
+2014/02/11 20:20:23   LinearInterpolation1D Done     
+2014/02/11 20:20:23   LinearInterpolation2D Done     
+2014/02/11 20:20:23   1    //Writespec_albFile background
+2014/02/11 20:20:24   2    //MeansB[i] done
+2014/02/11 20:20:24   2    ReadAllColumnFromTAPE7
+2014/02/11 20:20:24   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 20:20:24   3    //ReadAllColumnFromTAPE7
+2014/02/11 20:20:24   2    ReadAllColumnFromTAPE7 done
+2014/02/11 20:20:24   1    //Writespec_albFile background mean
+2014/02/11 20:20:24   avg    //MeansBavg done
+2014/02/11 20:20:24   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 20:20:24   4    //ReadAllColumnFromTAPE7
+2014/02/11 20:20:24   readWavelengthsMeansandCov Done     
+2014/02/11 20:20:24   LinearInterpolation1D Done     
+2014/02/11 20:20:24   LinearInterpolation2D Done     
+2014/02/11 20:20:24   3    //target in black NO.
+2014/02/11 20:20:24   1    //Writespec_albFile T in B
+2014/02/11 20:20:25   4    ReadAllColumnFromTAPE7
+2014/02/11 20:20:25   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 20:20:25   5    //ReadAllColumnFromTAPE7
+2014/02/11 20:20:25   4    ReadAllColumnFromTAPE7 done
+2014/02/11 20:20:25   5    ReadAllColumnFromTAPE7
+2014/02/11 20:20:25   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 20:20:25   6    //ReadAllColumnFromTAPE7
+2014/02/11 20:20:25   5    ReadAllColumnFromTAPE7 done
+2014/02/11 20:20:25   0    Albedo[i] done
+2014/02/11 20:20:26   6    ReadAllColumnFromTAPE7
+2014/02/11 20:20:26   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 20:20:26   7    //ReadAllColumnFromTAPE7
+2014/02/11 20:20:26   6    ReadAllColumnFromTAPE7 done
+2014/02/11 20:20:26   1    Albedo[i] done
+2014/02/11 20:20:26   GenRespFunction     
+2014/02/11 20:20:26   1    //genResp done
+2014/02/11 20:20:26   2    //genResp done
+2014/02/11 20:20:26   3    //genResp done
+2014/02/11 20:20:26   4    //genResp done
+2014/02/11 20:20:26   5    //genResp done
+2014/02/11 20:20:26   6    //genResp done
+2014/02/11 20:20:26   7    //genResp done
+2014/02/11 20:20:26   GenRespFunction done     
+2014/02/11 20:20:26   CovBavePath Done     
+2014/02/11 20:20:26   SensorProcessNoise done     
+2014/02/11 20:20:26   SensorProcessNoise done     
+2014/02/11 20:20:26   SensorProcessNoise done     
+2014/02/11 20:20:26   SensorProcessNoise done     
+2014/02/11 20:20:26   Adding Noise Done     
+2014/02/11 20:20:26   SensorProcessNoise done     
+2014/02/11 20:20:26   LT, SNR output Done     
+2014/02/11 20:20:26   52588.9    low
+2014/02/11 20:20:26   w calculation Done     
+2014/02/11 20:20:26   1.04043    MT
+2014/02/11 20:20:26   0.0468597    CT
+2014/02/11 20:20:26   -0.131342    MBi
+2014/02/11 20:20:26   0.0281398    CBi
+2014/02/11 20:20:26   0.0163198    MBi
+2014/02/11 20:20:26   0.035367    CBi
+2014/02/11 20:20:26   0.52941    MBi
+2014/02/11 20:20:26   0.193882    CBi
+2014/02/11 20:20:26   LinearInterpolation1D Done     
+2014/02/11 20:20:26   LinearInterpolation1D Done     
+
+
+
+2014/02/11 20:20:33   FileDir setting completed.     
+2014/02/11 20:20:33   Background construct over     
+2014/02/11 20:20:33   Target construct over     
+2014/02/11 20:20:33   Scene construct over     
+2014/02/11 20:20:33   Sensor construct over     
+2014/02/11 20:20:33   Processing construct over     
+2014/02/11 20:20:33   readWavelengthsMeansandCov Done     
+2014/02/11 20:20:33   LinearInterpolation1D Done     
+2014/02/11 20:20:33   LinearInterpolation2D Done     
+2014/02/11 20:20:33   1    //Writespec_albFile background
+2014/02/11 20:20:33   0    //MeansB[i] done
+2014/02/11 20:20:33   0    ReadAllColumnFromTAPE7
+2014/02/11 20:20:33   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 20:20:33   1    //ReadAllColumnFromTAPE7
+2014/02/11 20:20:33   0    ReadAllColumnFromTAPE7 done
+2014/02/11 20:20:33   readWavelengthsMeansandCov Done     
+2014/02/11 20:20:33   LinearInterpolation1D Done     
+2014/02/11 20:20:33   LinearInterpolation2D Done     
+2014/02/11 20:20:33   1    //Writespec_albFile background
+2014/02/11 20:20:34   1    //MeansB[i] done
+2014/02/11 20:20:34   1    ReadAllColumnFromTAPE7
+2014/02/11 20:20:34   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 20:20:34   2    //ReadAllColumnFromTAPE7
+2014/02/11 20:20:34   1    ReadAllColumnFromTAPE7 done
+2014/02/11 20:20:34   readWavelengthsMeansandCov Done     
+2014/02/11 20:20:34   LinearInterpolation1D Done     
+2014/02/11 20:20:34   LinearInterpolation2D Done     
+2014/02/11 20:20:34   1    //Writespec_albFile background
+2014/02/11 20:20:34   2    //MeansB[i] done
+2014/02/11 20:20:34   2    ReadAllColumnFromTAPE7
+2014/02/11 20:20:34   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 20:20:34   3    //ReadAllColumnFromTAPE7
+2014/02/11 20:20:34   2    ReadAllColumnFromTAPE7 done
+2014/02/11 20:20:34   1    //Writespec_albFile background mean
+2014/02/11 20:20:35   avg    //MeansBavg done
+2014/02/11 20:20:35   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 20:20:35   4    //ReadAllColumnFromTAPE7
+2014/02/11 20:20:35   readWavelengthsMeansandCov Done     
+2014/02/11 20:20:35   LinearInterpolation1D Done     
+2014/02/11 20:20:35   LinearInterpolation2D Done     
+2014/02/11 20:20:35   3    //target in black NO.
+2014/02/11 20:20:35   1    //Writespec_albFile T in B
+2014/02/11 20:20:35   4    ReadAllColumnFromTAPE7
+2014/02/11 20:20:35   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 20:20:35   5    //ReadAllColumnFromTAPE7
+2014/02/11 20:20:35   4    ReadAllColumnFromTAPE7 done
+2014/02/11 20:20:36   5    ReadAllColumnFromTAPE7
+2014/02/11 20:20:36   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 20:20:36   6    //ReadAllColumnFromTAPE7
+2014/02/11 20:20:36   5    ReadAllColumnFromTAPE7 done
+2014/02/11 20:20:36   0    Albedo[i] done
+2014/02/11 20:20:36   6    ReadAllColumnFromTAPE7
+2014/02/11 20:20:36   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 20:20:36   7    //ReadAllColumnFromTAPE7
+2014/02/11 20:20:36   6    ReadAllColumnFromTAPE7 done
+2014/02/11 20:20:36   1    Albedo[i] done
+2014/02/11 20:20:36   GenRespFunction     
+2014/02/11 20:20:36   1    //genResp done
+2014/02/11 20:20:36   2    //genResp done
+2014/02/11 20:20:36   3    //genResp done
+2014/02/11 20:20:36   4    //genResp done
+2014/02/11 20:20:36   5    //genResp done
+2014/02/11 20:20:36   6    //genResp done
+2014/02/11 20:20:36   7    //genResp done
+2014/02/11 20:20:36   GenRespFunction done     
+2014/02/11 20:20:36   CovBavePath Done     
+2014/02/11 20:20:36   SensorProcessNoise done     
+2014/02/11 20:20:36   SensorProcessNoise done     
+2014/02/11 20:20:36   SensorProcessNoise done     
+2014/02/11 20:20:36   SensorProcessNoise done     
+2014/02/11 20:20:36   Adding Noise Done     
+2014/02/11 20:20:37   SensorProcessNoise done     
+2014/02/11 20:20:37   LT, SNR output Done     
+2014/02/11 20:20:39   -1.#IND    low
+2014/02/11 20:20:39   w calculation Done     
+2014/02/11 20:20:39   -1.#IND    MT
+2014/02/11 20:20:39   -1.#IND    CT
+2014/02/11 20:20:39   -1.#IND    MBi
+2014/02/11 20:20:39   -1.#IND    CBi
+2014/02/11 20:20:39   -1.#IND    MBi
+2014/02/11 20:20:39   -1.#IND    CBi
+2014/02/11 20:20:39   -1.#IND    MBi
+2014/02/11 20:20:39   -1.#IND    CBi
+2014/02/11 23:16:31   FileDir setting completed.     
+2014/02/11 23:16:31   Background construct over     
+2014/02/11 23:16:31   Target construct over     
+2014/02/11 23:16:31   Scene construct over     
+2014/02/11 23:16:31   Sensor construct over     
+2014/02/11 23:16:31   Processing construct over     
+2014/02/11 23:16:31   readWavelengthsMeansandCov Done     
+2014/02/11 23:16:31   LinearInterpolation1D Done     
+2014/02/11 23:16:31   LinearInterpolation2D Done     
+2014/02/11 23:16:31   1    //Writespec_albFile background
+2014/02/11 23:16:32   0    //MeansB[i] done
+2014/02/11 23:16:32   0    ReadAllColumnFromTAPE7
+2014/02/11 23:16:32   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 23:16:32   1    //ReadAllColumnFromTAPE7
+2014/02/11 23:16:32   0    ReadAllColumnFromTAPE7 done
+2014/02/11 23:16:32   readWavelengthsMeansandCov Done     
+2014/02/11 23:16:32   LinearInterpolation1D Done     
+2014/02/11 23:16:32   LinearInterpolation2D Done     
+2014/02/11 23:16:32   1    //Writespec_albFile background
+2014/02/11 23:16:32   1    //MeansB[i] done
+2014/02/11 23:16:32   1    ReadAllColumnFromTAPE7
+2014/02/11 23:16:32   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 23:16:32   2    //ReadAllColumnFromTAPE7
+2014/02/11 23:16:32   1    ReadAllColumnFromTAPE7 done
+2014/02/11 23:16:32   readWavelengthsMeansandCov Done     
+2014/02/11 23:16:32   LinearInterpolation1D Done     
+2014/02/11 23:16:32   LinearInterpolation2D Done     
+2014/02/11 23:16:32   1    //Writespec_albFile background
+2014/02/11 23:16:33   2    //MeansB[i] done
+2014/02/11 23:16:33   2    ReadAllColumnFromTAPE7
+2014/02/11 23:16:33   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 23:16:33   3    //ReadAllColumnFromTAPE7
+2014/02/11 23:16:33   2    ReadAllColumnFromTAPE7 done
+2014/02/11 23:16:33   1    //Writespec_albFile background mean
+2014/02/11 23:16:33   avg    //MeansBavg done
+2014/02/11 23:16:33   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 23:16:33   4    //ReadAllColumnFromTAPE7
+2014/02/11 23:16:33   readWavelengthsMeansandCov Done     
+2014/02/11 23:16:33   LinearInterpolation1D Done     
+2014/02/11 23:16:33   LinearInterpolation2D Done     
+2014/02/11 23:16:33   3    //target in black NO.
+2014/02/11 23:16:33   1    //Writespec_albFile T in B
+2014/02/11 23:16:34   4    ReadAllColumnFromTAPE7
+2014/02/11 23:16:34   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 23:16:34   5    //ReadAllColumnFromTAPE7
+2014/02/11 23:16:34   4    ReadAllColumnFromTAPE7 done
+2014/02/11 23:16:34   5    ReadAllColumnFromTAPE7
+2014/02/11 23:16:34   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 23:16:34   6    //ReadAllColumnFromTAPE7
+2014/02/11 23:16:34   5    ReadAllColumnFromTAPE7 done
+2014/02/11 23:16:34   0    Albedo[i] done
+2014/02/11 23:16:35   6    ReadAllColumnFromTAPE7
+2014/02/11 23:16:35   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 23:16:35   7    //ReadAllColumnFromTAPE7
+2014/02/11 23:16:35   6    ReadAllColumnFromTAPE7 done
+2014/02/11 23:16:35   1    Albedo[i] done
+2014/02/11 23:16:35   GenRespFunction     
+2014/02/11 23:16:35   1    //genResp done
+2014/02/11 23:16:35   2    //genResp done
+2014/02/11 23:16:35   3    //genResp done
+2014/02/11 23:16:35   4    //genResp done
+2014/02/11 23:16:35   5    //genResp done
+2014/02/11 23:16:35   6    //genResp done
+2014/02/11 23:16:35   7    //genResp done
+2014/02/11 23:16:35   GenRespFunction done     
+2014/02/11 23:16:35   CovBavePath Done     
+2014/02/11 23:16:35   SensorProcessNoise done     
+2014/02/11 23:16:35   SensorProcessNoise done     
+2014/02/11 23:16:35   SensorProcessNoise done     
+2014/02/11 23:16:35   SensorProcessNoise done     
+2014/02/11 23:16:35   Adding Noise Done     
+2014/02/11 23:16:35   SensorProcessNoise done     
+2014/02/11 23:16:35   LT, SNR output Done     
+2014/02/11 23:16:35   3266.9    low
+2014/02/11 23:16:35   w calculation Done     
+2014/02/11 23:16:35   0.278514    MT
+2014/02/11 23:16:35   0.00272574    CT
+2014/02/11 23:16:35   -0.000662631    MBi
+2014/02/11 23:16:35   0.000227667    CBi
+2014/02/11 23:16:35   -0.0108158    MBi
+2014/02/11 23:16:35   0.00267498    CBi
+2014/02/11 23:16:35   0.0496616    MBi
+2014/02/11 23:16:35   0.00163484    CBi
+2014/02/11 23:16:35   LinearInterpolation1D Done     
+2014/02/11 23:16:35   LinearInterpolation1D Done     
+
+
+
+2014/02/11 23:17:21   FileDir setting completed.     
+2014/02/11 23:17:21   Background construct over     
+2014/02/11 23:17:21   Target construct over     
+2014/02/11 23:17:21   Scene construct over     
+2014/02/11 23:17:21   Sensor construct over     
+2014/02/11 23:17:21   Processing construct over     
+2014/02/11 23:17:21   readWavelengthsMeansandCov Done     
+2014/02/11 23:17:21   LinearInterpolation1D Done     
+2014/02/11 23:17:21   LinearInterpolation2D Done     
+2014/02/11 23:17:21   1    //Writespec_albFile background
+2014/02/11 23:17:21   0    //MeansB[i] done
+2014/02/11 23:17:21   0    ReadAllColumnFromTAPE7
+2014/02/11 23:17:21   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 23:17:21   1    //ReadAllColumnFromTAPE7
+2014/02/11 23:17:21   0    ReadAllColumnFromTAPE7 done
+2014/02/11 23:17:21   readWavelengthsMeansandCov Done     
+2014/02/11 23:17:21   LinearInterpolation1D Done     
+2014/02/11 23:17:21   LinearInterpolation2D Done     
+2014/02/11 23:17:21   1    //Writespec_albFile background
+2014/02/11 23:17:22   1    //MeansB[i] done
+2014/02/11 23:17:22   1    ReadAllColumnFromTAPE7
+2014/02/11 23:17:22   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 23:17:22   2    //ReadAllColumnFromTAPE7
+2014/02/11 23:17:22   1    ReadAllColumnFromTAPE7 done
+2014/02/11 23:17:22   readWavelengthsMeansandCov Done     
+2014/02/11 23:17:22   LinearInterpolation1D Done     
+2014/02/11 23:17:22   LinearInterpolation2D Done     
+2014/02/11 23:17:22   1    //Writespec_albFile background
+2014/02/11 23:17:23   2    //MeansB[i] done
+2014/02/11 23:17:23   2    ReadAllColumnFromTAPE7
+2014/02/11 23:17:23   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 23:17:23   3    //ReadAllColumnFromTAPE7
+2014/02/11 23:17:23   2    ReadAllColumnFromTAPE7 done
+2014/02/11 23:17:23   1    //Writespec_albFile background mean
+2014/02/11 23:17:23   avg    //MeansBavg done
+2014/02/11 23:17:23   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 23:17:23   4    //ReadAllColumnFromTAPE7
+2014/02/11 23:17:23   readWavelengthsMeansandCov Done     
+2014/02/11 23:17:23   LinearInterpolation1D Done     
+2014/02/11 23:17:23   LinearInterpolation2D Done     
+2014/02/11 23:17:23   3    //target in black NO.
+2014/02/11 23:17:23   1    //Writespec_albFile T in B
+2014/02/11 23:17:24   4    ReadAllColumnFromTAPE7
+2014/02/11 23:17:24   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 23:17:24   5    //ReadAllColumnFromTAPE7
+2014/02/11 23:17:24   4    ReadAllColumnFromTAPE7 done
+2014/02/11 23:17:24   5    ReadAllColumnFromTAPE7
+2014/02/11 23:17:24   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 23:17:24   6    //ReadAllColumnFromTAPE7
+2014/02/11 23:17:24   5    ReadAllColumnFromTAPE7 done
+2014/02/11 23:17:24   0    Albedo[i] done
+2014/02/11 23:17:24   6    ReadAllColumnFromTAPE7
+2014/02/11 23:17:24   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 23:17:25   7    //ReadAllColumnFromTAPE7
+2014/02/11 23:17:25   6    ReadAllColumnFromTAPE7 done
+2014/02/11 23:17:25   1    Albedo[i] done
+2014/02/11 23:17:25   GenRespFunction     
+2014/02/11 23:17:25   1    //genResp done
+2014/02/11 23:17:25   2    //genResp done
+2014/02/11 23:17:25   3    //genResp done
+2014/02/11 23:17:25   4    //genResp done
+2014/02/11 23:17:25   5    //genResp done
+2014/02/11 23:17:25   6    //genResp done
+2014/02/11 23:17:25   7    //genResp done
+2014/02/11 23:17:25   GenRespFunction done     
+2014/02/11 23:17:25   CovBavePath Done     
+2014/02/11 23:17:25   SensorProcessNoise done     
+2014/02/11 23:17:25   SensorProcessNoise done     
+2014/02/11 23:17:25   SensorProcessNoise done     
+2014/02/11 23:17:25   SensorProcessNoise done     
+2014/02/11 23:17:25   Adding Noise Done     
+2014/02/11 23:17:25   SensorProcessNoise done     
+2014/02/11 23:17:25   LT, SNR output Done     
+2014/02/11 23:17:25   3266.9    low
+2014/02/11 23:17:25   w calculation Done     
+2014/02/11 23:17:25   0.278514    MT
+2014/02/11 23:17:25   0.00272574    CT
+2014/02/11 23:17:25   -0.000662631    MBi
+2014/02/11 23:17:25   0.000227667    CBi
+2014/02/11 23:17:25   -0.0108158    MBi
+2014/02/11 23:17:25   0.00267498    CBi
+2014/02/11 23:17:25   0.0496616    MBi
+2014/02/11 23:17:25   0.00163484    CBi
+2014/02/11 23:17:25   LinearInterpolation1D Done     
+2014/02/11 23:17:25   LinearInterpolation1D Done     
+
+
+
+2014/02/11 23:17:30   FileDir setting completed.     
+2014/02/11 23:17:30   Background construct over     
+2014/02/11 23:17:30   Target construct over     
+2014/02/11 23:17:30   Scene construct over     
+2014/02/11 23:17:30   Sensor construct over     
+2014/02/11 23:17:30   Processing construct over     
+2014/02/11 23:17:31   readWavelengthsMeansandCov Done     
+2014/02/11 23:17:31   LinearInterpolation1D Done     
+2014/02/11 23:17:31   LinearInterpolation2D Done     
+2014/02/11 23:17:31   1    //Writespec_albFile background
+2014/02/11 23:17:31   0    //MeansB[i] done
+2014/02/11 23:17:31   0    ReadAllColumnFromTAPE7
+2014/02/11 23:17:31   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 23:17:31   1    //ReadAllColumnFromTAPE7
+2014/02/11 23:17:31   0    ReadAllColumnFromTAPE7 done
+2014/02/11 23:17:31   readWavelengthsMeansandCov Done     
+2014/02/11 23:17:31   LinearInterpolation1D Done     
+2014/02/11 23:17:31   LinearInterpolation2D Done     
+2014/02/11 23:17:31   1    //Writespec_albFile background
+2014/02/11 23:17:32   1    //MeansB[i] done
+2014/02/11 23:17:32   1    ReadAllColumnFromTAPE7
+2014/02/11 23:17:32   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 23:17:32   2    //ReadAllColumnFromTAPE7
+2014/02/11 23:17:32   1    ReadAllColumnFromTAPE7 done
+2014/02/11 23:17:32   readWavelengthsMeansandCov Done     
+2014/02/11 23:17:32   LinearInterpolation1D Done     
+2014/02/11 23:17:32   LinearInterpolation2D Done     
+2014/02/11 23:17:32   1    //Writespec_albFile background
+2014/02/11 23:17:32   2    //MeansB[i] done
+2014/02/11 23:17:32   2    ReadAllColumnFromTAPE7
+2014/02/11 23:17:32   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 23:17:32   3    //ReadAllColumnFromTAPE7
+2014/02/11 23:17:32   2    ReadAllColumnFromTAPE7 done
+2014/02/11 23:17:32   1    //Writespec_albFile background mean
+2014/02/11 23:17:33   avg    //MeansBavg done
+2014/02/11 23:17:33   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 23:17:33   4    //ReadAllColumnFromTAPE7
+2014/02/11 23:17:33   readWavelengthsMeansandCov Done     
+2014/02/11 23:17:33   LinearInterpolation1D Done     
+2014/02/11 23:17:33   LinearInterpolation2D Done     
+2014/02/11 23:17:33   3    //target in black NO.
+2014/02/11 23:17:33   1    //Writespec_albFile T in B
+2014/02/11 23:17:33   4    ReadAllColumnFromTAPE7
+2014/02/11 23:17:33   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 23:17:33   5    //ReadAllColumnFromTAPE7
+2014/02/11 23:17:33   4    ReadAllColumnFromTAPE7 done
+2014/02/11 23:17:34   5    ReadAllColumnFromTAPE7
+2014/02/11 23:17:34   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 23:17:34   6    //ReadAllColumnFromTAPE7
+2014/02/11 23:17:34   5    ReadAllColumnFromTAPE7 done
+2014/02/11 23:17:34   0    Albedo[i] done
+2014/02/11 23:17:34   6    ReadAllColumnFromTAPE7
+2014/02/11 23:17:34   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/11 23:17:34   7    //ReadAllColumnFromTAPE7
+2014/02/11 23:17:34   6    ReadAllColumnFromTAPE7 done
+2014/02/11 23:17:34   1    Albedo[i] done
+2014/02/11 23:17:34   GenRespFunction     
+2014/02/11 23:17:34   1    //genResp done
+2014/02/11 23:17:34   2    //genResp done
+2014/02/11 23:17:34   3    //genResp done
+2014/02/11 23:17:34   4    //genResp done
+2014/02/11 23:17:34   5    //genResp done
+2014/02/11 23:17:34   6    //genResp done
+2014/02/11 23:17:34   7    //genResp done
+2014/02/11 23:17:34   GenRespFunction done     
+2014/02/11 23:17:34   CovBavePath Done     
+2014/02/11 23:17:34   SensorProcessNoise done     
+2014/02/11 23:17:34   SensorProcessNoise done     
+2014/02/11 23:17:34   SensorProcessNoise done     
+2014/02/11 23:17:34   SensorProcessNoise done     
+2014/02/11 23:17:34   Adding Noise Done     
+2014/02/11 23:17:34   SensorProcessNoise done     
+2014/02/11 23:17:34   LT, SNR output Done     
+2014/02/11 23:17:37   -1.#IND    low
+2014/02/11 23:17:37   w calculation Done     
+2014/02/11 23:17:37   -1.#IND    MT
+2014/02/11 23:17:37   -1.#IND    CT
+2014/02/11 23:17:37   -1.#IND    MBi
+2014/02/11 23:17:37   -1.#IND    CBi
+2014/02/11 23:17:37   -1.#IND    MBi
+2014/02/11 23:17:37   -1.#IND    CBi
+2014/02/11 23:17:37   -1.#IND    MBi
+2014/02/11 23:17:37   -1.#IND    CBi
+2014/02/12 01:05:33   FileDir setting completed.     
+2014/02/12 01:05:33   Background construct over     
+2014/02/12 01:05:33   Target construct over     
+2014/02/12 01:05:33   Scene construct over     
+2014/02/12 01:05:33   Sensor construct over     
+2014/02/12 01:05:33   Processing construct over     
+2014/02/12 01:05:33   readWavelengthsMeansandCov Done     
+2014/02/12 01:05:33   LinearInterpolation1D Done     
+2014/02/12 01:05:33   LinearInterpolation2D Done     
+2014/02/12 01:05:33   1    //Writespec_albFile background
+2014/02/12 01:05:33   0    //MeansB[i] done
+2014/02/12 01:05:33   0    ReadAllColumnFromTAPE7
+2014/02/12 01:05:33   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:05:33   1    //ReadAllColumnFromTAPE7
+2014/02/12 01:05:33   0    ReadAllColumnFromTAPE7 done
+2014/02/12 01:05:33   readWavelengthsMeansandCov Done     
+2014/02/12 01:05:33   LinearInterpolation1D Done     
+2014/02/12 01:05:33   LinearInterpolation2D Done     
+2014/02/12 01:05:33   1    //Writespec_albFile background
+2014/02/12 01:05:34   1    //MeansB[i] done
+2014/02/12 01:05:34   1    ReadAllColumnFromTAPE7
+2014/02/12 01:05:34   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:05:34   2    //ReadAllColumnFromTAPE7
+2014/02/12 01:05:34   1    ReadAllColumnFromTAPE7 done
+2014/02/12 01:05:34   readWavelengthsMeansandCov Done     
+2014/02/12 01:05:34   LinearInterpolation1D Done     
+2014/02/12 01:05:34   LinearInterpolation2D Done     
+2014/02/12 01:05:34   1    //Writespec_albFile background
+2014/02/12 01:05:34   2    //MeansB[i] done
+2014/02/12 01:05:34   2    ReadAllColumnFromTAPE7
+2014/02/12 01:05:34   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:05:34   3    //ReadAllColumnFromTAPE7
+2014/02/12 01:05:34   2    ReadAllColumnFromTAPE7 done
+2014/02/12 01:05:34   1    //Writespec_albFile background mean
+2014/02/12 01:05:35   avg    //MeansBavg done
+2014/02/12 01:05:35   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:05:35   4    //ReadAllColumnFromTAPE7
+2014/02/12 01:05:35   readWavelengthsMeansandCov Done     
+2014/02/12 01:05:35   LinearInterpolation1D Done     
+2014/02/12 01:05:35   LinearInterpolation2D Done     
+2014/02/12 01:05:35   3    //target in black NO.
+2014/02/12 01:05:35   1    //Writespec_albFile T in B
+2014/02/12 01:05:36   4    ReadAllColumnFromTAPE7
+2014/02/12 01:05:36   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:05:36   5    //ReadAllColumnFromTAPE7
+2014/02/12 01:05:36   4    ReadAllColumnFromTAPE7 done
+2014/02/12 01:05:36   5    ReadAllColumnFromTAPE7
+2014/02/12 01:05:36   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:05:36   6    //ReadAllColumnFromTAPE7
+2014/02/12 01:05:36   5    ReadAllColumnFromTAPE7 done
+2014/02/12 01:05:36   0    Albedo[i] done
+2014/02/12 01:05:37   6    ReadAllColumnFromTAPE7
+2014/02/12 01:05:37   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:05:37   7    //ReadAllColumnFromTAPE7
+2014/02/12 01:05:37   6    ReadAllColumnFromTAPE7 done
+2014/02/12 01:05:37   1    Albedo[i] done
+2014/02/12 01:05:37   GenRespFunction     
+2014/02/12 01:05:37   1    //genResp done
+2014/02/12 01:05:37   2    //genResp done
+2014/02/12 01:05:37   3    //genResp done
+2014/02/12 01:05:37   4    //genResp done
+2014/02/12 01:05:37   5    //genResp done
+2014/02/12 01:05:37   6    //genResp done
+2014/02/12 01:05:37   7    //genResp done
+2014/02/12 01:05:37   GenRespFunction done     
+2014/02/12 01:05:37   CovBavePath Done     
+2014/02/12 01:05:37   SensorProcessNoise done     
+2014/02/12 01:05:37   SensorProcessNoise done     
+2014/02/12 01:05:37   SensorProcessNoise done     
+2014/02/12 01:05:37   SensorProcessNoise done     
+2014/02/12 01:05:37   Adding Noise Done     
+2014/02/12 01:05:37   SensorProcessNoise done     
+2014/02/12 01:05:37   LT, SNR output Done     
+2014/02/12 01:05:37   3266.9    low
+2014/02/12 01:05:37   w calculation Done     
+2014/02/12 01:05:37   0.278514    MT
+2014/02/12 01:05:37   0.00272574    CT
+2014/02/12 01:05:37   -0.000662631    MBi
+2014/02/12 01:05:37   0.000227667    CBi
+2014/02/12 01:05:37   -0.0108158    MBi
+2014/02/12 01:05:37   0.00267498    CBi
+2014/02/12 01:05:37   0.0496616    MBi
+2014/02/12 01:05:37   0.00163484    CBi
+2014/02/12 01:05:37   LinearInterpolation1D Done     
+2014/02/12 01:05:37   LinearInterpolation1D Done     
+
+
+
+2014/02/12 01:05:42   FileDir setting completed.     
+2014/02/12 01:05:42   Background construct over     
+2014/02/12 01:05:42   Target construct over     
+2014/02/12 01:05:42   Scene construct over     
+2014/02/12 01:05:42   Sensor construct over     
+2014/02/12 01:05:42   Processing construct over     
+2014/02/12 01:05:42   readWavelengthsMeansandCov Done     
+2014/02/12 01:05:42   LinearInterpolation1D Done     
+2014/02/12 01:05:42   LinearInterpolation2D Done     
+2014/02/12 01:05:42   1    //Writespec_albFile background
+2014/02/12 01:05:43   0    //MeansB[i] done
+2014/02/12 01:05:43   0    ReadAllColumnFromTAPE7
+2014/02/12 01:05:43   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:05:43   1    //ReadAllColumnFromTAPE7
+2014/02/12 01:05:43   0    ReadAllColumnFromTAPE7 done
+2014/02/12 01:05:43   readWavelengthsMeansandCov Done     
+2014/02/12 01:05:43   LinearInterpolation1D Done     
+2014/02/12 01:05:43   LinearInterpolation2D Done     
+2014/02/12 01:05:43   1    //Writespec_albFile background
+2014/02/12 01:05:43   1    //MeansB[i] done
+2014/02/12 01:05:43   1    ReadAllColumnFromTAPE7
+2014/02/12 01:05:43   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:05:43   2    //ReadAllColumnFromTAPE7
+2014/02/12 01:05:43   1    ReadAllColumnFromTAPE7 done
+2014/02/12 01:05:43   readWavelengthsMeansandCov Done     
+2014/02/12 01:05:43   LinearInterpolation1D Done     
+2014/02/12 01:05:43   LinearInterpolation2D Done     
+2014/02/12 01:05:43   1    //Writespec_albFile background
+2014/02/12 01:05:44   2    //MeansB[i] done
+2014/02/12 01:05:44   2    ReadAllColumnFromTAPE7
+2014/02/12 01:05:44   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:05:44   3    //ReadAllColumnFromTAPE7
+2014/02/12 01:05:44   2    ReadAllColumnFromTAPE7 done
+2014/02/12 01:05:44   1    //Writespec_albFile background mean
+2014/02/12 01:05:44   avg    //MeansBavg done
+2014/02/12 01:05:44   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:05:44   4    //ReadAllColumnFromTAPE7
+2014/02/12 01:05:44   readWavelengthsMeansandCov Done     
+2014/02/12 01:05:44   LinearInterpolation1D Done     
+2014/02/12 01:05:44   LinearInterpolation2D Done     
+2014/02/12 01:05:44   3    //target in black NO.
+2014/02/12 01:05:44   1    //Writespec_albFile T in B
+2014/02/12 01:05:45   4    ReadAllColumnFromTAPE7
+2014/02/12 01:05:45   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:05:45   5    //ReadAllColumnFromTAPE7
+2014/02/12 01:05:45   4    ReadAllColumnFromTAPE7 done
+2014/02/12 01:05:45   5    ReadAllColumnFromTAPE7
+2014/02/12 01:05:45   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:05:45   6    //ReadAllColumnFromTAPE7
+2014/02/12 01:05:45   5    ReadAllColumnFromTAPE7 done
+2014/02/12 01:05:45   0    Albedo[i] done
+2014/02/12 01:05:46   6    ReadAllColumnFromTAPE7
+2014/02/12 01:05:46   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:05:46   7    //ReadAllColumnFromTAPE7
+2014/02/12 01:05:46   6    ReadAllColumnFromTAPE7 done
+2014/02/12 01:05:46   1    Albedo[i] done
+2014/02/12 01:05:46   GenRespFunction     
+2014/02/12 01:05:46   1    //genResp done
+2014/02/12 01:05:46   2    //genResp done
+2014/02/12 01:05:46   3    //genResp done
+2014/02/12 01:05:46   4    //genResp done
+2014/02/12 01:05:46   5    //genResp done
+2014/02/12 01:05:46   6    //genResp done
+2014/02/12 01:05:46   7    //genResp done
+2014/02/12 01:05:46   GenRespFunction done     
+2014/02/12 01:05:46   CovBavePath Done     
+2014/02/12 01:05:46   SensorProcessNoise done     
+2014/02/12 01:05:46   SensorProcessNoise done     
+2014/02/12 01:05:46   SensorProcessNoise done     
+2014/02/12 01:05:46   SensorProcessNoise done     
+2014/02/12 01:05:46   Adding Noise Done     
+2014/02/12 01:05:46   SensorProcessNoise done     
+2014/02/12 01:05:46   LT, SNR output Done     
+2014/02/12 01:05:48   -1.#IND    low
+2014/02/12 01:05:48   w calculation Done     
+2014/02/12 01:05:48   -1.#IND    MT
+2014/02/12 01:05:48   -1.#IND    CT
+2014/02/12 01:05:48   -1.#IND    MBi
+2014/02/12 01:05:48   -1.#IND    CBi
+2014/02/12 01:05:48   -1.#IND    MBi
+2014/02/12 01:05:48   -1.#IND    CBi
+2014/02/12 01:05:48   -1.#IND    MBi
+2014/02/12 01:05:48   -1.#IND    CBi
+2014/02/12 01:10:15   FileDir setting completed.     
+2014/02/12 01:10:15   Background construct over     
+2014/02/12 01:10:15   Target construct over     
+2014/02/12 01:10:15   Scene construct over     
+2014/02/12 01:10:15   Sensor construct over     
+2014/02/12 01:10:15   Processing construct over     
+2014/02/12 01:10:15   readWavelengthsMeansandCov Done     
+2014/02/12 01:10:15   LinearInterpolation1D Done     
+2014/02/12 01:10:15   LinearInterpolation2D Done     
+2014/02/12 01:10:15   1    //Writespec_albFile background
+2014/02/12 01:10:15   0    //MeansB[i] done
+2014/02/12 01:10:15   0    ReadAllColumnFromTAPE7
+2014/02/12 01:10:15   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:10:15   1    //ReadAllColumnFromTAPE7
+2014/02/12 01:10:15   0    ReadAllColumnFromTAPE7 done
+2014/02/12 01:10:15   readWavelengthsMeansandCov Done     
+2014/02/12 01:10:15   LinearInterpolation1D Done     
+2014/02/12 01:10:15   LinearInterpolation2D Done     
+2014/02/12 01:10:15   1    //Writespec_albFile background
+2014/02/12 01:10:16   1    //MeansB[i] done
+2014/02/12 01:10:16   1    ReadAllColumnFromTAPE7
+2014/02/12 01:10:16   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:10:16   2    //ReadAllColumnFromTAPE7
+2014/02/12 01:10:16   1    ReadAllColumnFromTAPE7 done
+2014/02/12 01:10:16   readWavelengthsMeansandCov Done     
+2014/02/12 01:10:16   LinearInterpolation1D Done     
+2014/02/12 01:10:16   LinearInterpolation2D Done     
+2014/02/12 01:10:16   1    //Writespec_albFile background
+2014/02/12 01:10:16   2    //MeansB[i] done
+2014/02/12 01:10:16   2    ReadAllColumnFromTAPE7
+2014/02/12 01:10:16   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:10:17   3    //ReadAllColumnFromTAPE7
+2014/02/12 01:10:17   2    ReadAllColumnFromTAPE7 done
+2014/02/12 01:10:17   1    //Writespec_albFile background mean
+2014/02/12 01:10:17   avg    //MeansBavg done
+2014/02/12 01:10:17   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:10:17   4    //ReadAllColumnFromTAPE7
+2014/02/12 01:10:17   readWavelengthsMeansandCov Done     
+2014/02/12 01:10:17   LinearInterpolation1D Done     
+2014/02/12 01:10:17   LinearInterpolation2D Done     
+2014/02/12 01:10:17   3    //target in black NO.
+2014/02/12 01:10:17   1    //Writespec_albFile T in B
+2014/02/12 01:10:18   4    ReadAllColumnFromTAPE7
+2014/02/12 01:10:18   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:10:18   5    //ReadAllColumnFromTAPE7
+2014/02/12 01:10:18   4    ReadAllColumnFromTAPE7 done
+2014/02/12 01:10:18   5    ReadAllColumnFromTAPE7
+2014/02/12 01:10:18   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:10:18   6    //ReadAllColumnFromTAPE7
+2014/02/12 01:10:18   5    ReadAllColumnFromTAPE7 done
+2014/02/12 01:10:18   0    Albedo[i] done
+2014/02/12 01:10:19   6    ReadAllColumnFromTAPE7
+2014/02/12 01:10:19   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:10:19   7    //ReadAllColumnFromTAPE7
+2014/02/12 01:10:19   6    ReadAllColumnFromTAPE7 done
+2014/02/12 01:10:19   1    Albedo[i] done
+2014/02/12 01:10:19   GenRespFunction     
+2014/02/12 01:10:19   1    //genResp done
+2014/02/12 01:10:19   2    //genResp done
+2014/02/12 01:10:19   3    //genResp done
+2014/02/12 01:10:19   4    //genResp done
+2014/02/12 01:10:19   5    //genResp done
+2014/02/12 01:10:19   6    //genResp done
+2014/02/12 01:10:19   7    //genResp done
+2014/02/12 01:10:19   GenRespFunction done     
+2014/02/12 01:10:19   CovBavePath Done     
+2014/02/12 01:10:19   SensorProcessNoise done     
+2014/02/12 01:10:19   SensorProcessNoise done     
+2014/02/12 01:10:19   SensorProcessNoise done     
+2014/02/12 01:10:19   SensorProcessNoise done     
+2014/02/12 01:10:19   Adding Noise Done     
+2014/02/12 01:10:19   SensorProcessNoise done     
+2014/02/12 01:10:19   LT, SNR output Done     
+2014/02/12 01:10:19   3266.9    low
+2014/02/12 01:10:19   w calculation Done     
+2014/02/12 01:10:19   0.278514    MT
+2014/02/12 01:10:19   0.00272574    CT
+2014/02/12 01:10:19   -0.000662631    MBi
+2014/02/12 01:10:19   0.000227667    CBi
+2014/02/12 01:10:19   -0.0108158    MBi
+2014/02/12 01:10:19   0.00267498    CBi
+2014/02/12 01:10:19   0.0496616    MBi
+2014/02/12 01:10:19   0.00163484    CBi
+2014/02/12 01:10:19   LinearInterpolation1D Done     
+2014/02/12 01:10:19   LinearInterpolation1D Done     
+
+
+
+2014/02/12 01:10:30   FileDir setting completed.     
+2014/02/12 01:10:30   Background construct over     
+2014/02/12 01:10:30   Target construct over     
+2014/02/12 01:10:30   Scene construct over     
+2014/02/12 01:10:30   Sensor construct over     
+2014/02/12 01:10:30   Processing construct over     
+2014/02/12 01:10:30   readWavelengthsMeansandCov Done     
+2014/02/12 01:10:30   LinearInterpolation1D Done     
+2014/02/12 01:10:30   LinearInterpolation2D Done     
+2014/02/12 01:10:30   1    //Writespec_albFile background
+2014/02/12 01:10:30   0    //MeansB[i] done
+2014/02/12 01:10:30   0    ReadAllColumnFromTAPE7
+2014/02/12 01:10:30   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:10:30   1    //ReadAllColumnFromTAPE7
+2014/02/12 01:10:30   0    ReadAllColumnFromTAPE7 done
+2014/02/12 01:10:30   readWavelengthsMeansandCov Done     
+2014/02/12 01:10:30   LinearInterpolation1D Done     
+2014/02/12 01:10:30   LinearInterpolation2D Done     
+2014/02/12 01:10:30   1    //Writespec_albFile background
+2014/02/12 01:10:31   1    //MeansB[i] done
+2014/02/12 01:10:31   1    ReadAllColumnFromTAPE7
+2014/02/12 01:10:31   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:10:31   2    //ReadAllColumnFromTAPE7
+2014/02/12 01:10:31   1    ReadAllColumnFromTAPE7 done
+2014/02/12 01:10:31   readWavelengthsMeansandCov Done     
+2014/02/12 01:10:31   LinearInterpolation1D Done     
+2014/02/12 01:10:31   LinearInterpolation2D Done     
+2014/02/12 01:10:31   1    //Writespec_albFile background
+2014/02/12 01:10:32   2    //MeansB[i] done
+2014/02/12 01:10:32   2    ReadAllColumnFromTAPE7
+2014/02/12 01:10:32   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:10:32   3    //ReadAllColumnFromTAPE7
+2014/02/12 01:10:32   2    ReadAllColumnFromTAPE7 done
+2014/02/12 01:10:32   1    //Writespec_albFile background mean
+2014/02/12 01:10:32   avg    //MeansBavg done
+2014/02/12 01:10:32   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:10:32   4    //ReadAllColumnFromTAPE7
+2014/02/12 01:10:32   readWavelengthsMeansandCov Done     
+2014/02/12 01:10:32   LinearInterpolation1D Done     
+2014/02/12 01:10:32   LinearInterpolation2D Done     
+2014/02/12 01:10:32   3    //target in black NO.
+2014/02/12 01:10:32   1    //Writespec_albFile T in B
+2014/02/12 01:10:33   4    ReadAllColumnFromTAPE7
+2014/02/12 01:10:33   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:10:33   5    //ReadAllColumnFromTAPE7
+2014/02/12 01:10:33   4    ReadAllColumnFromTAPE7 done
+2014/02/12 01:10:33   5    ReadAllColumnFromTAPE7
+2014/02/12 01:10:33   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:10:33   6    //ReadAllColumnFromTAPE7
+2014/02/12 01:10:33   5    ReadAllColumnFromTAPE7 done
+2014/02/12 01:10:33   0    Albedo[i] done
+2014/02/12 01:10:34   6    ReadAllColumnFromTAPE7
+2014/02/12 01:10:34   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:10:34   7    //ReadAllColumnFromTAPE7
+2014/02/12 01:10:34   6    ReadAllColumnFromTAPE7 done
+2014/02/12 01:10:34   1    Albedo[i] done
+2014/02/12 01:10:34   GenRespFunction     
+2014/02/12 01:10:34   1    //genResp done
+2014/02/12 01:10:34   2    //genResp done
+2014/02/12 01:10:34   3    //genResp done
+2014/02/12 01:10:34   4    //genResp done
+2014/02/12 01:10:34   5    //genResp done
+2014/02/12 01:10:34   6    //genResp done
+2014/02/12 01:10:34   7    //genResp done
+2014/02/12 01:10:34   GenRespFunction done     
+2014/02/12 01:10:34   CovBavePath Done     
+2014/02/12 01:10:34   SensorProcessNoise done     
+2014/02/12 01:10:34   SensorProcessNoise done     
+2014/02/12 01:10:34   SensorProcessNoise done     
+2014/02/12 01:10:34   SensorProcessNoise done     
+2014/02/12 01:10:34   Adding Noise Done     
+2014/02/12 01:10:34   SensorProcessNoise done     
+2014/02/12 01:10:34   LT, SNR output Done     
+2014/02/12 01:10:41   -1.#IND    low
+2014/02/12 01:10:41   w calculation Done     
+2014/02/12 01:10:41   -1.#IND    MT
+2014/02/12 01:10:41   -1.#IND    CT
+2014/02/12 01:10:41   -1.#IND    MBi
+2014/02/12 01:10:41   -1.#IND    CBi
+2014/02/12 01:10:41   -1.#IND    MBi
+2014/02/12 01:10:41   -1.#IND    CBi
+2014/02/12 01:10:41   -1.#IND    MBi
+2014/02/12 01:10:41   -1.#IND    CBi
+2014/02/12 01:11:53   FileDir setting completed.     
+2014/02/12 01:11:53   Background construct over     
+2014/02/12 01:11:53   Target construct over     
+2014/02/12 01:11:53   Scene construct over     
+2014/02/12 01:11:53   Sensor construct over     
+2014/02/12 01:11:53   Processing construct over     
+2014/02/12 01:11:53   readWavelengthsMeansandCov Done     
+2014/02/12 01:11:53   LinearInterpolation1D Done     
+2014/02/12 01:11:53   LinearInterpolation2D Done     
+2014/02/12 01:11:53   1    //Writespec_albFile background
+2014/02/12 01:11:53   0    //MeansB[i] done
+2014/02/12 01:11:53   0    ReadAllColumnFromTAPE7
+2014/02/12 01:11:53   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:11:53   1    //ReadAllColumnFromTAPE7
+2014/02/12 01:11:53   0    ReadAllColumnFromTAPE7 done
+2014/02/12 01:11:53   readWavelengthsMeansandCov Done     
+2014/02/12 01:11:53   LinearInterpolation1D Done     
+2014/02/12 01:11:53   LinearInterpolation2D Done     
+2014/02/12 01:11:53   1    //Writespec_albFile background
+2014/02/12 01:11:54   1    //MeansB[i] done
+2014/02/12 01:11:54   1    ReadAllColumnFromTAPE7
+2014/02/12 01:11:54   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:11:54   2    //ReadAllColumnFromTAPE7
+2014/02/12 01:11:54   1    ReadAllColumnFromTAPE7 done
+2014/02/12 01:11:54   readWavelengthsMeansandCov Done     
+2014/02/12 01:11:54   LinearInterpolation1D Done     
+2014/02/12 01:11:54   LinearInterpolation2D Done     
+2014/02/12 01:11:54   1    //Writespec_albFile background
+2014/02/12 01:11:54   2    //MeansB[i] done
+2014/02/12 01:11:54   2    ReadAllColumnFromTAPE7
+2014/02/12 01:11:54   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:11:54   3    //ReadAllColumnFromTAPE7
+2014/02/12 01:11:54   2    ReadAllColumnFromTAPE7 done
+2014/02/12 01:11:54   1    //Writespec_albFile background mean
+2014/02/12 01:11:55   avg    //MeansBavg done
+2014/02/12 01:11:55   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:11:55   4    //ReadAllColumnFromTAPE7
+2014/02/12 01:11:55   readWavelengthsMeansandCov Done     
+2014/02/12 01:11:55   LinearInterpolation1D Done     
+2014/02/12 01:11:55   LinearInterpolation2D Done     
+2014/02/12 01:11:55   3    //target in black NO.
+2014/02/12 01:11:55   1    //Writespec_albFile T in B
+2014/02/12 01:11:56   4    ReadAllColumnFromTAPE7
+2014/02/12 01:11:56   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:11:56   5    //ReadAllColumnFromTAPE7
+2014/02/12 01:11:56   4    ReadAllColumnFromTAPE7 done
+2014/02/12 01:11:56   5    ReadAllColumnFromTAPE7
+2014/02/12 01:11:56   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:11:56   6    //ReadAllColumnFromTAPE7
+2014/02/12 01:11:56   5    ReadAllColumnFromTAPE7 done
+2014/02/12 01:11:56   0    Albedo[i] done
+2014/02/12 01:11:56   6    ReadAllColumnFromTAPE7
+2014/02/12 01:11:56   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:11:56   7    //ReadAllColumnFromTAPE7
+2014/02/12 01:11:56   6    ReadAllColumnFromTAPE7 done
+2014/02/12 01:11:56   1    Albedo[i] done
+2014/02/12 01:11:56   GenRespFunction     
+2014/02/12 01:11:56   1    //genResp done
+2014/02/12 01:11:56   2    //genResp done
+2014/02/12 01:11:56   3    //genResp done
+2014/02/12 01:11:56   4    //genResp done
+2014/02/12 01:11:56   5    //genResp done
+2014/02/12 01:11:56   6    //genResp done
+2014/02/12 01:11:56   7    //genResp done
+2014/02/12 01:11:56   GenRespFunction done     
+2014/02/12 01:11:56   CovBavePath Done     
+2014/02/12 01:11:56   SensorProcessNoise done     
+2014/02/12 01:11:57   SensorProcessNoise done     
+2014/02/12 01:11:57   SensorProcessNoise done     
+2014/02/12 01:11:57   SensorProcessNoise done     
+2014/02/12 01:11:57   Adding Noise Done     
+2014/02/12 01:11:57   SensorProcessNoise done     
+2014/02/12 01:11:57   LT, SNR output Done     
+2014/02/12 01:11:57   3266.9    low
+2014/02/12 01:11:57   w calculation Done     
+2014/02/12 01:11:57   0.278514    MT
+2014/02/12 01:11:57   0.00272574    CT
+2014/02/12 01:11:57   -0.000662631    MBi
+2014/02/12 01:11:57   0.000227667    CBi
+2014/02/12 01:11:57   -0.0108158    MBi
+2014/02/12 01:11:57   0.00267498    CBi
+2014/02/12 01:11:57   0.0496616    MBi
+2014/02/12 01:11:57   0.00163484    CBi
+2014/02/12 01:11:57   LinearInterpolation1D Done     
+2014/02/12 01:11:57   LinearInterpolation1D Done     
+
+
+
+2014/02/12 01:14:26   FileDir setting completed.     
+2014/02/12 01:14:26   Background construct over     
+2014/02/12 01:14:26   Target construct over     
+2014/02/12 01:14:26   Scene construct over     
+2014/02/12 01:14:26   Sensor construct over     
+2014/02/12 01:14:26   Processing construct over     
+2014/02/12 01:14:26   readWavelengthsMeansandCov Done     
+2014/02/12 01:14:26   LinearInterpolation1D Done     
+2014/02/12 01:14:26   LinearInterpolation2D Done     
+2014/02/12 01:14:26   1    //Writespec_albFile background
+2014/02/12 01:14:27   0    //MeansB[i] done
+2014/02/12 01:14:27   0    ReadAllColumnFromTAPE7
+2014/02/12 01:14:27   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:14:27   1    //ReadAllColumnFromTAPE7
+2014/02/12 01:14:27   0    ReadAllColumnFromTAPE7 done
+2014/02/12 01:14:27   readWavelengthsMeansandCov Done     
+2014/02/12 01:14:27   LinearInterpolation1D Done     
+2014/02/12 01:14:27   LinearInterpolation2D Done     
+2014/02/12 01:14:27   1    //Writespec_albFile background
+2014/02/12 01:14:27   1    //MeansB[i] done
+2014/02/12 01:14:27   1    ReadAllColumnFromTAPE7
+2014/02/12 01:14:27   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:14:27   2    //ReadAllColumnFromTAPE7
+2014/02/12 01:14:27   1    ReadAllColumnFromTAPE7 done
+2014/02/12 01:14:27   readWavelengthsMeansandCov Done     
+2014/02/12 01:14:27   LinearInterpolation1D Done     
+2014/02/12 01:14:27   LinearInterpolation2D Done     
+2014/02/12 01:14:27   1    //Writespec_albFile background
+2014/02/12 01:14:28   2    //MeansB[i] done
+2014/02/12 01:14:28   2    ReadAllColumnFromTAPE7
+2014/02/12 01:14:28   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:14:28   3    //ReadAllColumnFromTAPE7
+2014/02/12 01:14:28   2    ReadAllColumnFromTAPE7 done
+2014/02/12 01:14:28   1    //Writespec_albFile background mean
+2014/02/12 01:14:28   avg    //MeansBavg done
+2014/02/12 01:14:28   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:14:28   4    //ReadAllColumnFromTAPE7
+2014/02/12 01:14:29   readWavelengthsMeansandCov Done     
+2014/02/12 01:14:29   LinearInterpolation1D Done     
+2014/02/12 01:14:29   LinearInterpolation2D Done     
+2014/02/12 01:14:29   3    //target in black NO.
+2014/02/12 01:14:29   1    //Writespec_albFile T in B
+2014/02/12 01:14:29   4    ReadAllColumnFromTAPE7
+2014/02/12 01:14:29   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:14:29   5    //ReadAllColumnFromTAPE7
+2014/02/12 01:14:29   4    ReadAllColumnFromTAPE7 done
+2014/02/12 01:14:29   5    ReadAllColumnFromTAPE7
+2014/02/12 01:14:29   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:14:30   6    //ReadAllColumnFromTAPE7
+2014/02/12 01:14:30   5    ReadAllColumnFromTAPE7 done
+2014/02/12 01:14:30   0    Albedo[i] done
+2014/02/12 01:14:30   6    ReadAllColumnFromTAPE7
+2014/02/12 01:14:30   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:14:30   7    //ReadAllColumnFromTAPE7
+2014/02/12 01:14:30   6    ReadAllColumnFromTAPE7 done
+2014/02/12 01:14:30   1    Albedo[i] done
+2014/02/12 01:14:30   GenRespFunction     
+2014/02/12 01:14:30   1    //genResp done
+2014/02/12 01:14:30   2    //genResp done
+2014/02/12 01:14:30   3    //genResp done
+2014/02/12 01:14:30   4    //genResp done
+2014/02/12 01:14:30   5    //genResp done
+2014/02/12 01:14:30   6    //genResp done
+2014/02/12 01:14:30   7    //genResp done
+2014/02/12 01:14:30   GenRespFunction done     
+2014/02/12 01:14:30   CovBavePath Done     
+2014/02/12 01:14:30   SensorProcessNoise done     
+2014/02/12 01:14:30   SensorProcessNoise done     
+2014/02/12 01:14:30   SensorProcessNoise done     
+2014/02/12 01:14:30   SensorProcessNoise done     
+2014/02/12 01:14:30   Adding Noise Done     
+2014/02/12 01:14:30   SensorProcessNoise done     
+2014/02/12 01:14:30   LT, SNR output Done     
+2014/02/12 01:14:30   3266.9    low
+2014/02/12 01:14:30   w calculation Done     
+2014/02/12 01:14:30   0.278514    MT
+2014/02/12 01:14:30   0.00272574    CT
+2014/02/12 01:14:30   -0.000662631    MBi
+2014/02/12 01:14:30   0.000227667    CBi
+2014/02/12 01:14:30   -0.0108158    MBi
+2014/02/12 01:14:30   0.00267498    CBi
+2014/02/12 01:14:30   0.0496616    MBi
+2014/02/12 01:14:30   0.00163484    CBi
+2014/02/12 01:14:30   LinearInterpolation1D Done     
+2014/02/12 01:14:30   LinearInterpolation1D Done     
+
+
+
+2014/02/12 01:14:36   FileDir setting completed.     
+2014/02/12 01:14:36   Background construct over     
+2014/02/12 01:14:36   Target construct over     
+2014/02/12 01:14:36   Scene construct over     
+2014/02/12 01:14:36   Sensor construct over     
+2014/02/12 01:14:36   Processing construct over     
+2014/02/12 01:14:36   readWavelengthsMeansandCov Done     
+2014/02/12 01:14:36   LinearInterpolation1D Done     
+2014/02/12 01:14:36   LinearInterpolation2D Done     
+2014/02/12 01:14:36   1    //Writespec_albFile background
+2014/02/12 01:14:37   0    //MeansB[i] done
+2014/02/12 01:14:37   0    ReadAllColumnFromTAPE7
+2014/02/12 01:14:37   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:14:37   1    //ReadAllColumnFromTAPE7
+2014/02/12 01:14:37   0    ReadAllColumnFromTAPE7 done
+2014/02/12 01:14:37   readWavelengthsMeansandCov Done     
+2014/02/12 01:14:37   LinearInterpolation1D Done     
+2014/02/12 01:14:37   LinearInterpolation2D Done     
+2014/02/12 01:14:37   1    //Writespec_albFile background
+2014/02/12 01:14:37   1    //MeansB[i] done
+2014/02/12 01:14:37   1    ReadAllColumnFromTAPE7
+2014/02/12 01:14:37   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:14:37   2    //ReadAllColumnFromTAPE7
+2014/02/12 01:14:37   1    ReadAllColumnFromTAPE7 done
+2014/02/12 01:14:37   readWavelengthsMeansandCov Done     
+2014/02/12 01:14:37   LinearInterpolation1D Done     
+2014/02/12 01:14:37   LinearInterpolation2D Done     
+2014/02/12 01:14:37   1    //Writespec_albFile background
+2014/02/12 01:14:38   2    //MeansB[i] done
+2014/02/12 01:14:38   2    ReadAllColumnFromTAPE7
+2014/02/12 01:14:38   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:14:38   3    //ReadAllColumnFromTAPE7
+2014/02/12 01:14:38   2    ReadAllColumnFromTAPE7 done
+2014/02/12 01:14:38   1    //Writespec_albFile background mean
+2014/02/12 01:14:38   avg    //MeansBavg done
+2014/02/12 01:14:38   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:14:38   4    //ReadAllColumnFromTAPE7
+2014/02/12 01:14:39   readWavelengthsMeansandCov Done     
+2014/02/12 01:14:39   LinearInterpolation1D Done     
+2014/02/12 01:14:39   LinearInterpolation2D Done     
+2014/02/12 01:14:39   3    //target in black NO.
+2014/02/12 01:14:39   1    //Writespec_albFile T in B
+2014/02/12 01:14:39   4    ReadAllColumnFromTAPE7
+2014/02/12 01:14:39   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:14:39   5    //ReadAllColumnFromTAPE7
+2014/02/12 01:14:39   4    ReadAllColumnFromTAPE7 done
+2014/02/12 01:14:39   5    ReadAllColumnFromTAPE7
+2014/02/12 01:14:39   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:14:39   6    //ReadAllColumnFromTAPE7
+2014/02/12 01:14:39   5    ReadAllColumnFromTAPE7 done
+2014/02/12 01:14:39   0    Albedo[i] done
+2014/02/12 01:14:40   6    ReadAllColumnFromTAPE7
+2014/02/12 01:14:40   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:14:40   7    //ReadAllColumnFromTAPE7
+2014/02/12 01:14:40   6    ReadAllColumnFromTAPE7 done
+2014/02/12 01:14:40   1    Albedo[i] done
+2014/02/12 01:14:40   GenRespFunction     
+2014/02/12 01:14:40   1    //genResp done
+2014/02/12 01:14:40   2    //genResp done
+2014/02/12 01:14:40   3    //genResp done
+2014/02/12 01:14:40   4    //genResp done
+2014/02/12 01:14:40   5    //genResp done
+2014/02/12 01:14:40   6    //genResp done
+2014/02/12 01:14:40   7    //genResp done
+2014/02/12 01:14:40   GenRespFunction done     
+2014/02/12 01:14:40   CovBavePath Done     
+2014/02/12 01:14:40   SensorProcessNoise done     
+2014/02/12 01:14:40   SensorProcessNoise done     
+2014/02/12 01:14:40   SensorProcessNoise done     
+2014/02/12 01:14:40   SensorProcessNoise done     
+2014/02/12 01:14:40   Adding Noise Done     
+2014/02/12 01:14:40   SensorProcessNoise done     
+2014/02/12 01:14:40   LT, SNR output Done     
+2014/02/12 01:14:42   -1.#IND    low
+2014/02/12 01:14:42   w calculation Done     
+2014/02/12 01:14:42   -1.#IND    MT
+2014/02/12 01:14:42   -1.#IND    CT
+2014/02/12 01:14:42   -1.#IND    MBi
+2014/02/12 01:14:42   -1.#IND    CBi
+2014/02/12 01:14:42   -1.#IND    MBi
+2014/02/12 01:14:42   -1.#IND    CBi
+2014/02/12 01:14:43   -1.#IND    MBi
+2014/02/12 01:14:43   -1.#IND    CBi
+2014/02/12 01:15:28   FileDir setting completed.     
+2014/02/12 01:15:28   Background construct over     
+2014/02/12 01:15:28   Target construct over     
+2014/02/12 01:15:28   Scene construct over     
+2014/02/12 01:15:28   Sensor construct over     
+2014/02/12 01:15:28   Processing construct over     
+2014/02/12 01:15:28   readWavelengthsMeansandCov Done     
+2014/02/12 01:15:28   LinearInterpolation1D Done     
+2014/02/12 01:15:28   LinearInterpolation2D Done     
+2014/02/12 01:15:28   1    //Writespec_albFile background
+2014/02/12 01:15:29   0    //MeansB[i] done
+2014/02/12 01:15:29   0    ReadAllColumnFromTAPE7
+2014/02/12 01:15:29   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:15:29   1    //ReadAllColumnFromTAPE7
+2014/02/12 01:15:29   0    ReadAllColumnFromTAPE7 done
+2014/02/12 01:15:29   readWavelengthsMeansandCov Done     
+2014/02/12 01:15:29   LinearInterpolation1D Done     
+2014/02/12 01:15:29   LinearInterpolation2D Done     
+2014/02/12 01:15:29   1    //Writespec_albFile background
+2014/02/12 01:15:30   1    //MeansB[i] done
+2014/02/12 01:15:30   1    ReadAllColumnFromTAPE7
+2014/02/12 01:15:30   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:15:30   2    //ReadAllColumnFromTAPE7
+2014/02/12 01:15:30   1    ReadAllColumnFromTAPE7 done
+2014/02/12 01:15:30   readWavelengthsMeansandCov Done     
+2014/02/12 01:15:30   LinearInterpolation1D Done     
+2014/02/12 01:15:30   LinearInterpolation2D Done     
+2014/02/12 01:15:30   1    //Writespec_albFile background
+2014/02/12 01:15:30   2    //MeansB[i] done
+2014/02/12 01:15:30   2    ReadAllColumnFromTAPE7
+2014/02/12 01:15:30   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:15:30   3    //ReadAllColumnFromTAPE7
+2014/02/12 01:15:30   2    ReadAllColumnFromTAPE7 done
+2014/02/12 01:15:30   1    //Writespec_albFile background mean
+2014/02/12 01:15:31   avg    //MeansBavg done
+2014/02/12 01:15:31   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:15:31   4    //ReadAllColumnFromTAPE7
+2014/02/12 01:15:31   readWavelengthsMeansandCov Done     
+2014/02/12 01:15:31   LinearInterpolation1D Done     
+2014/02/12 01:15:31   LinearInterpolation2D Done     
+2014/02/12 01:15:31   3    //target in black NO.
+2014/02/12 01:15:31   1    //Writespec_albFile T in B
+2014/02/12 01:15:31   4    ReadAllColumnFromTAPE7
+2014/02/12 01:15:31   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:15:31   5    //ReadAllColumnFromTAPE7
+2014/02/12 01:15:31   4    ReadAllColumnFromTAPE7 done
+2014/02/12 01:15:32   5    ReadAllColumnFromTAPE7
+2014/02/12 01:15:32   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:15:32   6    //ReadAllColumnFromTAPE7
+2014/02/12 01:15:32   5    ReadAllColumnFromTAPE7 done
+2014/02/12 01:15:32   0    Albedo[i] done
+2014/02/12 01:15:32   6    ReadAllColumnFromTAPE7
+2014/02/12 01:15:32   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:15:32   7    //ReadAllColumnFromTAPE7
+2014/02/12 01:15:32   6    ReadAllColumnFromTAPE7 done
+2014/02/12 01:15:32   1    Albedo[i] done
+2014/02/12 01:15:32   GenRespFunction     
+2014/02/12 01:15:32   1    //genResp done
+2014/02/12 01:15:32   2    //genResp done
+2014/02/12 01:15:32   3    //genResp done
+2014/02/12 01:15:32   4    //genResp done
+2014/02/12 01:15:32   5    //genResp done
+2014/02/12 01:15:32   6    //genResp done
+2014/02/12 01:15:32   7    //genResp done
+2014/02/12 01:15:32   GenRespFunction done     
+2014/02/12 01:15:32   CovBavePath Done     
+2014/02/12 01:15:32   SensorProcessNoise done     
+2014/02/12 01:15:32   SensorProcessNoise done     
+2014/02/12 01:15:32   SensorProcessNoise done     
+2014/02/12 01:15:32   SensorProcessNoise done     
+2014/02/12 01:15:32   Adding Noise Done     
+2014/02/12 01:15:32   SensorProcessNoise done     
+2014/02/12 01:15:32   LT, SNR output Done     
+2014/02/12 01:15:32   3266.9    low
+2014/02/12 01:15:32   w calculation Done     
+2014/02/12 01:15:32   0.278514    MT
+2014/02/12 01:15:32   0.00272574    CT
+2014/02/12 01:15:32   -0.000662631    MBi
+2014/02/12 01:15:32   0.000227667    CBi
+2014/02/12 01:15:32   -0.0108158    MBi
+2014/02/12 01:15:32   0.00267498    CBi
+2014/02/12 01:15:32   0.0496616    MBi
+2014/02/12 01:15:32   0.00163484    CBi
+2014/02/12 01:15:32   LinearInterpolation1D Done     
+2014/02/12 01:15:32   LinearInterpolation1D Done     
+
+
+
+2014/02/12 01:16:49   FileDir setting completed.     
+2014/02/12 01:16:49   Background construct over     
+2014/02/12 01:16:49   Target construct over     
+2014/02/12 01:16:49   Scene construct over     
+2014/02/12 01:16:49   Sensor construct over     
+2014/02/12 01:16:49   Processing construct over     
+2014/02/12 01:16:49   readWavelengthsMeansandCov Done     
+2014/02/12 01:16:49   LinearInterpolation1D Done     
+2014/02/12 01:16:49   LinearInterpolation2D Done     
+2014/02/12 01:16:49   1    //Writespec_albFile background
+2014/02/12 01:16:50   0    //MeansB[i] done
+2014/02/12 01:16:50   0    ReadAllColumnFromTAPE7
+2014/02/12 01:16:50   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:16:50   1    //ReadAllColumnFromTAPE7
+2014/02/12 01:16:50   0    ReadAllColumnFromTAPE7 done
+2014/02/12 01:16:50   readWavelengthsMeansandCov Done     
+2014/02/12 01:16:50   LinearInterpolation1D Done     
+2014/02/12 01:16:50   LinearInterpolation2D Done     
+2014/02/12 01:16:50   1    //Writespec_albFile background
+2014/02/12 01:16:50   1    //MeansB[i] done
+2014/02/12 01:16:50   1    ReadAllColumnFromTAPE7
+2014/02/12 01:16:50   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:16:50   2    //ReadAllColumnFromTAPE7
+2014/02/12 01:16:50   1    ReadAllColumnFromTAPE7 done
+2014/02/12 01:16:50   readWavelengthsMeansandCov Done     
+2014/02/12 01:16:50   LinearInterpolation1D Done     
+2014/02/12 01:16:50   LinearInterpolation2D Done     
+2014/02/12 01:16:50   1    //Writespec_albFile background
+2014/02/12 01:16:51   2    //MeansB[i] done
+2014/02/12 01:16:51   2    ReadAllColumnFromTAPE7
+2014/02/12 01:16:51   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:16:51   3    //ReadAllColumnFromTAPE7
+2014/02/12 01:16:51   2    ReadAllColumnFromTAPE7 done
+2014/02/12 01:16:51   1    //Writespec_albFile background mean
+2014/02/12 01:16:51   avg    //MeansBavg done
+2014/02/12 01:16:51   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:16:51   4    //ReadAllColumnFromTAPE7
+2014/02/12 01:16:51   readWavelengthsMeansandCov Done     
+2014/02/12 01:16:51   LinearInterpolation1D Done     
+2014/02/12 01:16:51   LinearInterpolation2D Done     
+2014/02/12 01:16:51   3    //target in black NO.
+2014/02/12 01:16:51   1    //Writespec_albFile T in B
+2014/02/12 01:16:52   4    ReadAllColumnFromTAPE7
+2014/02/12 01:16:52   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:16:52   5    //ReadAllColumnFromTAPE7
+2014/02/12 01:16:52   4    ReadAllColumnFromTAPE7 done
+2014/02/12 01:16:52   5    ReadAllColumnFromTAPE7
+2014/02/12 01:16:52   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:16:52   6    //ReadAllColumnFromTAPE7
+2014/02/12 01:16:52   5    ReadAllColumnFromTAPE7 done
+2014/02/12 01:16:52   0    Albedo[i] done
+2014/02/12 01:16:53   6    ReadAllColumnFromTAPE7
+2014/02/12 01:16:53   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:16:53   7    //ReadAllColumnFromTAPE7
+2014/02/12 01:16:53   6    ReadAllColumnFromTAPE7 done
+2014/02/12 01:16:53   1    Albedo[i] done
+2014/02/12 01:16:53   GenRespFunction     
+2014/02/12 01:16:53   1    //genResp done
+2014/02/12 01:16:53   2    //genResp done
+2014/02/12 01:16:53   3    //genResp done
+2014/02/12 01:16:53   4    //genResp done
+2014/02/12 01:16:53   5    //genResp done
+2014/02/12 01:16:53   6    //genResp done
+2014/02/12 01:16:53   7    //genResp done
+2014/02/12 01:16:53   GenRespFunction done     
+2014/02/12 01:16:53   CovBavePath Done     
+2014/02/12 01:16:53   SensorProcessNoise done     
+2014/02/12 01:16:53   SensorProcessNoise done     
+2014/02/12 01:16:53   SensorProcessNoise done     
+2014/02/12 01:16:53   SensorProcessNoise done     
+2014/02/12 01:16:53   Adding Noise Done     
+2014/02/12 01:16:53   SensorProcessNoise done     
+2014/02/12 01:16:53   LT, SNR output Done     
+2014/02/12 01:16:53   3266.9    low
+2014/02/12 01:16:53   w calculation Done     
+2014/02/12 01:16:53   0.278514    MT
+2014/02/12 01:16:53   0.00272574    CT
+2014/02/12 01:16:53   -0.000662631    MBi
+2014/02/12 01:16:53   0.000227667    CBi
+2014/02/12 01:16:53   -0.0108158    MBi
+2014/02/12 01:16:53   0.00267498    CBi
+2014/02/12 01:16:53   0.0496616    MBi
+2014/02/12 01:16:53   0.00163484    CBi
+2014/02/12 01:16:53   LinearInterpolation1D Done     
+2014/02/12 01:16:53   LinearInterpolation1D Done     
+
+
+
+2014/02/12 01:16:57   FileDir setting completed.     
+2014/02/12 01:16:57   Background construct over     
+2014/02/12 01:16:57   Target construct over     
+2014/02/12 01:16:57   Scene construct over     
+2014/02/12 01:16:57   Sensor construct over     
+2014/02/12 01:16:57   Processing construct over     
+2014/02/12 01:16:57   readWavelengthsMeansandCov Done     
+2014/02/12 01:16:57   LinearInterpolation1D Done     
+2014/02/12 01:16:57   LinearInterpolation2D Done     
+2014/02/12 01:16:57   1    //Writespec_albFile background
+2014/02/12 01:16:57   0    //MeansB[i] done
+2014/02/12 01:16:57   0    ReadAllColumnFromTAPE7
+2014/02/12 01:16:57   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:16:57   1    //ReadAllColumnFromTAPE7
+2014/02/12 01:16:57   0    ReadAllColumnFromTAPE7 done
+2014/02/12 01:16:57   readWavelengthsMeansandCov Done     
+2014/02/12 01:16:57   LinearInterpolation1D Done     
+2014/02/12 01:16:57   LinearInterpolation2D Done     
+2014/02/12 01:16:57   1    //Writespec_albFile background
+2014/02/12 01:16:58   1    //MeansB[i] done
+2014/02/12 01:16:58   1    ReadAllColumnFromTAPE7
+2014/02/12 01:16:58   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:16:58   2    //ReadAllColumnFromTAPE7
+2014/02/12 01:16:58   1    ReadAllColumnFromTAPE7 done
+2014/02/12 01:16:58   readWavelengthsMeansandCov Done     
+2014/02/12 01:16:58   LinearInterpolation1D Done     
+2014/02/12 01:16:58   LinearInterpolation2D Done     
+2014/02/12 01:16:58   1    //Writespec_albFile background
+2014/02/12 01:16:58   2    //MeansB[i] done
+2014/02/12 01:16:58   2    ReadAllColumnFromTAPE7
+2014/02/12 01:16:58   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:16:58   3    //ReadAllColumnFromTAPE7
+2014/02/12 01:16:58   2    ReadAllColumnFromTAPE7 done
+2014/02/12 01:16:58   1    //Writespec_albFile background mean
+2014/02/12 01:16:59   avg    //MeansBavg done
+2014/02/12 01:16:59   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:16:59   4    //ReadAllColumnFromTAPE7
+2014/02/12 01:16:59   readWavelengthsMeansandCov Done     
+2014/02/12 01:16:59   LinearInterpolation1D Done     
+2014/02/12 01:16:59   LinearInterpolation2D Done     
+2014/02/12 01:16:59   3    //target in black NO.
+2014/02/12 01:16:59   1    //Writespec_albFile T in B
+2014/02/12 01:16:59   4    ReadAllColumnFromTAPE7
+2014/02/12 01:16:59   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:16:59   5    //ReadAllColumnFromTAPE7
+2014/02/12 01:16:59   4    ReadAllColumnFromTAPE7 done
+2014/02/12 01:17:00   5    ReadAllColumnFromTAPE7
+2014/02/12 01:17:00   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:17:00   6    //ReadAllColumnFromTAPE7
+2014/02/12 01:17:00   5    ReadAllColumnFromTAPE7 done
+2014/02/12 01:17:00   0    Albedo[i] done
+2014/02/12 01:17:00   6    ReadAllColumnFromTAPE7
+2014/02/12 01:17:00   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:17:00   7    //ReadAllColumnFromTAPE7
+2014/02/12 01:17:00   6    ReadAllColumnFromTAPE7 done
+2014/02/12 01:17:00   1    Albedo[i] done
+2014/02/12 01:17:00   GenRespFunction     
+2014/02/12 01:17:00   1    //genResp done
+2014/02/12 01:17:00   2    //genResp done
+2014/02/12 01:17:00   3    //genResp done
+2014/02/12 01:17:00   4    //genResp done
+2014/02/12 01:17:00   5    //genResp done
+2014/02/12 01:17:00   6    //genResp done
+2014/02/12 01:17:00   7    //genResp done
+2014/02/12 01:17:00   GenRespFunction done     
+2014/02/12 01:17:00   CovBavePath Done     
+2014/02/12 01:17:00   SensorProcessNoise done     
+2014/02/12 01:17:00   SensorProcessNoise done     
+2014/02/12 01:17:00   SensorProcessNoise done     
+2014/02/12 01:17:00   SensorProcessNoise done     
+2014/02/12 01:17:00   Adding Noise Done     
+2014/02/12 01:17:00   SensorProcessNoise done     
+2014/02/12 01:17:00   LT, SNR output Done     
+2014/02/12 01:17:00   3266.9    low
+2014/02/12 01:17:00   w calculation Done     
+2014/02/12 01:17:00   0.278514    MT
+2014/02/12 01:17:00   0.00272574    CT
+2014/02/12 01:17:00   -0.000662631    MBi
+2014/02/12 01:17:00   0.000227667    CBi
+2014/02/12 01:17:00   -0.0108158    MBi
+2014/02/12 01:17:00   0.00267498    CBi
+2014/02/12 01:17:00   0.0496616    MBi
+2014/02/12 01:17:00   0.00163484    CBi
+2014/02/12 01:17:00   LinearInterpolation1D Done     
+2014/02/12 01:17:00   LinearInterpolation1D Done     
+
+
+
+2014/02/12 01:17:06   FileDir setting completed.     
+2014/02/12 01:17:06   Background construct over     
+2014/02/12 01:17:06   Target construct over     
+2014/02/12 01:17:06   Scene construct over     
+2014/02/12 01:17:06   Sensor construct over     
+2014/02/12 01:17:06   Processing construct over     
+2014/02/12 01:17:06   readWavelengthsMeansandCov Done     
+2014/02/12 01:17:06   LinearInterpolation1D Done     
+2014/02/12 01:17:06   LinearInterpolation2D Done     
+2014/02/12 01:17:06   1    //Writespec_albFile background
+2014/02/12 01:17:06   0    //MeansB[i] done
+2014/02/12 01:17:06   0    ReadAllColumnFromTAPE7
+2014/02/12 01:17:06   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:17:06   1    //ReadAllColumnFromTAPE7
+2014/02/12 01:17:06   0    ReadAllColumnFromTAPE7 done
+2014/02/12 01:17:06   readWavelengthsMeansandCov Done     
+2014/02/12 01:17:06   LinearInterpolation1D Done     
+2014/02/12 01:17:06   LinearInterpolation2D Done     
+2014/02/12 01:17:06   1    //Writespec_albFile background
+2014/02/12 01:17:07   1    //MeansB[i] done
+2014/02/12 01:17:07   1    ReadAllColumnFromTAPE7
+2014/02/12 01:17:07   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:17:07   2    //ReadAllColumnFromTAPE7
+2014/02/12 01:17:07   1    ReadAllColumnFromTAPE7 done
+2014/02/12 01:17:07   readWavelengthsMeansandCov Done     
+2014/02/12 01:17:07   LinearInterpolation1D Done     
+2014/02/12 01:17:07   LinearInterpolation2D Done     
+2014/02/12 01:17:07   1    //Writespec_albFile background
+2014/02/12 01:17:07   2    //MeansB[i] done
+2014/02/12 01:17:07   2    ReadAllColumnFromTAPE7
+2014/02/12 01:17:07   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:17:07   3    //ReadAllColumnFromTAPE7
+2014/02/12 01:17:07   2    ReadAllColumnFromTAPE7 done
+2014/02/12 01:17:07   1    //Writespec_albFile background mean
+2014/02/12 01:17:08   avg    //MeansBavg done
+2014/02/12 01:17:08   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:17:08   4    //ReadAllColumnFromTAPE7
+2014/02/12 01:17:08   readWavelengthsMeansandCov Done     
+2014/02/12 01:17:08   LinearInterpolation1D Done     
+2014/02/12 01:17:08   LinearInterpolation2D Done     
+2014/02/12 01:17:08   3    //target in black NO.
+2014/02/12 01:17:08   1    //Writespec_albFile T in B
+2014/02/12 01:17:08   4    ReadAllColumnFromTAPE7
+2014/02/12 01:17:08   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:17:08   5    //ReadAllColumnFromTAPE7
+2014/02/12 01:17:08   4    ReadAllColumnFromTAPE7 done
+2014/02/12 01:17:09   5    ReadAllColumnFromTAPE7
+2014/02/12 01:17:09   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:17:09   6    //ReadAllColumnFromTAPE7
+2014/02/12 01:17:09   5    ReadAllColumnFromTAPE7 done
+2014/02/12 01:17:09   0    Albedo[i] done
+2014/02/12 01:17:09   6    ReadAllColumnFromTAPE7
+2014/02/12 01:17:09   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:17:09   7    //ReadAllColumnFromTAPE7
+2014/02/12 01:17:09   6    ReadAllColumnFromTAPE7 done
+2014/02/12 01:17:09   1    Albedo[i] done
+2014/02/12 01:17:09   GenRespFunction     
+2014/02/12 01:17:09   1    //genResp done
+2014/02/12 01:17:09   2    //genResp done
+2014/02/12 01:17:09   3    //genResp done
+2014/02/12 01:17:09   4    //genResp done
+2014/02/12 01:17:09   5    //genResp done
+2014/02/12 01:17:09   6    //genResp done
+2014/02/12 01:17:09   7    //genResp done
+2014/02/12 01:17:09   GenRespFunction done     
+2014/02/12 01:17:09   CovBavePath Done     
+2014/02/12 01:17:09   SensorProcessNoise done     
+2014/02/12 01:17:09   SensorProcessNoise done     
+2014/02/12 01:17:09   SensorProcessNoise done     
+2014/02/12 01:17:09   SensorProcessNoise done     
+2014/02/12 01:17:09   Adding Noise Done     
+2014/02/12 01:17:09   SensorProcessNoise done     
+2014/02/12 01:17:09   LT, SNR output Done     
+2014/02/12 01:17:09   3266.9    low
+2014/02/12 01:17:09   w calculation Done     
+2014/02/12 01:17:09   0.278514    MT
+2014/02/12 01:17:09   0.00272574    CT
+2014/02/12 01:17:09   -0.000662631    MBi
+2014/02/12 01:17:09   0.000227667    CBi
+2014/02/12 01:17:09   -0.0108158    MBi
+2014/02/12 01:17:09   0.00267498    CBi
+2014/02/12 01:17:09   0.0496616    MBi
+2014/02/12 01:17:09   0.00163484    CBi
+2014/02/12 01:17:09   LinearInterpolation1D Done     
+2014/02/12 01:17:09   LinearInterpolation1D Done     
+
+
+
+2014/02/12 01:17:22   FileDir setting completed.     
+2014/02/12 01:17:22   Background construct over     
+2014/02/12 01:17:22   Target construct over     
+2014/02/12 01:17:22   Scene construct over     
+2014/02/12 01:17:22   Sensor construct over     
+2014/02/12 01:17:22   Processing construct over     
+2014/02/12 01:17:22   readWavelengthsMeansandCov Done     
+2014/02/12 01:17:22   LinearInterpolation1D Done     
+2014/02/12 01:17:22   LinearInterpolation2D Done     
+2014/02/12 01:17:22   1    //Writespec_albFile background
+2014/02/12 01:17:23   0    //MeansB[i] done
+2014/02/12 01:17:23   0    ReadAllColumnFromTAPE7
+2014/02/12 01:17:23   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:17:23   1    //ReadAllColumnFromTAPE7
+2014/02/12 01:17:23   0    ReadAllColumnFromTAPE7 done
+2014/02/12 01:17:23   readWavelengthsMeansandCov Done     
+2014/02/12 01:17:23   LinearInterpolation1D Done     
+2014/02/12 01:17:23   LinearInterpolation2D Done     
+2014/02/12 01:17:23   1    //Writespec_albFile background
+2014/02/12 01:17:23   1    //MeansB[i] done
+2014/02/12 01:17:23   1    ReadAllColumnFromTAPE7
+2014/02/12 01:17:23   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:17:23   2    //ReadAllColumnFromTAPE7
+2014/02/12 01:17:23   1    ReadAllColumnFromTAPE7 done
+2014/02/12 01:17:23   readWavelengthsMeansandCov Done     
+2014/02/12 01:17:23   LinearInterpolation1D Done     
+2014/02/12 01:17:23   LinearInterpolation2D Done     
+2014/02/12 01:17:23   1    //Writespec_albFile background
+2014/02/12 01:17:24   2    //MeansB[i] done
+2014/02/12 01:17:24   2    ReadAllColumnFromTAPE7
+2014/02/12 01:17:24   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:17:24   3    //ReadAllColumnFromTAPE7
+2014/02/12 01:17:24   2    ReadAllColumnFromTAPE7 done
+2014/02/12 01:17:24   1    //Writespec_albFile background mean
+2014/02/12 01:17:24   avg    //MeansBavg done
+2014/02/12 01:17:24   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:17:24   4    //ReadAllColumnFromTAPE7
+2014/02/12 01:17:24   readWavelengthsMeansandCov Done     
+2014/02/12 01:17:24   LinearInterpolation1D Done     
+2014/02/12 01:17:24   LinearInterpolation2D Done     
+2014/02/12 01:17:24   3    //target in black NO.
+2014/02/12 01:17:24   1    //Writespec_albFile T in B
+2014/02/12 01:17:25   4    ReadAllColumnFromTAPE7
+2014/02/12 01:17:25   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:17:25   5    //ReadAllColumnFromTAPE7
+2014/02/12 01:17:25   4    ReadAllColumnFromTAPE7 done
+2014/02/12 01:17:25   5    ReadAllColumnFromTAPE7
+2014/02/12 01:17:25   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:17:25   6    //ReadAllColumnFromTAPE7
+2014/02/12 01:17:25   5    ReadAllColumnFromTAPE7 done
+2014/02/12 01:17:25   0    Albedo[i] done
+2014/02/12 01:17:26   6    ReadAllColumnFromTAPE7
+2014/02/12 01:17:26   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:17:26   7    //ReadAllColumnFromTAPE7
+2014/02/12 01:17:26   6    ReadAllColumnFromTAPE7 done
+2014/02/12 01:17:26   1    Albedo[i] done
+2014/02/12 01:17:26   GenRespFunction     
+2014/02/12 01:17:26   1    //genResp done
+2014/02/12 01:17:26   2    //genResp done
+2014/02/12 01:17:26   3    //genResp done
+2014/02/12 01:17:26   4    //genResp done
+2014/02/12 01:17:26   5    //genResp done
+2014/02/12 01:17:26   6    //genResp done
+2014/02/12 01:17:26   7    //genResp done
+2014/02/12 01:17:26   GenRespFunction done     
+2014/02/12 01:17:26   CovBavePath Done     
+2014/02/12 01:17:26   SensorProcessNoise done     
+2014/02/12 01:17:26   SensorProcessNoise done     
+2014/02/12 01:17:26   SensorProcessNoise done     
+2014/02/12 01:17:26   SensorProcessNoise done     
+2014/02/12 01:17:26   Adding Noise Done     
+2014/02/12 01:17:26   SensorProcessNoise done     
+2014/02/12 01:17:26   LT, SNR output Done     
+2014/02/12 01:17:26   3266.9    low
+2014/02/12 01:17:26   w calculation Done     
+2014/02/12 01:17:26   0.278514    MT
+2014/02/12 01:17:26   0.00272574    CT
+2014/02/12 01:17:26   -0.000662631    MBi
+2014/02/12 01:17:26   0.000227667    CBi
+2014/02/12 01:17:26   -0.0108158    MBi
+2014/02/12 01:17:26   0.00267498    CBi
+2014/02/12 01:17:26   0.0496616    MBi
+2014/02/12 01:17:26   0.00163484    CBi
+2014/02/12 01:17:26   LinearInterpolation1D Done     
+2014/02/12 01:17:26   LinearInterpolation1D Done     
+
+
+
+2014/02/12 01:17:32   FileDir setting completed.     
+2014/02/12 01:17:32   Background construct over     
+2014/02/12 01:17:32   Target construct over     
+2014/02/12 01:17:32   Scene construct over     
+2014/02/12 01:17:32   Sensor construct over     
+2014/02/12 01:17:32   Processing construct over     
+2014/02/12 01:17:33   readWavelengthsMeansandCov Done     
+2014/02/12 01:17:33   LinearInterpolation1D Done     
+2014/02/12 01:17:33   LinearInterpolation2D Done     
+2014/02/12 01:17:33   1    //Writespec_albFile background
+2014/02/12 01:17:33   0    //MeansB[i] done
+2014/02/12 01:17:33   0    ReadAllColumnFromTAPE7
+2014/02/12 01:17:33   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:17:33   1    //ReadAllColumnFromTAPE7
+2014/02/12 01:17:33   0    ReadAllColumnFromTAPE7 done
+2014/02/12 01:17:33   readWavelengthsMeansandCov Done     
+2014/02/12 01:17:33   LinearInterpolation1D Done     
+2014/02/12 01:17:33   LinearInterpolation2D Done     
+2014/02/12 01:17:33   1    //Writespec_albFile background
+2014/02/12 01:17:34   1    //MeansB[i] done
+2014/02/12 01:17:34   1    ReadAllColumnFromTAPE7
+2014/02/12 01:17:34   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:17:34   2    //ReadAllColumnFromTAPE7
+2014/02/12 01:17:34   1    ReadAllColumnFromTAPE7 done
+2014/02/12 01:17:34   readWavelengthsMeansandCov Done     
+2014/02/12 01:17:34   LinearInterpolation1D Done     
+2014/02/12 01:17:34   LinearInterpolation2D Done     
+2014/02/12 01:17:34   1    //Writespec_albFile background
+2014/02/12 01:17:34   2    //MeansB[i] done
+2014/02/12 01:17:34   2    ReadAllColumnFromTAPE7
+2014/02/12 01:17:34   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:17:34   3    //ReadAllColumnFromTAPE7
+2014/02/12 01:17:34   2    ReadAllColumnFromTAPE7 done
+2014/02/12 01:17:34   1    //Writespec_albFile background mean
+2014/02/12 01:17:35   avg    //MeansBavg done
+2014/02/12 01:17:35   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:17:35   4    //ReadAllColumnFromTAPE7
+2014/02/12 01:17:35   readWavelengthsMeansandCov Done     
+2014/02/12 01:17:35   LinearInterpolation1D Done     
+2014/02/12 01:17:35   LinearInterpolation2D Done     
+2014/02/12 01:17:35   3    //target in black NO.
+2014/02/12 01:17:35   1    //Writespec_albFile T in B
+2014/02/12 01:17:35   4    ReadAllColumnFromTAPE7
+2014/02/12 01:17:35   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:17:35   5    //ReadAllColumnFromTAPE7
+2014/02/12 01:17:35   4    ReadAllColumnFromTAPE7 done
+2014/02/12 01:17:36   5    ReadAllColumnFromTAPE7
+2014/02/12 01:17:36   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:17:36   6    //ReadAllColumnFromTAPE7
+2014/02/12 01:17:36   5    ReadAllColumnFromTAPE7 done
+2014/02/12 01:17:36   0    Albedo[i] done
+2014/02/12 01:17:36   6    ReadAllColumnFromTAPE7
+2014/02/12 01:17:36   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:17:36   7    //ReadAllColumnFromTAPE7
+2014/02/12 01:17:36   6    ReadAllColumnFromTAPE7 done
+2014/02/12 01:17:36   1    Albedo[i] done
+2014/02/12 01:17:36   GenRespFunction     
+2014/02/12 01:17:36   1    //genResp done
+2014/02/12 01:17:36   2    //genResp done
+2014/02/12 01:17:36   3    //genResp done
+2014/02/12 01:17:36   4    //genResp done
+2014/02/12 01:17:36   5    //genResp done
+2014/02/12 01:17:36   6    //genResp done
+2014/02/12 01:17:36   7    //genResp done
+2014/02/12 01:17:36   GenRespFunction done     
+2014/02/12 01:17:36   CovBavePath Done     
+2014/02/12 01:17:36   SensorProcessNoise done     
+2014/02/12 01:17:36   SensorProcessNoise done     
+2014/02/12 01:17:36   SensorProcessNoise done     
+2014/02/12 01:17:36   SensorProcessNoise done     
+2014/02/12 01:17:36   Adding Noise Done     
+2014/02/12 01:17:36   SensorProcessNoise done     
+2014/02/12 01:17:36   LT, SNR output Done     
+2014/02/12 01:17:36   3266.9    low
+2014/02/12 01:17:36   w calculation Done     
+2014/02/12 01:17:36   0.278514    MT
+2014/02/12 01:17:36   0.00272574    CT
+2014/02/12 01:17:36   -0.000662631    MBi
+2014/02/12 01:17:36   0.000227667    CBi
+2014/02/12 01:17:36   -0.0108158    MBi
+2014/02/12 01:17:36   0.00267498    CBi
+2014/02/12 01:17:36   0.0496616    MBi
+2014/02/12 01:17:36   0.00163484    CBi
+2014/02/12 01:17:36   LinearInterpolation1D Done     
+2014/02/12 01:17:36   LinearInterpolation1D Done     
+
+
+
+2014/02/12 01:17:50   FileDir setting completed.     
+2014/02/12 01:17:50   Background construct over     
+2014/02/12 01:17:50   Target construct over     
+2014/02/12 01:17:50   Scene construct over     
+2014/02/12 01:17:50   Sensor construct over     
+2014/02/12 01:17:50   Processing construct over     
+2014/02/12 01:17:50   readWavelengthsMeansandCov Done     
+2014/02/12 01:17:50   LinearInterpolation1D Done     
+2014/02/12 01:17:50   LinearInterpolation2D Done     
+2014/02/12 01:17:50   1    //Writespec_albFile background
+2014/02/12 01:17:50   0    //MeansB[i] done
+2014/02/12 01:17:50   0    ReadAllColumnFromTAPE7
+2014/02/12 01:17:50   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:17:50   1    //ReadAllColumnFromTAPE7
+2014/02/12 01:17:50   0    ReadAllColumnFromTAPE7 done
+2014/02/12 01:17:50   readWavelengthsMeansandCov Done     
+2014/02/12 01:17:50   LinearInterpolation1D Done     
+2014/02/12 01:17:50   LinearInterpolation2D Done     
+2014/02/12 01:17:50   1    //Writespec_albFile background
+2014/02/12 01:17:51   1    //MeansB[i] done
+2014/02/12 01:17:51   1    ReadAllColumnFromTAPE7
+2014/02/12 01:17:51   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:17:51   2    //ReadAllColumnFromTAPE7
+2014/02/12 01:17:51   1    ReadAllColumnFromTAPE7 done
+2014/02/12 01:17:51   readWavelengthsMeansandCov Done     
+2014/02/12 01:17:51   LinearInterpolation1D Done     
+2014/02/12 01:17:51   LinearInterpolation2D Done     
+2014/02/12 01:17:51   1    //Writespec_albFile background
+2014/02/12 01:17:51   2    //MeansB[i] done
+2014/02/12 01:17:51   2    ReadAllColumnFromTAPE7
+2014/02/12 01:17:51   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:17:51   3    //ReadAllColumnFromTAPE7
+2014/02/12 01:17:51   2    ReadAllColumnFromTAPE7 done
+2014/02/12 01:17:51   1    //Writespec_albFile background mean
+2014/02/12 01:17:52   avg    //MeansBavg done
+2014/02/12 01:17:52   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:17:52   4    //ReadAllColumnFromTAPE7
+2014/02/12 01:17:52   readWavelengthsMeansandCov Done     
+2014/02/12 01:17:52   LinearInterpolation1D Done     
+2014/02/12 01:17:52   LinearInterpolation2D Done     
+2014/02/12 01:17:52   3    //target in black NO.
+2014/02/12 01:17:52   1    //Writespec_albFile T in B
+2014/02/12 01:17:53   4    ReadAllColumnFromTAPE7
+2014/02/12 01:17:53   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:17:53   5    //ReadAllColumnFromTAPE7
+2014/02/12 01:17:53   4    ReadAllColumnFromTAPE7 done
+2014/02/12 01:17:53   5    ReadAllColumnFromTAPE7
+2014/02/12 01:17:53   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:17:53   6    //ReadAllColumnFromTAPE7
+2014/02/12 01:17:53   5    ReadAllColumnFromTAPE7 done
+2014/02/12 01:17:53   0    Albedo[i] done
+2014/02/12 01:17:54   6    ReadAllColumnFromTAPE7
+2014/02/12 01:17:54   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:17:54   7    //ReadAllColumnFromTAPE7
+2014/02/12 01:17:54   6    ReadAllColumnFromTAPE7 done
+2014/02/12 01:17:54   1    Albedo[i] done
+2014/02/12 01:17:54   GenRespFunction     
+2014/02/12 01:17:54   1    //genResp done
+2014/02/12 01:17:54   2    //genResp done
+2014/02/12 01:17:54   3    //genResp done
+2014/02/12 01:17:54   4    //genResp done
+2014/02/12 01:17:54   5    //genResp done
+2014/02/12 01:17:54   6    //genResp done
+2014/02/12 01:17:54   7    //genResp done
+2014/02/12 01:17:54   GenRespFunction done     
+2014/02/12 01:17:54   CovBavePath Done     
+2014/02/12 01:17:54   SensorProcessNoise done     
+2014/02/12 01:17:54   SensorProcessNoise done     
+2014/02/12 01:17:54   SensorProcessNoise done     
+2014/02/12 01:17:54   SensorProcessNoise done     
+2014/02/12 01:17:54   Adding Noise Done     
+2014/02/12 01:17:54   SensorProcessNoise done     
+2014/02/12 01:17:54   LT, SNR output Done     
+2014/02/12 01:17:54   3266.9    low
+2014/02/12 01:17:54   w calculation Done     
+2014/02/12 01:17:54   0.278514    MT
+2014/02/12 01:17:54   0.00272574    CT
+2014/02/12 01:17:54   -0.000662631    MBi
+2014/02/12 01:17:54   0.000227667    CBi
+2014/02/12 01:17:54   -0.0108158    MBi
+2014/02/12 01:17:54   0.00267498    CBi
+2014/02/12 01:17:54   0.0496616    MBi
+2014/02/12 01:17:54   0.00163484    CBi
+2014/02/12 01:17:54   LinearInterpolation1D Done     
+2014/02/12 01:17:54   LinearInterpolation1D Done     
+
+
+
+2014/02/12 01:17:59   FileDir setting completed.     
+2014/02/12 01:17:59   Background construct over     
+2014/02/12 01:17:59   Target construct over     
+2014/02/12 01:17:59   Scene construct over     
+2014/02/12 01:17:59   Sensor construct over     
+2014/02/12 01:17:59   Processing construct over     
+2014/02/12 01:17:59   readWavelengthsMeansandCov Done     
+2014/02/12 01:17:59   LinearInterpolation1D Done     
+2014/02/12 01:17:59   LinearInterpolation2D Done     
+2014/02/12 01:17:59   1    //Writespec_albFile background
+2014/02/12 01:17:59   0    //MeansB[i] done
+2014/02/12 01:17:59   0    ReadAllColumnFromTAPE7
+2014/02/12 01:17:59   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:17:59   1    //ReadAllColumnFromTAPE7
+2014/02/12 01:17:59   0    ReadAllColumnFromTAPE7 done
+2014/02/12 01:17:59   readWavelengthsMeansandCov Done     
+2014/02/12 01:17:59   LinearInterpolation1D Done     
+2014/02/12 01:17:59   LinearInterpolation2D Done     
+2014/02/12 01:17:59   1    //Writespec_albFile background
+2014/02/12 01:18:00   1    //MeansB[i] done
+2014/02/12 01:18:00   1    ReadAllColumnFromTAPE7
+2014/02/12 01:18:00   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:18:00   2    //ReadAllColumnFromTAPE7
+2014/02/12 01:18:00   1    ReadAllColumnFromTAPE7 done
+2014/02/12 01:18:00   readWavelengthsMeansandCov Done     
+2014/02/12 01:18:00   LinearInterpolation1D Done     
+2014/02/12 01:18:00   LinearInterpolation2D Done     
+2014/02/12 01:18:00   1    //Writespec_albFile background
+2014/02/12 01:18:00   2    //MeansB[i] done
+2014/02/12 01:18:00   2    ReadAllColumnFromTAPE7
+2014/02/12 01:18:00   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:18:00   3    //ReadAllColumnFromTAPE7
+2014/02/12 01:18:00   2    ReadAllColumnFromTAPE7 done
+2014/02/12 01:18:00   1    //Writespec_albFile background mean
+2014/02/12 01:18:01   avg    //MeansBavg done
+2014/02/12 01:18:01   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:18:01   4    //ReadAllColumnFromTAPE7
+2014/02/12 01:18:01   readWavelengthsMeansandCov Done     
+2014/02/12 01:18:01   LinearInterpolation1D Done     
+2014/02/12 01:18:01   LinearInterpolation2D Done     
+2014/02/12 01:18:01   3    //target in black NO.
+2014/02/12 01:18:01   1    //Writespec_albFile T in B
+2014/02/12 01:18:01   4    ReadAllColumnFromTAPE7
+2014/02/12 01:18:01   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:18:01   5    //ReadAllColumnFromTAPE7
+2014/02/12 01:18:01   4    ReadAllColumnFromTAPE7 done
+2014/02/12 01:18:02   5    ReadAllColumnFromTAPE7
+2014/02/12 01:18:02   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:18:02   6    //ReadAllColumnFromTAPE7
+2014/02/12 01:18:02   5    ReadAllColumnFromTAPE7 done
+2014/02/12 01:18:02   0    Albedo[i] done
+2014/02/12 01:18:02   6    ReadAllColumnFromTAPE7
+2014/02/12 01:18:02   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:18:02   7    //ReadAllColumnFromTAPE7
+2014/02/12 01:18:02   6    ReadAllColumnFromTAPE7 done
+2014/02/12 01:18:02   1    Albedo[i] done
+2014/02/12 01:18:02   GenRespFunction     
+2014/02/12 01:18:02   1    //genResp done
+2014/02/12 01:18:02   2    //genResp done
+2014/02/12 01:18:02   3    //genResp done
+2014/02/12 01:18:02   4    //genResp done
+2014/02/12 01:18:02   5    //genResp done
+2014/02/12 01:18:02   6    //genResp done
+2014/02/12 01:18:02   7    //genResp done
+2014/02/12 01:18:02   GenRespFunction done     
+2014/02/12 01:18:02   CovBavePath Done     
+2014/02/12 01:18:02   SensorProcessNoise done     
+2014/02/12 01:18:02   SensorProcessNoise done     
+2014/02/12 01:18:02   SensorProcessNoise done     
+2014/02/12 01:18:02   SensorProcessNoise done     
+2014/02/12 01:18:02   Adding Noise Done     
+2014/02/12 01:18:02   SensorProcessNoise done     
+2014/02/12 01:18:02   LT, SNR output Done     
+2014/02/12 01:18:02   3266.9    low
+2014/02/12 01:18:02   w calculation Done     
+2014/02/12 01:18:02   0.278514    MT
+2014/02/12 01:18:02   0.00272574    CT
+2014/02/12 01:18:02   -0.000662631    MBi
+2014/02/12 01:18:02   0.000227667    CBi
+2014/02/12 01:18:02   -0.0108158    MBi
+2014/02/12 01:18:02   0.00267498    CBi
+2014/02/12 01:18:02   0.0496616    MBi
+2014/02/12 01:18:02   0.00163484    CBi
+2014/02/12 01:18:02   LinearInterpolation1D Done     
+2014/02/12 01:18:02   LinearInterpolation1D Done     
+
+
+
+2014/02/12 01:18:18   FileDir setting completed.     
+2014/02/12 01:18:18   Background construct over     
+2014/02/12 01:18:18   Target construct over     
+2014/02/12 01:18:18   Scene construct over     
+2014/02/12 01:18:18   Sensor construct over     
+2014/02/12 01:18:18   Processing construct over     
+2014/02/12 01:18:18   readWavelengthsMeansandCov Done     
+2014/02/12 01:18:18   LinearInterpolation1D Done     
+2014/02/12 01:18:18   LinearInterpolation2D Done     
+2014/02/12 01:18:18   1    //Writespec_albFile background
+2014/02/12 01:18:18   0    //MeansB[i] done
+2014/02/12 01:18:18   0    ReadAllColumnFromTAPE7
+2014/02/12 01:18:18   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:18:18   1    //ReadAllColumnFromTAPE7
+2014/02/12 01:18:18   0    ReadAllColumnFromTAPE7 done
+2014/02/12 01:18:18   readWavelengthsMeansandCov Done     
+2014/02/12 01:18:18   LinearInterpolation1D Done     
+2014/02/12 01:18:18   LinearInterpolation2D Done     
+2014/02/12 01:18:18   1    //Writespec_albFile background
+2014/02/12 01:18:19   1    //MeansB[i] done
+2014/02/12 01:18:19   1    ReadAllColumnFromTAPE7
+2014/02/12 01:18:19   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:18:19   2    //ReadAllColumnFromTAPE7
+2014/02/12 01:18:19   1    ReadAllColumnFromTAPE7 done
+2014/02/12 01:18:19   readWavelengthsMeansandCov Done     
+2014/02/12 01:18:19   LinearInterpolation1D Done     
+2014/02/12 01:18:19   LinearInterpolation2D Done     
+2014/02/12 01:18:19   1    //Writespec_albFile background
+2014/02/12 01:18:19   2    //MeansB[i] done
+2014/02/12 01:18:19   2    ReadAllColumnFromTAPE7
+2014/02/12 01:18:19   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:18:19   3    //ReadAllColumnFromTAPE7
+2014/02/12 01:18:19   2    ReadAllColumnFromTAPE7 done
+2014/02/12 01:18:19   1    //Writespec_albFile background mean
+2014/02/12 01:18:20   avg    //MeansBavg done
+2014/02/12 01:18:20   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:18:20   4    //ReadAllColumnFromTAPE7
+2014/02/12 01:18:20   readWavelengthsMeansandCov Done     
+2014/02/12 01:18:20   LinearInterpolation1D Done     
+2014/02/12 01:18:20   LinearInterpolation2D Done     
+2014/02/12 01:18:20   3    //target in black NO.
+2014/02/12 01:18:20   1    //Writespec_albFile T in B
+2014/02/12 01:18:20   4    ReadAllColumnFromTAPE7
+2014/02/12 01:18:20   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:18:20   5    //ReadAllColumnFromTAPE7
+2014/02/12 01:18:20   4    ReadAllColumnFromTAPE7 done
+2014/02/12 01:18:21   5    ReadAllColumnFromTAPE7
+2014/02/12 01:18:21   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:18:21   6    //ReadAllColumnFromTAPE7
+2014/02/12 01:18:21   5    ReadAllColumnFromTAPE7 done
+2014/02/12 01:18:21   0    Albedo[i] done
+2014/02/12 01:18:21   6    ReadAllColumnFromTAPE7
+2014/02/12 01:18:21   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:18:21   7    //ReadAllColumnFromTAPE7
+2014/02/12 01:18:21   6    ReadAllColumnFromTAPE7 done
+2014/02/12 01:18:21   1    Albedo[i] done
+2014/02/12 01:18:21   GenRespFunction     
+2014/02/12 01:18:21   1    //genResp done
+2014/02/12 01:18:21   2    //genResp done
+2014/02/12 01:18:21   3    //genResp done
+2014/02/12 01:18:21   4    //genResp done
+2014/02/12 01:18:21   5    //genResp done
+2014/02/12 01:18:21   6    //genResp done
+2014/02/12 01:18:21   7    //genResp done
+2014/02/12 01:18:21   GenRespFunction done     
+2014/02/12 01:18:21   CovBavePath Done     
+2014/02/12 01:18:21   SensorProcessNoise done     
+2014/02/12 01:18:21   SensorProcessNoise done     
+2014/02/12 01:18:21   SensorProcessNoise done     
+2014/02/12 01:18:21   SensorProcessNoise done     
+2014/02/12 01:18:21   Adding Noise Done     
+2014/02/12 01:18:21   SensorProcessNoise done     
+2014/02/12 01:18:21   LT, SNR output Done     
+2014/02/12 01:18:21   4.41776    low
+2014/02/12 01:18:21   w calculation Done     
+2014/02/12 01:18:21   0.477384    MT
+2014/02/12 01:18:21   0.706623    CT
+2014/02/12 01:18:21   -0.0397076    MBi
+2014/02/12 01:18:21   0.0471693    CBi
+2014/02/12 01:18:21   -0.0397011    MBi
+2014/02/12 01:18:21   0.0471694    CBi
+2014/02/12 01:18:21   0.301466    MBi
+2014/02/12 01:18:21   1.11109    CBi
+2014/02/12 01:18:21   LinearInterpolation1D Done     
+2014/02/12 01:18:21   LinearInterpolation1D Done     
+
+
+
+2014/02/12 01:18:26   FileDir setting completed.     
+2014/02/12 01:18:26   Background construct over     
+2014/02/12 01:18:26   Target construct over     
+2014/02/12 01:18:26   Scene construct over     
+2014/02/12 01:18:26   Sensor construct over     
+2014/02/12 01:18:26   Processing construct over     
+2014/02/12 01:18:27   readWavelengthsMeansandCov Done     
+2014/02/12 01:18:27   LinearInterpolation1D Done     
+2014/02/12 01:18:27   LinearInterpolation2D Done     
+2014/02/12 01:18:27   1    //Writespec_albFile background
+2014/02/12 01:18:27   0    //MeansB[i] done
+2014/02/12 01:18:27   0    ReadAllColumnFromTAPE7
+2014/02/12 01:18:27   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:18:27   1    //ReadAllColumnFromTAPE7
+2014/02/12 01:18:27   0    ReadAllColumnFromTAPE7 done
+2014/02/12 01:18:27   readWavelengthsMeansandCov Done     
+2014/02/12 01:18:27   LinearInterpolation1D Done     
+2014/02/12 01:18:27   LinearInterpolation2D Done     
+2014/02/12 01:18:27   1    //Writespec_albFile background
+2014/02/12 01:18:28   1    //MeansB[i] done
+2014/02/12 01:18:28   1    ReadAllColumnFromTAPE7
+2014/02/12 01:18:28   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:18:28   2    //ReadAllColumnFromTAPE7
+2014/02/12 01:18:28   1    ReadAllColumnFromTAPE7 done
+2014/02/12 01:18:28   readWavelengthsMeansandCov Done     
+2014/02/12 01:18:28   LinearInterpolation1D Done     
+2014/02/12 01:18:28   LinearInterpolation2D Done     
+2014/02/12 01:18:28   1    //Writespec_albFile background
+2014/02/12 01:18:28   2    //MeansB[i] done
+2014/02/12 01:18:28   2    ReadAllColumnFromTAPE7
+2014/02/12 01:18:28   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:18:28   3    //ReadAllColumnFromTAPE7
+2014/02/12 01:18:28   2    ReadAllColumnFromTAPE7 done
+2014/02/12 01:18:28   1    //Writespec_albFile background mean
+2014/02/12 01:18:29   avg    //MeansBavg done
+2014/02/12 01:18:29   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:18:29   4    //ReadAllColumnFromTAPE7
+2014/02/12 01:18:29   readWavelengthsMeansandCov Done     
+2014/02/12 01:18:29   LinearInterpolation1D Done     
+2014/02/12 01:18:29   LinearInterpolation2D Done     
+2014/02/12 01:18:29   3    //target in black NO.
+2014/02/12 01:18:29   1    //Writespec_albFile T in B
+2014/02/12 01:18:29   4    ReadAllColumnFromTAPE7
+2014/02/12 01:18:29   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:18:29   5    //ReadAllColumnFromTAPE7
+2014/02/12 01:18:29   4    ReadAllColumnFromTAPE7 done
+2014/02/12 01:18:30   5    ReadAllColumnFromTAPE7
+2014/02/12 01:18:30   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:18:30   6    //ReadAllColumnFromTAPE7
+2014/02/12 01:18:30   5    ReadAllColumnFromTAPE7 done
+2014/02/12 01:18:30   0    Albedo[i] done
+2014/02/12 01:18:30   6    ReadAllColumnFromTAPE7
+2014/02/12 01:18:30   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:18:30   7    //ReadAllColumnFromTAPE7
+2014/02/12 01:18:30   6    ReadAllColumnFromTAPE7 done
+2014/02/12 01:18:30   1    Albedo[i] done
+2014/02/12 01:18:30   GenRespFunction     
+2014/02/12 01:18:30   1    //genResp done
+2014/02/12 01:18:30   2    //genResp done
+2014/02/12 01:18:30   3    //genResp done
+2014/02/12 01:18:30   4    //genResp done
+2014/02/12 01:18:30   5    //genResp done
+2014/02/12 01:18:30   6    //genResp done
+2014/02/12 01:18:30   7    //genResp done
+2014/02/12 01:18:30   GenRespFunction done     
+2014/02/12 01:18:30   CovBavePath Done     
+2014/02/12 01:18:30   SensorProcessNoise done     
+2014/02/12 01:18:30   SensorProcessNoise done     
+2014/02/12 01:18:30   SensorProcessNoise done     
+2014/02/12 01:18:30   SensorProcessNoise done     
+2014/02/12 01:18:30   Adding Noise Done     
+2014/02/12 01:18:30   SensorProcessNoise done     
+2014/02/12 01:18:30   LT, SNR output Done     
+2014/02/12 01:18:30   4.41776    low
+2014/02/12 01:18:30   w calculation Done     
+2014/02/12 01:18:30   0.477384    MT
+2014/02/12 01:18:30   0.706623    CT
+2014/02/12 01:18:30   -0.0397076    MBi
+2014/02/12 01:18:30   0.0471693    CBi
+2014/02/12 01:18:30   -0.0397011    MBi
+2014/02/12 01:18:30   0.0471694    CBi
+2014/02/12 01:18:30   0.301466    MBi
+2014/02/12 01:18:30   1.11109    CBi
+2014/02/12 01:18:30   LinearInterpolation1D Done     
+2014/02/12 01:18:30   LinearInterpolation1D Done     
+
+
+
+2014/02/12 01:41:12   FileDir setting completed.     
+2014/02/12 01:41:12   Background construct over     
+2014/02/12 01:41:12   Target construct over     
+2014/02/12 01:41:12   Scene construct over     
+2014/02/12 01:41:12   Sensor construct over     
+2014/02/12 01:41:12   Processing construct over     
+2014/02/12 01:41:12   readWavelengthsMeansandCov Done     
+2014/02/12 01:41:12   LinearInterpolation1D Done     
+2014/02/12 01:41:12   LinearInterpolation2D Done     
+2014/02/12 01:41:12   1    //Writespec_albFile background
+2014/02/12 01:41:13   0    //MeansB[i] done
+2014/02/12 01:41:13   0    ReadAllColumnFromTAPE7
+2014/02/12 01:41:13   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:41:13   1    //ReadAllColumnFromTAPE7
+2014/02/12 01:41:13   0    ReadAllColumnFromTAPE7 done
+2014/02/12 01:41:13   readWavelengthsMeansandCov Done     
+2014/02/12 01:41:13   LinearInterpolation1D Done     
+2014/02/12 01:41:13   LinearInterpolation2D Done     
+2014/02/12 01:41:13   1    //Writespec_albFile background
+2014/02/12 01:41:14   1    //MeansB[i] done
+2014/02/12 01:41:14   1    ReadAllColumnFromTAPE7
+2014/02/12 01:41:14   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:41:14   2    //ReadAllColumnFromTAPE7
+2014/02/12 01:41:14   1    ReadAllColumnFromTAPE7 done
+2014/02/12 01:41:14   readWavelengthsMeansandCov Done     
+2014/02/12 01:41:14   LinearInterpolation1D Done     
+2014/02/12 01:41:14   LinearInterpolation2D Done     
+2014/02/12 01:41:14   1    //Writespec_albFile background
+2014/02/12 01:41:14   2    //MeansB[i] done
+2014/02/12 01:41:14   2    ReadAllColumnFromTAPE7
+2014/02/12 01:41:14   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:41:14   3    //ReadAllColumnFromTAPE7
+2014/02/12 01:41:14   2    ReadAllColumnFromTAPE7 done
+2014/02/12 01:41:14   1    //Writespec_albFile background mean
+2014/02/12 01:41:15   avg    //MeansBavg done
+2014/02/12 01:41:15   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:41:15   4    //ReadAllColumnFromTAPE7
+2014/02/12 01:41:15   readWavelengthsMeansandCov Done     
+2014/02/12 01:41:15   LinearInterpolation1D Done     
+2014/02/12 01:41:15   LinearInterpolation2D Done     
+2014/02/12 01:41:15   3    //target in black NO.
+2014/02/12 01:41:15   1    //Writespec_albFile T in B
+2014/02/12 01:41:15   4    ReadAllColumnFromTAPE7
+2014/02/12 01:41:15   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:41:15   5    //ReadAllColumnFromTAPE7
+2014/02/12 01:41:15   4    ReadAllColumnFromTAPE7 done
+2014/02/12 01:41:16   5    ReadAllColumnFromTAPE7
+2014/02/12 01:41:16   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:41:16   6    //ReadAllColumnFromTAPE7
+2014/02/12 01:41:16   5    ReadAllColumnFromTAPE7 done
+2014/02/12 01:41:16   0    Albedo[i] done
+2014/02/12 01:41:16   6    ReadAllColumnFromTAPE7
+2014/02/12 01:41:16   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:41:16   7    //ReadAllColumnFromTAPE7
+2014/02/12 01:41:16   6    ReadAllColumnFromTAPE7 done
+2014/02/12 01:41:16   1    Albedo[i] done
+2014/02/12 01:41:16   GenRespFunction     
+2014/02/12 01:41:16   1    //genResp done
+2014/02/12 01:41:16   2    //genResp done
+2014/02/12 01:41:16   3    //genResp done
+2014/02/12 01:41:16   4    //genResp done
+2014/02/12 01:41:16   5    //genResp done
+2014/02/12 01:41:16   6    //genResp done
+2014/02/12 01:41:16   7    //genResp done
+2014/02/12 01:41:16   GenRespFunction done     
+2014/02/12 01:41:16   CovBavePath Done     
+2014/02/12 01:41:16   SensorProcessNoise done     
+2014/02/12 01:41:16   SensorProcessNoise done     
+2014/02/12 01:41:16   SensorProcessNoise done     
+2014/02/12 01:41:16   SensorProcessNoise done     
+2014/02/12 01:41:16   Adding Noise Done     
+2014/02/12 01:41:16   SensorProcessNoise done     
+2014/02/12 01:41:16   LT, SNR output Done     
+2014/02/12 01:41:16   3266.9    low
+2014/02/12 01:41:16   w calculation Done     
+2014/02/12 01:41:16   0.278514    MT
+2014/02/12 01:41:16   0.00272574    CT
+2014/02/12 01:41:16   -0.000662631    MBi
+2014/02/12 01:41:16   0.000227667    CBi
+2014/02/12 01:41:16   -0.0108158    MBi
+2014/02/12 01:41:16   0.00267498    CBi
+2014/02/12 01:41:16   0.0496616    MBi
+2014/02/12 01:41:16   0.00163484    CBi
+2014/02/12 01:41:16   LinearInterpolation1D Done     
+2014/02/12 01:41:16   LinearInterpolation1D Done     
+
+
+
+2014/02/12 01:41:22   FileDir setting completed.     
+2014/02/12 01:41:22   Background construct over     
+2014/02/12 01:41:22   Target construct over     
+2014/02/12 01:41:22   Scene construct over     
+2014/02/12 01:41:22   Sensor construct over     
+2014/02/12 01:41:22   Processing construct over     
+2014/02/12 01:41:22   readWavelengthsMeansandCov Done     
+2014/02/12 01:41:22   LinearInterpolation1D Done     
+2014/02/12 01:41:22   LinearInterpolation2D Done     
+2014/02/12 01:41:22   1    //Writespec_albFile background
+2014/02/12 01:41:22   0    //MeansB[i] done
+2014/02/12 01:41:22   0    ReadAllColumnFromTAPE7
+2014/02/12 01:41:22   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:41:22   1    //ReadAllColumnFromTAPE7
+2014/02/12 01:41:22   0    ReadAllColumnFromTAPE7 done
+2014/02/12 01:41:22   readWavelengthsMeansandCov Done     
+2014/02/12 01:41:22   LinearInterpolation1D Done     
+2014/02/12 01:41:22   LinearInterpolation2D Done     
+2014/02/12 01:41:22   1    //Writespec_albFile background
+2014/02/12 01:41:23   1    //MeansB[i] done
+2014/02/12 01:41:23   1    ReadAllColumnFromTAPE7
+2014/02/12 01:41:23   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:41:23   2    //ReadAllColumnFromTAPE7
+2014/02/12 01:41:23   1    ReadAllColumnFromTAPE7 done
+2014/02/12 01:41:23   readWavelengthsMeansandCov Done     
+2014/02/12 01:41:23   LinearInterpolation1D Done     
+2014/02/12 01:41:23   LinearInterpolation2D Done     
+2014/02/12 01:41:23   1    //Writespec_albFile background
+2014/02/12 01:41:23   2    //MeansB[i] done
+2014/02/12 01:41:23   2    ReadAllColumnFromTAPE7
+2014/02/12 01:41:23   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:41:23   3    //ReadAllColumnFromTAPE7
+2014/02/12 01:41:23   2    ReadAllColumnFromTAPE7 done
+2014/02/12 01:41:23   1    //Writespec_albFile background mean
+2014/02/12 01:41:24   avg    //MeansBavg done
+2014/02/12 01:41:24   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:41:24   4    //ReadAllColumnFromTAPE7
+2014/02/12 01:41:24   readWavelengthsMeansandCov Done     
+2014/02/12 01:41:24   LinearInterpolation1D Done     
+2014/02/12 01:41:24   LinearInterpolation2D Done     
+2014/02/12 01:41:24   3    //target in black NO.
+2014/02/12 01:41:24   1    //Writespec_albFile T in B
+2014/02/12 01:41:24   4    ReadAllColumnFromTAPE7
+2014/02/12 01:41:24   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:41:24   5    //ReadAllColumnFromTAPE7
+2014/02/12 01:41:24   4    ReadAllColumnFromTAPE7 done
+2014/02/12 01:41:25   5    ReadAllColumnFromTAPE7
+2014/02/12 01:41:25   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:41:25   6    //ReadAllColumnFromTAPE7
+2014/02/12 01:41:25   5    ReadAllColumnFromTAPE7 done
+2014/02/12 01:41:25   0    Albedo[i] done
+2014/02/12 01:41:25   6    ReadAllColumnFromTAPE7
+2014/02/12 01:41:25   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 01:41:25   7    //ReadAllColumnFromTAPE7
+2014/02/12 01:41:25   6    ReadAllColumnFromTAPE7 done
+2014/02/12 01:41:25   1    Albedo[i] done
+2014/02/12 01:41:25   GenRespFunction     
+2014/02/12 01:41:25   1    //genResp done
+2014/02/12 01:41:25   2    //genResp done
+2014/02/12 01:41:25   3    //genResp done
+2014/02/12 01:41:25   4    //genResp done
+2014/02/12 01:41:25   5    //genResp done
+2014/02/12 01:41:25   6    //genResp done
+2014/02/12 01:41:25   7    //genResp done
+2014/02/12 01:41:25   GenRespFunction done     
+2014/02/12 01:41:25   CovBavePath Done     
+2014/02/12 01:41:25   SensorProcessNoise done     
+2014/02/12 01:41:25   SensorProcessNoise done     
+2014/02/12 01:41:25   SensorProcessNoise done     
+2014/02/12 01:41:25   SensorProcessNoise done     
+2014/02/12 01:41:25   Adding Noise Done     
+2014/02/12 01:41:25   SensorProcessNoise done     
+2014/02/12 01:41:25   LT, SNR output Done     
+2014/02/12 01:41:25   3266.9    low
+2014/02/12 01:41:25   w calculation Done     
+2014/02/12 01:41:25   0.278514    MT
+2014/02/12 01:41:25   0.00272574    CT
+2014/02/12 01:41:25   -0.000662631    MBi
+2014/02/12 01:41:25   0.000227667    CBi
+2014/02/12 01:41:25   -0.0108158    MBi
+2014/02/12 01:41:25   0.00267498    CBi
+2014/02/12 01:41:25   0.0496616    MBi
+2014/02/12 01:41:25   0.00163484    CBi
+2014/02/12 01:41:25   LinearInterpolation1D Done     
+2014/02/12 01:41:25   LinearInterpolation1D Done     
+
+
+
+2014/02/12 21:54:14   FileDir setting completed.     
+2014/02/12 21:54:14   Background construct over     
+2014/02/12 21:54:14   Target construct over     
+2014/02/12 21:54:14   Scene construct over     
+2014/02/12 21:54:14   Sensor construct over     
+2014/02/12 21:54:14   Processing construct over     
+2014/02/12 21:54:14   readWavelengthsMeansandCov Done     
+2014/02/12 21:54:14   LinearInterpolation1D Done     
+2014/02/12 21:54:14   LinearInterpolation2D Done     
+2014/02/12 21:54:14   1    //Writespec_albFile background
+2014/02/12 21:54:15   0    //MeansB[i] done
+2014/02/12 21:54:15   0    ReadAllColumnFromTAPE7
+2014/02/12 21:54:15   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 21:54:15   1    //ReadAllColumnFromTAPE7
+2014/02/12 21:54:15   0    ReadAllColumnFromTAPE7 done
+2014/02/12 21:54:15   readWavelengthsMeansandCov Done     
+2014/02/12 21:54:15   LinearInterpolation1D Done     
+2014/02/12 21:54:15   LinearInterpolation2D Done     
+2014/02/12 21:54:15   1    //Writespec_albFile background
+2014/02/12 21:54:15   1    //MeansB[i] done
+2014/02/12 21:54:15   1    ReadAllColumnFromTAPE7
+2014/02/12 21:54:15   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 21:54:15   2    //ReadAllColumnFromTAPE7
+2014/02/12 21:54:15   1    ReadAllColumnFromTAPE7 done
+2014/02/12 21:54:15   readWavelengthsMeansandCov Done     
+2014/02/12 21:54:15   LinearInterpolation1D Done     
+2014/02/12 21:54:15   LinearInterpolation2D Done     
+2014/02/12 21:54:15   1    //Writespec_albFile background
+2014/02/12 21:54:16   2    //MeansB[i] done
+2014/02/12 21:54:16   2    ReadAllColumnFromTAPE7
+2014/02/12 21:54:16   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 21:54:16   3    //ReadAllColumnFromTAPE7
+2014/02/12 21:54:16   2    ReadAllColumnFromTAPE7 done
+2014/02/12 21:54:16   1    //Writespec_albFile background mean
+2014/02/12 21:54:16   avg    //MeansBavg done
+2014/02/12 21:54:16   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 21:54:16   4    //ReadAllColumnFromTAPE7
+2014/02/12 21:54:16   readWavelengthsMeansandCov Done     
+2014/02/12 21:54:16   LinearInterpolation1D Done     
+2014/02/12 21:54:16   LinearInterpolation2D Done     
+2014/02/12 21:54:16   3    //target in black NO.
+2014/02/12 21:54:16   1    //Writespec_albFile T in B
+2014/02/12 21:54:17   4    ReadAllColumnFromTAPE7
+2014/02/12 21:54:17   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 21:54:17   5    //ReadAllColumnFromTAPE7
+2014/02/12 21:54:17   4    ReadAllColumnFromTAPE7 done
+2014/02/12 21:54:17   5    ReadAllColumnFromTAPE7
+2014/02/12 21:54:17   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 21:54:17   6    //ReadAllColumnFromTAPE7
+2014/02/12 21:54:17   5    ReadAllColumnFromTAPE7 done
+2014/02/12 21:54:17   0    Albedo[i] done
+2014/02/12 21:54:18   6    ReadAllColumnFromTAPE7
+2014/02/12 21:54:18   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 21:54:18   7    //ReadAllColumnFromTAPE7
+2014/02/12 21:54:18   6    ReadAllColumnFromTAPE7 done
+2014/02/12 21:54:18   1    Albedo[i] done
+2014/02/12 21:54:18   GenRespFunction     
+2014/02/12 21:54:18   1    //genResp done
+2014/02/12 21:54:18   2    //genResp done
+2014/02/12 21:54:18   3    //genResp done
+2014/02/12 21:54:18   4    //genResp done
+2014/02/12 21:54:18   5    //genResp done
+2014/02/12 21:54:18   6    //genResp done
+2014/02/12 21:54:18   7    //genResp done
+2014/02/12 21:54:18   GenRespFunction done     
+2014/02/12 21:54:18   CovBavePath Done     
+2014/02/12 21:54:18   SensorProcessNoise done     
+2014/02/12 21:54:18   SensorProcessNoise done     
+2014/02/12 21:54:18   SensorProcessNoise done     
+2014/02/12 21:54:18   SensorProcessNoise done     
+2014/02/12 21:54:18   Adding Noise Done     
+2014/02/12 21:54:18   SensorProcessNoise done     
+2014/02/12 21:54:18   LT, SNR output Done     
+2014/02/12 21:54:18   3266.9    low
+2014/02/12 21:54:18   w calculation Done     
+2014/02/12 21:54:18   0.278514    MT
+2014/02/12 21:54:18   0.00272574    CT
+2014/02/12 21:54:18   -0.000662631    MBi
+2014/02/12 21:54:18   0.000227667    CBi
+2014/02/12 21:54:18   -0.0108158    MBi
+2014/02/12 21:54:18   0.00267498    CBi
+2014/02/12 21:54:18   0.0496616    MBi
+2014/02/12 21:54:18   0.00163484    CBi
+2014/02/12 21:54:18   LinearInterpolation1D Done     
+2014/02/12 21:54:18   LinearInterpolation1D Done     
+
+
+
+2014/02/12 21:54:23   FileDir setting completed.     
+2014/02/12 21:54:23   Background construct over     
+2014/02/12 21:54:23   Target construct over     
+2014/02/12 21:54:23   Scene construct over     
+2014/02/12 21:54:23   Sensor construct over     
+2014/02/12 21:54:23   Processing construct over     
+2014/02/12 21:54:23   readWavelengthsMeansandCov Done     
+2014/02/12 21:54:23   LinearInterpolation1D Done     
+2014/02/12 21:54:23   LinearInterpolation2D Done     
+2014/02/12 21:54:23   1    //Writespec_albFile background
+2014/02/12 21:54:23   0    //MeansB[i] done
+2014/02/12 21:54:23   0    ReadAllColumnFromTAPE7
+2014/02/12 21:54:23   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 21:54:23   1    //ReadAllColumnFromTAPE7
+2014/02/12 21:54:23   0    ReadAllColumnFromTAPE7 done
+2014/02/12 21:54:24   readWavelengthsMeansandCov Done     
+2014/02/12 21:54:24   LinearInterpolation1D Done     
+2014/02/12 21:54:24   LinearInterpolation2D Done     
+2014/02/12 21:54:24   1    //Writespec_albFile background
+2014/02/12 21:54:24   1    //MeansB[i] done
+2014/02/12 21:54:24   1    ReadAllColumnFromTAPE7
+2014/02/12 21:54:24   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 21:54:24   2    //ReadAllColumnFromTAPE7
+2014/02/12 21:54:24   1    ReadAllColumnFromTAPE7 done
+2014/02/12 21:54:24   readWavelengthsMeansandCov Done     
+2014/02/12 21:54:24   LinearInterpolation1D Done     
+2014/02/12 21:54:24   LinearInterpolation2D Done     
+2014/02/12 21:54:24   1    //Writespec_albFile background
+2014/02/12 21:54:25   2    //MeansB[i] done
+2014/02/12 21:54:25   2    ReadAllColumnFromTAPE7
+2014/02/12 21:54:25   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 21:54:25   3    //ReadAllColumnFromTAPE7
+2014/02/12 21:54:25   2    ReadAllColumnFromTAPE7 done
+2014/02/12 21:54:25   1    //Writespec_albFile background mean
+2014/02/12 21:54:25   avg    //MeansBavg done
+2014/02/12 21:54:25   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 21:54:25   4    //ReadAllColumnFromTAPE7
+2014/02/12 21:54:25   readWavelengthsMeansandCov Done     
+2014/02/12 21:54:25   LinearInterpolation1D Done     
+2014/02/12 21:54:25   LinearInterpolation2D Done     
+2014/02/12 21:54:25   3    //target in black NO.
+2014/02/12 21:54:25   1    //Writespec_albFile T in B
+2014/02/12 21:54:26   4    ReadAllColumnFromTAPE7
+2014/02/12 21:54:26   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 21:54:26   5    //ReadAllColumnFromTAPE7
+2014/02/12 21:54:26   4    ReadAllColumnFromTAPE7 done
+2014/02/12 21:54:26   5    ReadAllColumnFromTAPE7
+2014/02/12 21:54:26   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 21:54:26   6    //ReadAllColumnFromTAPE7
+2014/02/12 21:54:26   5    ReadAllColumnFromTAPE7 done
+2014/02/12 21:54:26   0    Albedo[i] done
+2014/02/12 21:54:27   6    ReadAllColumnFromTAPE7
+2014/02/12 21:54:27   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 21:54:27   7    //ReadAllColumnFromTAPE7
+2014/02/12 21:54:27   6    ReadAllColumnFromTAPE7 done
+2014/02/12 21:54:27   1    Albedo[i] done
+2014/02/12 21:54:27   GenRespFunction     
+2014/02/12 21:54:27   1    //genResp done
+2014/02/12 21:54:27   2    //genResp done
+2014/02/12 21:54:27   3    //genResp done
+2014/02/12 21:54:27   4    //genResp done
+2014/02/12 21:54:27   5    //genResp done
+2014/02/12 21:54:27   6    //genResp done
+2014/02/12 21:54:27   7    //genResp done
+2014/02/12 21:54:27   GenRespFunction done     
+2014/02/12 21:54:27   CovBavePath Done     
+2014/02/12 21:54:27   SensorProcessNoise done     
+2014/02/12 21:54:27   SensorProcessNoise done     
+2014/02/12 21:54:27   SensorProcessNoise done     
+2014/02/12 21:54:27   SensorProcessNoise done     
+2014/02/12 21:54:27   Adding Noise Done     
+2014/02/12 21:54:27   SensorProcessNoise done     
+2014/02/12 21:54:27   LT, SNR output Done     
+2014/02/12 21:54:27   3266.9    low
+2014/02/12 21:54:27   w calculation Done     
+2014/02/12 21:54:27   0.278514    MT
+2014/02/12 21:54:27   0.00272574    CT
+2014/02/12 21:54:27   -0.000662631    MBi
+2014/02/12 21:54:27   0.000227667    CBi
+2014/02/12 21:54:27   -0.0108158    MBi
+2014/02/12 21:54:27   0.00267498    CBi
+2014/02/12 21:54:27   0.0496616    MBi
+2014/02/12 21:54:27   0.00163484    CBi
+2014/02/12 21:54:27   LinearInterpolation1D Done     
+2014/02/12 21:54:27   LinearInterpolation1D Done     
+
+
+
+2014/02/12 23:18:26   FileDir setting completed.     
+2014/02/12 23:18:26   Background construct over     
+2014/02/12 23:18:26   Target construct over     
+2014/02/12 23:18:26   Scene construct over     
+2014/02/12 23:18:26   Sensor construct over     
+2014/02/12 23:18:26   Processing construct over     
+2014/02/12 23:18:26   readWavelengthsMeansandCov Done     
+2014/02/12 23:18:26   LinearInterpolation1D Done     
+2014/02/12 23:18:26   LinearInterpolation2D Done     
+2014/02/12 23:18:26   1    //Writespec_albFile background
+2014/02/12 23:18:26   0    //MeansB[i] done
+2014/02/12 23:18:26   0    ReadAllColumnFromTAPE7
+2014/02/12 23:18:26   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 23:18:26   1    //ReadAllColumnFromTAPE7
+2014/02/12 23:18:26   0    ReadAllColumnFromTAPE7 done
+2014/02/12 23:18:26   readWavelengthsMeansandCov Done     
+2014/02/12 23:18:26   LinearInterpolation1D Done     
+2014/02/12 23:18:26   LinearInterpolation2D Done     
+2014/02/12 23:18:26   1    //Writespec_albFile background
+2014/02/12 23:18:27   1    //MeansB[i] done
+2014/02/12 23:18:27   1    ReadAllColumnFromTAPE7
+2014/02/12 23:18:27   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 23:18:27   2    //ReadAllColumnFromTAPE7
+2014/02/12 23:18:27   1    ReadAllColumnFromTAPE7 done
+2014/02/12 23:18:27   readWavelengthsMeansandCov Done     
+2014/02/12 23:18:27   LinearInterpolation1D Done     
+2014/02/12 23:18:27   LinearInterpolation2D Done     
+2014/02/12 23:18:27   1    //Writespec_albFile background
+2014/02/12 23:18:27   2    //MeansB[i] done
+2014/02/12 23:18:27   2    ReadAllColumnFromTAPE7
+2014/02/12 23:18:27   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 23:18:27   3    //ReadAllColumnFromTAPE7
+2014/02/12 23:18:27   2    ReadAllColumnFromTAPE7 done
+2014/02/12 23:18:27   1    //Writespec_albFile background mean
+2014/02/12 23:18:28   avg    //MeansBavg done
+2014/02/12 23:18:28   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 23:18:28   4    //ReadAllColumnFromTAPE7
+2014/02/12 23:18:28   readWavelengthsMeansandCov Done     
+2014/02/12 23:18:28   LinearInterpolation1D Done     
+2014/02/12 23:18:28   LinearInterpolation2D Done     
+2014/02/12 23:18:28   3    //target in black NO.
+2014/02/12 23:18:28   1    //Writespec_albFile T in B
+2014/02/12 23:18:28   4    ReadAllColumnFromTAPE7
+2014/02/12 23:18:28   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 23:18:28   5    //ReadAllColumnFromTAPE7
+2014/02/12 23:18:28   4    ReadAllColumnFromTAPE7 done
+2014/02/12 23:18:29   5    ReadAllColumnFromTAPE7
+2014/02/12 23:18:29   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 23:18:29   6    //ReadAllColumnFromTAPE7
+2014/02/12 23:18:29   5    ReadAllColumnFromTAPE7 done
+2014/02/12 23:18:29   0    Albedo[i] done
+2014/02/12 23:18:29   6    ReadAllColumnFromTAPE7
+2014/02/12 23:18:29   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 23:18:29   7    //ReadAllColumnFromTAPE7
+2014/02/12 23:18:29   6    ReadAllColumnFromTAPE7 done
+2014/02/12 23:18:29   1    Albedo[i] done
+2014/02/12 23:18:29   GenRespFunction     
+2014/02/12 23:18:29   1    //genResp done
+2014/02/12 23:18:29   2    //genResp done
+2014/02/12 23:18:29   3    //genResp done
+2014/02/12 23:18:29   4    //genResp done
+2014/02/12 23:18:29   5    //genResp done
+2014/02/12 23:18:29   6    //genResp done
+2014/02/12 23:18:29   7    //genResp done
+2014/02/12 23:18:29   GenRespFunction done     
+2014/02/12 23:18:29   CovBavePath Done     
+2014/02/12 23:18:29   SensorProcessNoise done     
+2014/02/12 23:18:29   SensorProcessNoise done     
+2014/02/12 23:18:29   SensorProcessNoise done     
+2014/02/12 23:18:29   SensorProcessNoise done     
+2014/02/12 23:18:29   Adding Noise Done     
+2014/02/12 23:18:29   SensorProcessNoise done     
+2014/02/12 23:18:29   LT, SNR output Done     
+2014/02/12 23:18:30   3266.9    low
+2014/02/12 23:18:30   w calculation Done     
+2014/02/12 23:18:30   0.278514    MT
+2014/02/12 23:18:30   0.00272574    CT
+2014/02/12 23:18:30   -0.000662631    MBi
+2014/02/12 23:18:30   0.000227667    CBi
+2014/02/12 23:18:30   -0.0108158    MBi
+2014/02/12 23:18:30   0.00267498    CBi
+2014/02/12 23:18:30   0.0496616    MBi
+2014/02/12 23:18:30   0.00163484    CBi
+2014/02/12 23:18:30   LinearInterpolation1D Done     
+2014/02/12 23:18:30   LinearInterpolation1D Done     
+
+
+
+2014/02/12 23:20:42   FileDir setting completed.     
+2014/02/12 23:20:42   Background construct over     
+2014/02/12 23:20:42   Target construct over     
+2014/02/12 23:20:42   Scene construct over     
+2014/02/12 23:20:42   Sensor construct over     
+2014/02/12 23:20:42   Processing construct over     
+2014/02/12 23:20:42   readWavelengthsMeansandCov Done     
+2014/02/12 23:20:42   LinearInterpolation1D Done     
+2014/02/12 23:20:42   LinearInterpolation2D Done     
+2014/02/12 23:20:42   1    //Writespec_albFile background
+2014/02/12 23:20:42   0    //MeansB[i] done
+2014/02/12 23:20:42   0    ReadAllColumnFromTAPE7
+2014/02/12 23:20:42   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 23:20:42   1    //ReadAllColumnFromTAPE7
+2014/02/12 23:20:42   0    ReadAllColumnFromTAPE7 done
+2014/02/12 23:20:42   readWavelengthsMeansandCov Done     
+2014/02/12 23:20:42   LinearInterpolation1D Done     
+2014/02/12 23:20:42   LinearInterpolation2D Done     
+2014/02/12 23:20:42   1    //Writespec_albFile background
+2014/02/12 23:20:43   1    //MeansB[i] done
+2014/02/12 23:20:43   1    ReadAllColumnFromTAPE7
+2014/02/12 23:20:43   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 23:20:43   2    //ReadAllColumnFromTAPE7
+2014/02/12 23:20:43   1    ReadAllColumnFromTAPE7 done
+2014/02/12 23:20:43   readWavelengthsMeansandCov Done     
+2014/02/12 23:20:43   LinearInterpolation1D Done     
+2014/02/12 23:20:43   LinearInterpolation2D Done     
+2014/02/12 23:20:43   1    //Writespec_albFile background
+2014/02/12 23:20:43   2    //MeansB[i] done
+2014/02/12 23:20:43   2    ReadAllColumnFromTAPE7
+2014/02/12 23:20:43   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 23:20:43   3    //ReadAllColumnFromTAPE7
+2014/02/12 23:20:43   2    ReadAllColumnFromTAPE7 done
+2014/02/12 23:20:43   1    //Writespec_albFile background mean
+2014/02/12 23:20:44   avg    //MeansBavg done
+2014/02/12 23:20:44   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 23:20:44   4    //ReadAllColumnFromTAPE7
+2014/02/12 23:20:44   readWavelengthsMeansandCov Done     
+2014/02/12 23:20:44   LinearInterpolation1D Done     
+2014/02/12 23:20:44   LinearInterpolation2D Done     
+2014/02/12 23:20:44   3    //target in black NO.
+2014/02/12 23:20:44   1    //Writespec_albFile T in B
+2014/02/12 23:20:44   4    ReadAllColumnFromTAPE7
+2014/02/12 23:20:44   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 23:20:44   5    //ReadAllColumnFromTAPE7
+2014/02/12 23:20:44   4    ReadAllColumnFromTAPE7 done
+2014/02/12 23:20:45   5    ReadAllColumnFromTAPE7
+2014/02/12 23:20:45   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 23:20:45   6    //ReadAllColumnFromTAPE7
+2014/02/12 23:20:45   5    ReadAllColumnFromTAPE7 done
+2014/02/12 23:20:45   0    Albedo[i] done
+2014/02/12 23:20:45   6    ReadAllColumnFromTAPE7
+2014/02/12 23:20:45   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 23:20:45   7    //ReadAllColumnFromTAPE7
+2014/02/12 23:20:45   6    ReadAllColumnFromTAPE7 done
+2014/02/12 23:20:45   1    Albedo[i] done
+2014/02/12 23:20:45   GenRespFunction     
+2014/02/12 23:20:45   1    //genResp done
+2014/02/12 23:20:45   2    //genResp done
+2014/02/12 23:20:45   3    //genResp done
+2014/02/12 23:20:45   4    //genResp done
+2014/02/12 23:20:45   5    //genResp done
+2014/02/12 23:20:45   6    //genResp done
+2014/02/12 23:20:45   7    //genResp done
+2014/02/12 23:20:45   GenRespFunction done     
+2014/02/12 23:20:45   CovBavePath Done     
+2014/02/12 23:20:45   SensorProcessNoise done     
+2014/02/12 23:20:45   SensorProcessNoise done     
+2014/02/12 23:20:45   SensorProcessNoise done     
+2014/02/12 23:20:45   SensorProcessNoise done     
+2014/02/12 23:20:45   Adding Noise Done     
+2014/02/12 23:20:45   SensorProcessNoise done     
+2014/02/12 23:20:45   LT, SNR output Done     
+2014/02/12 23:20:45   3266.9    low
+2014/02/12 23:20:45   w calculation Done     
+2014/02/12 23:20:45   0.278514    MT
+2014/02/12 23:20:45   0.00272574    CT
+2014/02/12 23:20:45   -0.000662631    MBi
+2014/02/12 23:20:45   0.000227667    CBi
+2014/02/12 23:20:45   -0.0108158    MBi
+2014/02/12 23:20:45   0.00267498    CBi
+2014/02/12 23:20:45   0.0496616    MBi
+2014/02/12 23:20:45   0.00163484    CBi
+2014/02/12 23:20:45   LinearInterpolation1D Done     
+2014/02/12 23:20:45   LinearInterpolation1D Done     
+
+
+
+2014/02/12 23:20:50   FileDir setting completed.     
+2014/02/12 23:20:50   Background construct over     
+2014/02/12 23:20:50   Target construct over     
+2014/02/12 23:20:50   Scene construct over     
+2014/02/12 23:20:50   Sensor construct over     
+2014/02/12 23:20:50   Processing construct over     
+2014/02/12 23:20:50   readWavelengthsMeansandCov Done     
+2014/02/12 23:20:50   LinearInterpolation1D Done     
+2014/02/12 23:20:50   LinearInterpolation2D Done     
+2014/02/12 23:20:50   1    //Writespec_albFile background
+2014/02/12 23:20:51   0    //MeansB[i] done
+2014/02/12 23:20:51   0    ReadAllColumnFromTAPE7
+2014/02/12 23:20:51   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 23:20:51   1    //ReadAllColumnFromTAPE7
+2014/02/12 23:20:51   0    ReadAllColumnFromTAPE7 done
+2014/02/12 23:20:51   readWavelengthsMeansandCov Done     
+2014/02/12 23:20:51   LinearInterpolation1D Done     
+2014/02/12 23:20:51   LinearInterpolation2D Done     
+2014/02/12 23:20:51   1    //Writespec_albFile background
+2014/02/12 23:20:51   1    //MeansB[i] done
+2014/02/12 23:20:51   1    ReadAllColumnFromTAPE7
+2014/02/12 23:20:51   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 23:20:51   2    //ReadAllColumnFromTAPE7
+2014/02/12 23:20:51   1    ReadAllColumnFromTAPE7 done
+2014/02/12 23:20:51   readWavelengthsMeansandCov Done     
+2014/02/12 23:20:51   LinearInterpolation1D Done     
+2014/02/12 23:20:51   LinearInterpolation2D Done     
+2014/02/12 23:20:51   1    //Writespec_albFile background
+2014/02/12 23:20:52   2    //MeansB[i] done
+2014/02/12 23:20:52   2    ReadAllColumnFromTAPE7
+2014/02/12 23:20:52   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 23:20:52   3    //ReadAllColumnFromTAPE7
+2014/02/12 23:20:52   2    ReadAllColumnFromTAPE7 done
+2014/02/12 23:20:52   1    //Writespec_albFile background mean
+2014/02/12 23:20:52   avg    //MeansBavg done
+2014/02/12 23:20:52   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 23:20:52   4    //ReadAllColumnFromTAPE7
+2014/02/12 23:20:52   readWavelengthsMeansandCov Done     
+2014/02/12 23:20:52   LinearInterpolation1D Done     
+2014/02/12 23:20:52   LinearInterpolation2D Done     
+2014/02/12 23:20:52   3    //target in black NO.
+2014/02/12 23:20:52   1    //Writespec_albFile T in B
+2014/02/12 23:20:53   4    ReadAllColumnFromTAPE7
+2014/02/12 23:20:53   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 23:20:53   5    //ReadAllColumnFromTAPE7
+2014/02/12 23:20:53   4    ReadAllColumnFromTAPE7 done
+2014/02/12 23:20:53   5    ReadAllColumnFromTAPE7
+2014/02/12 23:20:53   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 23:20:53   6    //ReadAllColumnFromTAPE7
+2014/02/12 23:20:53   5    ReadAllColumnFromTAPE7 done
+2014/02/12 23:20:53   0    Albedo[i] done
+2014/02/12 23:20:54   6    ReadAllColumnFromTAPE7
+2014/02/12 23:20:54   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 23:20:54   7    //ReadAllColumnFromTAPE7
+2014/02/12 23:20:54   6    ReadAllColumnFromTAPE7 done
+2014/02/12 23:20:54   1    Albedo[i] done
+2014/02/12 23:20:54   GenRespFunction     
+2014/02/12 23:20:54   1    //genResp done
+2014/02/12 23:20:54   2    //genResp done
+2014/02/12 23:20:54   3    //genResp done
+2014/02/12 23:20:54   4    //genResp done
+2014/02/12 23:20:54   5    //genResp done
+2014/02/12 23:20:54   6    //genResp done
+2014/02/12 23:20:54   7    //genResp done
+2014/02/12 23:20:54   GenRespFunction done     
+2014/02/12 23:20:54   CovBavePath Done     
+2014/02/12 23:20:54   SensorProcessNoise done     
+2014/02/12 23:20:54   SensorProcessNoise done     
+2014/02/12 23:20:54   SensorProcessNoise done     
+2014/02/12 23:20:54   SensorProcessNoise done     
+2014/02/12 23:20:54   Adding Noise Done     
+2014/02/12 23:20:54   SensorProcessNoise done     
+2014/02/12 23:20:54   LT, SNR output Done     
+2014/02/12 23:20:54   3266.9    low
+2014/02/12 23:20:54   w calculation Done     
+2014/02/12 23:20:54   0.278514    MT
+2014/02/12 23:20:54   0.00272574    CT
+2014/02/12 23:20:54   -0.000662631    MBi
+2014/02/12 23:20:54   0.000227667    CBi
+2014/02/12 23:20:54   -0.0108158    MBi
+2014/02/12 23:20:54   0.00267498    CBi
+2014/02/12 23:20:54   0.0496616    MBi
+2014/02/12 23:20:54   0.00163484    CBi
+2014/02/12 23:20:54   LinearInterpolation1D Done     
+2014/02/12 23:20:54   LinearInterpolation1D Done     
+
+
+
+2014/02/12 23:21:17   FileDir setting completed.     
+2014/02/12 23:21:17   Background construct over     
+2014/02/12 23:21:17   Target construct over     
+2014/02/12 23:21:17   Scene construct over     
+2014/02/12 23:21:17   Sensor construct over     
+2014/02/12 23:21:17   Processing construct over     
+2014/02/12 23:21:17   readWavelengthsMeansandCov Done     
+2014/02/12 23:21:17   LinearInterpolation1D Done     
+2014/02/12 23:21:17   LinearInterpolation2D Done     
+2014/02/12 23:21:17   1    //Writespec_albFile background
+2014/02/12 23:21:17   0    //MeansB[i] done
+2014/02/12 23:21:17   0    ReadAllColumnFromTAPE7
+2014/02/12 23:21:17   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 23:21:17   1    //ReadAllColumnFromTAPE7
+2014/02/12 23:21:17   0    ReadAllColumnFromTAPE7 done
+2014/02/12 23:21:18   readWavelengthsMeansandCov Done     
+2014/02/12 23:21:18   LinearInterpolation1D Done     
+2014/02/12 23:21:18   LinearInterpolation2D Done     
+2014/02/12 23:21:18   1    //Writespec_albFile background
+2014/02/12 23:21:18   1    //MeansB[i] done
+2014/02/12 23:21:18   1    ReadAllColumnFromTAPE7
+2014/02/12 23:21:18   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 23:21:18   2    //ReadAllColumnFromTAPE7
+2014/02/12 23:21:18   1    ReadAllColumnFromTAPE7 done
+2014/02/12 23:21:18   readWavelengthsMeansandCov Done     
+2014/02/12 23:21:18   LinearInterpolation1D Done     
+2014/02/12 23:21:18   LinearInterpolation2D Done     
+2014/02/12 23:21:18   1    //Writespec_albFile background
+2014/02/12 23:21:19   2    //MeansB[i] done
+2014/02/12 23:21:19   2    ReadAllColumnFromTAPE7
+2014/02/12 23:21:19   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 23:21:19   3    //ReadAllColumnFromTAPE7
+2014/02/12 23:21:19   2    ReadAllColumnFromTAPE7 done
+2014/02/12 23:21:19   1    //Writespec_albFile background mean
+2014/02/12 23:21:19   avg    //MeansBavg done
+2014/02/12 23:21:19   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 23:21:19   4    //ReadAllColumnFromTAPE7
+2014/02/12 23:21:20   readWavelengthsMeansandCov Done     
+2014/02/12 23:21:20   LinearInterpolation1D Done     
+2014/02/12 23:21:20   LinearInterpolation2D Done     
+2014/02/12 23:21:20   1    //target in black NO.
+2014/02/12 23:21:20   1    //Writespec_albFile T in B
+2014/02/12 23:21:20   4    ReadAllColumnFromTAPE7
+2014/02/12 23:21:20   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 23:21:20   5    //ReadAllColumnFromTAPE7
+2014/02/12 23:21:20   4    ReadAllColumnFromTAPE7 done
+2014/02/12 23:21:21   5    ReadAllColumnFromTAPE7
+2014/02/12 23:21:21   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 23:21:21   6    //ReadAllColumnFromTAPE7
+2014/02/12 23:21:21   5    ReadAllColumnFromTAPE7 done
+2014/02/12 23:21:21   0    Albedo[i] done
+2014/02/12 23:21:21   6    ReadAllColumnFromTAPE7
+2014/02/12 23:21:21   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 23:21:21   7    //ReadAllColumnFromTAPE7
+2014/02/12 23:21:21   6    ReadAllColumnFromTAPE7 done
+2014/02/12 23:21:21   1    Albedo[i] done
+2014/02/12 23:21:21   GenRespFunction     
+2014/02/12 23:21:21   1    //genResp done
+2014/02/12 23:21:21   2    //genResp done
+2014/02/12 23:21:21   3    //genResp done
+2014/02/12 23:21:21   4    //genResp done
+2014/02/12 23:21:21   5    //genResp done
+2014/02/12 23:21:21   6    //genResp done
+2014/02/12 23:21:21   7    //genResp done
+2014/02/12 23:21:21   GenRespFunction done     
+2014/02/12 23:21:21   CovBavePath Done     
+2014/02/12 23:21:21   SensorProcessNoise done     
+2014/02/12 23:21:21   SensorProcessNoise done     
+2014/02/12 23:21:21   SensorProcessNoise done     
+2014/02/12 23:21:22   SensorProcessNoise done     
+2014/02/12 23:21:22   Adding Noise Done     
+2014/02/12 23:21:22   SensorProcessNoise done     
+2014/02/12 23:21:22   LT, SNR output Done     
+2014/02/12 23:21:22   12643.4    low
+2014/02/12 23:21:22   w calculation Done     
+2014/02/12 23:21:22   0.0469187    MT
+2014/02/12 23:21:22   0.000111463    CT
+2014/02/12 23:21:22   -0.000559952    MBi
+2014/02/12 23:21:22   8.31445e-005    CBi
+2014/02/12 23:21:22   0.00166327    MBi
+2014/02/12 23:21:22   0.000103339    CBi
+2014/02/12 23:21:22   -0.000457986    MBi
+2014/02/12 23:21:22   4.08774e-005    CBi
+2014/02/12 23:21:22   LinearInterpolation1D Done     
+2014/02/12 23:21:22   LinearInterpolation1D Done     
+
+
+
+2014/02/12 23:27:25   FileDir setting completed.     
+2014/02/12 23:27:25   Background construct over     
+2014/02/12 23:27:25   Target construct over     
+2014/02/12 23:27:25   Scene construct over     
+2014/02/12 23:27:25   Sensor construct over     
+2014/02/12 23:27:25   Processing construct over     
+2014/02/12 23:27:25   readWavelengthsMeansandCov Done     
+2014/02/12 23:27:25   LinearInterpolation1D Done     
+2014/02/12 23:27:25   LinearInterpolation2D Done     
+2014/02/12 23:27:25   1    //Writespec_albFile background
+2014/02/12 23:27:26   0    //MeansB[i] done
+2014/02/12 23:27:26   0    ReadAllColumnFromTAPE7
+2014/02/12 23:27:26   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 23:27:26   1    //ReadAllColumnFromTAPE7
+2014/02/12 23:27:26   0    ReadAllColumnFromTAPE7 done
+2014/02/12 23:27:26   readWavelengthsMeansandCov Done     
+2014/02/12 23:27:26   LinearInterpolation1D Done     
+2014/02/12 23:27:26   LinearInterpolation2D Done     
+2014/02/12 23:27:26   1    //Writespec_albFile background
+2014/02/12 23:27:26   1    //MeansB[i] done
+2014/02/12 23:27:26   1    ReadAllColumnFromTAPE7
+2014/02/12 23:27:26   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 23:27:26   2    //ReadAllColumnFromTAPE7
+2014/02/12 23:27:26   1    ReadAllColumnFromTAPE7 done
+2014/02/12 23:27:26   readWavelengthsMeansandCov Done     
+2014/02/12 23:27:26   LinearInterpolation1D Done     
+2014/02/12 23:27:26   LinearInterpolation2D Done     
+2014/02/12 23:27:26   1    //Writespec_albFile background
+2014/02/12 23:27:27   2    //MeansB[i] done
+2014/02/12 23:27:27   2    ReadAllColumnFromTAPE7
+2014/02/12 23:27:27   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 23:27:27   3    //ReadAllColumnFromTAPE7
+2014/02/12 23:27:27   2    ReadAllColumnFromTAPE7 done
+2014/02/12 23:27:27   1    //Writespec_albFile background mean
+2014/02/12 23:27:27   avg    //MeansBavg done
+2014/02/12 23:27:27   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 23:27:27   4    //ReadAllColumnFromTAPE7
+2014/02/12 23:27:27   readWavelengthsMeansandCov Done     
+2014/02/12 23:27:27   LinearInterpolation1D Done     
+2014/02/12 23:27:27   LinearInterpolation2D Done     
+2014/02/12 23:27:27   3    //target in black NO.
+2014/02/12 23:27:27   1    //Writespec_albFile T in B
+2014/02/12 23:27:28   4    ReadAllColumnFromTAPE7
+2014/02/12 23:27:28   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 23:27:28   5    //ReadAllColumnFromTAPE7
+2014/02/12 23:27:28   4    ReadAllColumnFromTAPE7 done
+2014/02/12 23:27:28   5    ReadAllColumnFromTAPE7
+2014/02/12 23:27:28   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 23:27:28   6    //ReadAllColumnFromTAPE7
+2014/02/12 23:27:28   5    ReadAllColumnFromTAPE7 done
+2014/02/12 23:27:28   0    Albedo[i] done
+2014/02/12 23:27:29   6    ReadAllColumnFromTAPE7
+2014/02/12 23:27:29   C:/webpy/resource/MOD4v3r1/tape7     
+2014/02/12 23:27:29   7    //ReadAllColumnFromTAPE7
+2014/02/12 23:27:29   6    ReadAllColumnFromTAPE7 done
+2014/02/12 23:27:29   1    Albedo[i] done
+2014/02/12 23:27:29   GenRespFunction     
+2014/02/12 23:27:29   1    //genResp done
+2014/02/12 23:27:29   2    //genResp done
+2014/02/12 23:27:29   3    //genResp done
+2014/02/12 23:27:29   4    //genResp done
+2014/02/12 23:27:29   5    //genResp done
+2014/02/12 23:27:29   6    //genResp done
+2014/02/12 23:27:29   7    //genResp done
+2014/02/12 23:27:29   GenRespFunction done     
+2014/02/12 23:27:29   CovBavePath Done     
+2014/02/12 23:27:29   SensorProcessNoise done     
+2014/02/12 23:27:29   SensorProcessNoise done     
+2014/02/12 23:27:29   SensorProcessNoise done     
+2014/02/12 23:27:29   SensorProcessNoise done     
+2014/02/12 23:27:29   Adding Noise Done     
+2014/02/12 23:27:29   SensorProcessNoise done     
+2014/02/12 23:27:29   LT, SNR output Done     
+2014/02/12 23:27:29   3266.9    low
+2014/02/12 23:27:29   w calculation Done     
+2014/02/12 23:27:29   0.278514    MT
+2014/02/12 23:27:29   0.00272574    CT
+2014/02/12 23:27:29   -0.000662631    MBi
+2014/02/12 23:27:29   0.000227667    CBi
+2014/02/12 23:27:29   -0.0108158    MBi
+2014/02/12 23:27:29   0.00267498    CBi
+2014/02/12 23:27:29   0.0496616    MBi
+2014/02/12 23:27:29   0.00163484    CBi
+2014/02/12 23:27:29   LinearInterpolation1D Done     
+2014/02/12 23:27:29   LinearInterpolation1D Done     
+
+
+

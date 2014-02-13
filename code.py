@@ -3,7 +3,7 @@ import math
 import os
 import re
 import random
-import Image
+from PIL import Image
 import matplotlib.pyplot as plt1
 import matplotlib.pyplot as plt2
 import matplotlib.pyplot as plt3
