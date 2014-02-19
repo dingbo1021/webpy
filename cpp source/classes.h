@@ -1660,16 +1660,13 @@ ArrayXd ROCgen(ArrayXd Mean, ArrayXd Delta, vector<double> Fraction, vector<doub
     ArrayXd Pfa(length);
     ArrayXd probitP(length);
 	ArrayXd xpositionarray(xlength);
-	ArrayXd outPfa(xlength);
-	ArrayXd outPdmin(xlength);
+
 	ArrayXd outPdPfa = ArrayXd::Zero(length*2+2);
     int x,y; 
     Pfa.setZero();
 
     for(x=0;x<backgroundcount;x++)
         Fraction[x] *=0.01;
-	for(x=0;x<xlength;x++)
-		xpositionarray(x) = xposition[xlength-x-1];
 
     for(int i = 0; i< length; i++)
         probitP[i] = invcdf(1-xpositiongrid[length-1-i]);
@@ -1693,10 +1690,9 @@ ArrayXd ROCgen(ArrayXd Mean, ArrayXd Delta, vector<double> Fraction, vector<doub
 			
             Pdm[x] = 0.5 - 0.5*erf((hm[x]-Mean[backgroundcount])/(1.414*Delta[backgroundcount]));
         }
-//		cout<<"hm["<<y<<"] = "<<endl<<hm<<endl;
-//		cout<<"Pdm["<<y<<"] = "<<endl<<Pdm<<endl;
+		cout<<"hm["<<y<<"] = "<<endl<<hm<<endl;
+		cout<<"Pdm["<<y<<"] = "<<endl<<Pdm<<endl;
         hindex[y] = SearchArray(Pdm, Pdm.minCoeff());
-//         hindex[y] = Pdm.index(Pdm.minCoeff())
         h[y] = hm[hindex[y]];
         Pdmin[y] = Pdm[hindex[y]];
         for(x=0;x<backgroundcount;x++)
@@ -1704,8 +1700,7 @@ ArrayXd ROCgen(ArrayXd Mean, ArrayXd Delta, vector<double> Fraction, vector<doub
             Pfa[y] = Pfa[y] + Fraction[x]*(0.5 - 0.5*erf((h[y]-Mean[x])/(1.414*Delta[x]))) ;
         }
     } 
-    LinearInterpolation1D(xpositiongrid, Pfa, xpositionarray, outPfa);
-	LinearInterpolation1D(xpositiongrid, Pdmin, xpositionarray, outPdmin);
+
 	outPdPfa<<1,Pdmin,1,Pfa;
     return outPdPfa;
         

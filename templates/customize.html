@@ -76,6 +76,10 @@
 				document.getElementById('id_hiddentxt').value +=','
             }			
         }  
+        function clearhiddentxt()
+        {
+            document.getElementById('id_hiddentxt').value = '';
+        }
 		function createlist() 
 		{ 
             var d = document.getElementById('id_pfile_selection');  
@@ -133,7 +137,7 @@
 	
 </head>
 
-<body> 
+<body onload="clearhiddentxt()">
 <h1>Hyperspectral Imaging System Prediction Model</h1>
 
 <h2>Leave your parameters</h2> 
@@ -147,7 +151,7 @@
 </select></p>
 <p><label for="id_target_selection">Target selection:</label> <select name="target_selection" id="id_target_selection">
 <option value="vgrnbmw.ref">Green BMW</option>
-<option value="grnwood.ref">Green Wood</option>
+<option value="grnwood.ref">Green Wood 1 channel</option>
 <option value="grnwood_ASD.ref">Green Wood ASD</option>
 <option value="yelwood_ASD.ref">Yellow Wood ASD</option>
 <option value="playground_allpixels.ref">Avon Asphalt ALLPIXELS</option>
@@ -171,10 +175,18 @@
 <option value="asphalt_Compensated.ref">Avon Asphalt Compensated</option>
 <option value="playground_allpixels.ref">Avon Asphalt ALLPIXELS</option>
 <option value="avongrass.ref">Avon Grass</option>
+<option value="AvonGrassALL.ref">Avon Grass ALL</option>
+<option value="AvonALL.ref">Avon ALL</option>
+<option value="AvonDirt.ref">Avon Dirt</option>
+<option value="Avonwhiteroof.ref">Avon White Roof</option>
 <option value="whitetarp.ref">White Tarp</option>
 <option value="blacktarp.ref">Black Tarp</option>
 <option value="yelwood_ASD.ref">Yellow Wood ASD</option>
 <option value="grnwood_ASD.ref">Green Wood ASD</option>
+<option value="LU.ref">LU</option>
+<option value="LD.ref">LD</option>
+<option value="RU.ref">RU</option>
+<option value="RD.ref">RD</option>
 </select></p></td>
 	</table>
 	</td>
