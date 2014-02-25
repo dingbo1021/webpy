@@ -48,7 +48,7 @@ int main(int argc, char *argv[])
     
     int SensorDims = Sen.getWlgth().size();
     int FeatureDims = wchosen.size();
-    //  int SourceDims = 210;   
+
     int extrarun = 4; 
     int runsize = bkgCount+extrarun;
     
@@ -60,20 +60,13 @@ int main(int argc, char *argv[])
     
     ArrayXd* WVNo = new ArrayXd[runsize];
 
-//	ArrayXd* Trans = new ArrayXd[runsize];
 	ArrayXd* SurfEmis = new ArrayXd[runsize];
 	ArrayXd* SolScat = new ArrayXd[runsize];
 	ArrayXd* GndRflt = new ArrayXd[runsize];
-//	ArrayXd* DrctRflt = new ArrayXd[runsize];
-//	ArrayXd* TotRad = new ArrayXd[runsize];
-
-	//ArrayXd* TransO = new ArrayXd[runsize];
 	ArrayXd* SurfEmisO = new ArrayXd[runsize];
 	ArrayXd* SolScatO = new ArrayXd[runsize];
 	ArrayXd* GndRfltO = new ArrayXd[runsize];
-	//ArrayXd* DrctRfltO = new ArrayXd[runsize];
-	//ArrayXd* TotRadO = new ArrayXd[runsize];
-    
+
 	ArrayXd* MeansB = new ArrayXd[bkgCount+1];
     MatrixXd* CovsB = new MatrixXd[bkgCount+1];
     MatrixXd* CovsLB = new MatrixXd[bkgCount+1];
@@ -107,7 +100,7 @@ int main(int argc, char *argv[])
     WlgthChosen = FeaturizeArray(Sen.getWlgth(),FeatureMtrx);
     BWChosen = FeaturizeArray(Sen.getBW(),FeatureMtrx);
     
-//    WlgthChosen = FeatureMtrx*Sen.Wlgth.matrix();
+
     BWChosen = FeatureMtrx*Sen.getBW().matrix();
 
     ArrayXd WavelengthsSourceTemp, V_MeansSourceTemp;
@@ -203,12 +196,10 @@ logfile("GenRespFunction");
 		                   WVNo[0], Sen.getBW(), Sen.getWlgth()/1000);
 logfile("GenRespFunction done");
     delete []WVNo;
-//	delete []Trans;
 	delete []SurfEmis;
 	delete []SolScat;
 	delete []GndRflt;
-//	delete []DrctRflt;
-//	delete []TotRad;
+
 
     MatrixXd CovBavePath =  WriteDiagonalMatrix(SolScatO[bkgCount+2] - SolScatO[bkgCount+3]) * 
                             Bkg.getbackscale() * (CovsB[bkgCount]/10000) * 
@@ -216,10 +207,6 @@ logfile("GenRespFunction done");
 
     MatrixXd Ddown(SensorDims,SensorDims);
     MatrixXd Tdown(SensorDims,SensorDims);
-    
-//    Llow = GndRfltO[bkgCount+4]+SolScatO[bkgCount];
-//    Lhigh = GndRfltO[bkgCount+5]+SolScatO[bkgCount];
-
 
 	Llow =  0.1*GndRfltO[bkgCount+2]+SolScatO[bkgCount];
 	Lhigh = 0.6*GndRfltO[bkgCount+2]+SolScatO[bkgCount]; 	    
@@ -290,11 +277,7 @@ logfile("CovBavePath Done");
                     CovsRBaveInv * 
                    FeaturizeArray((MeansT/100-RLB[bkgCount]),FeatureMtrx).matrix();
     MatrixXd w = CovsRBaveInv * (FeaturizeArray((MeansT/100-RLB[bkgCount]),FeatureMtrx).matrix())/low(0);
-     
-//w<<-0.261008420000000,-0.0176464770000000,-0.0326333900000000,0.225798510000000,0.472442750000000,0.817609030000000,0.597607360000000,0.154493870000000,-0.418021830000000,-0.349629320000000,-0.378337180000000,-0.392110630000000,-0.0824135840000000,0.0567781340000000,0.439369290000000,-0.616467900000000,-0.926037180000000,0.432299440000000,0.0804048880000000,-0.145172300000000,-0.109771410000000,-0.0366633530000000,-0.0232091520000000,-0.00985189440000000,0.0105217040000000,0.00729003660000000,0.0365207610000000,-0.000620496800000000,-0.0264728250000000,-0.0439757160000000,-0.0421326610000000,0.0132648150000000,0.0653972470000000,0.0497869050000000,-0.0270363870000000,-0.00982702770000000,0.0437304540000000,-0.0348783000000000,0.00325514730000000,-0.0214939340000000,-0.0462768050000000,-0.0272654370000000,0.0153502060000000,0.0545333650000000,0.113224690000000,0.148193630000000,-0.0121015070000000,0.0851857210000000,0.0283402140000000,0.154458440000000,0.0843239120000000,0.0878276760000000,0.0513694380000000,-0.0336532560000000,-0.124117050000000,-0.143684060000000,-0.0720325750000000,-0.0518801460000000,-0.0591967910000000,-0.0560700840000000,0.0927735370000000,-0.190341810000000,1.06215240000000e-12,4.26069840000000e-06,0.00138633540000000,-0.00277829560000000,0.0281898230000000,0.226105440000000,0.0155218250000000,-0.0239099360000000,0.222584890000000,0.198467470000000,0.0305272880000000,-0.102863860000000,-0.318593130000000,0.211679280000000,-0.00625364600000000,-0.180031790000000,0.0214184100000000,-0.167251820000000,-0.0572059910000000,-0.0650003880000000,-0.0982796440000000,0.0220583970000000,-0.0172472160000000,0.0285595370000000,0.0150018580000000,-0.00666273400000000,0.0364149130000000,0.111319960000000,0.0796815490000000,0.00847889750000000,-0.00443656240000000,-0.0288518700000000,-0.0632022180000000,-0.197982520000000,1.15453290000000,-0.278354410000000,-0.304048200000000,-0.163407070000000,0.337927610000000,0.399878130000000,0.705311170000000,-0.571593300000000,-0.382312640000000,-0.431613770000000,-0.0948073150000000,0.687234650000000,1.72519210000000,1.27941400000000,-0.910963130000000,-1.41471180000000,-0.698180300000000,0.0233450000000000,0.212713280000000,0.131649750000000,0.0591320450000000,-0.0644962440000000,0.0557122100000000,-0.0808078290000000,-0.00169258060000000,0.122156630000000,0.0898191270000000,0.0429405680000000,-0.00220469670000000,-0.000116832160000000;    
 
-
-//cout<<"w calculation Done"<<endl;
 	logfile(low(0),"low");
 	logfile("w calculation Done");
 #ifdef DEBUG
@@ -338,12 +321,10 @@ logfile("CovBavePath Done");
 //fdebug<<endl<<"w"<<endl<<w<<endl<<endl;  
 #endif
 
-//	delete []TransO;
 	delete []SurfEmisO;
 	delete []SolScatO;
 	delete []GndRfltO;
-//	delete []DrctRfltO;
-//	delete []TotRadO;
+
 
     MatrixXd mt = w.transpose()*(FeatureMtrx*((RLT-RLB[bkgCount]).matrix()));
     cout<<"MT="<<mt<<endl;
