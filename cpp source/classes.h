@@ -1208,21 +1208,37 @@ void genTape5(Sensor sensor, Scene scene, double surfalb, char* rescode, const c
 //ValueB is output at WavelengthB according to WavelengthsA-ValueA, WavelengthA, B both INCREASING
 void LinearInterpolation1D(ArrayXd& WavelengthsA, ArrayXd& ValueA, ArrayXd& WavelengthsB, ArrayXd& ValueB)
 {
-    if(WavelengthsA.size()!=ValueA.size()||WavelengthsB.size()!=ValueB.size()) 
+	int sizeA = WavelengthsA.size(), sizeB = WavelengthsB.size();
+    if(sizeA != ValueA.size()|| sizeB != ValueB.size()) 
 	{
 		logfile("LinearInterpolation1D size fails","/ERROR");
 		throw GeneralException();
 	}
-    if(WavelengthsA.tail(1)(0)<WavelengthsB.head(1)(0)||WavelengthsB.tail(1)(0)<WavelengthsB.head(1)(0))
+    if(WavelengthsA[sizeA-1]<WavelengthsA[0]||WavelengthsB[sizeB-1]<WavelengthsB[0])
 	{
 		logfile("LinearInterpolation1D Wlgth increasing fails","/ERROR");
 		throw GeneralException();
 	}
-    if(WavelengthsA.tail(1)(0)<WavelengthsB.tail(1)(0)||WavelengthsA.head(1)(0)>WavelengthsB.head(1)(0))
+    if(WavelengthsA[sizeA-1]<WavelengthsB[sizeB-1]||WavelengthsA[0]>WavelengthsB[0])
 	{
-		logfile("LinearInterpolation1D range fails","/ERROR");
-		throw GeneralException();
+		logfile("LinearInterpolation1D range not match, trying to fix..","/Warning");
+		if(WavelengthsA[sizeA-1]<WavelengthsB[sizeB-1]&&WavelengthsA[sizeA-1]>=WavelengthsB[sizeB-2])
+		{
+			WavelengthsB[sizeB-1] = WavelengthsA[sizeA-1]-1;
+			logfile("LinearInterpolation1D tail range fixed","/OK");
+		}
+		if(WavelengthsA[0]>WavelengthsB[0]&&WavelengthsA[0]<=WavelengthsB[1])
+		{
+			WavelengthsB[0] = WavelengthsA[0]+1;
+			logfile("LinearInterpolation1D head range fixed","/OK");
+		}
+		if(WavelengthsA[sizeA-1]<WavelengthsB[sizeB-2]||WavelengthsA[0]>WavelengthsB[1])
+		{
+			logfile("LinearInterpolation1D range fails","/ERROR");
+			throw GeneralException();
+		}
 	}
+
     int j = 0;   
     for(int i = 0; i < ValueB.size(); i++)
     {
@@ -1237,15 +1253,30 @@ void LinearInterpolation1D(ArrayXd& WavelengthsA, ArrayXd& ValueA, ArrayXd& Wave
 //ValueB is output MATRIX at WavelengthB according to WavelengthsA-ValueA
 void LinearInterpolation2D(ArrayXd& WavelengthsA, MatrixXd& ValueA, ArrayXd& WavelengthsB, MatrixXd& ValueB)
 {
-    if(WavelengthsA.size()!=ValueA.cols()||WavelengthsB.size()!=ValueB.rows())
+	int sizeA = WavelengthsA.size(), sizeB = WavelengthsB.size();
+    if(sizeA!=ValueA.cols()||sizeB!=ValueB.rows()||ValueA.cols()!=ValueA.rows()||ValueB.cols()!=ValueB.rows())
 	{
-		logfile("LinearInterpolation2D length fails","/ERROR");
+		logfile("LinearInterpolation2D length fails(matrix not square or wavelength count!=matrix length)","/ERROR");
 		throw GeneralException();
 	}
-    if(WavelengthsA.tail(1)(0)<WavelengthsB.tail(1)(0)||WavelengthsA.head(1)(0)>WavelengthsB.head(1)(0))
+    if(WavelengthsA[sizeA-1]<WavelengthsB[sizeB-1]||WavelengthsA[0]>WavelengthsB[0])
 	{
-		logfile("LinearInterpolation2D range fails","/ERROR");
-		throw GeneralException();
+		logfile("LinearInterpolation2D range not match, trying to fix..","/Warning");
+		if(WavelengthsA[sizeA-1]<WavelengthsB[sizeB-1]&&WavelengthsA[sizeA-1]>=WavelengthsB[sizeB-2])
+		{
+			WavelengthsB[sizeB-1] = WavelengthsA[sizeA-1]-1;
+			logfile("LinearInterpolation1D tail range fixed","/OK");
+		}
+		if(WavelengthsA[0]>WavelengthsB[0]&&WavelengthsA[0]<=WavelengthsB[1])
+		{
+			WavelengthsB[0] = WavelengthsA[0]+1;
+			logfile("LinearInterpolation1D head range fixed","/OK");
+		}
+		if(WavelengthsA[sizeA-1]<WavelengthsB[sizeB-2]||WavelengthsA[0]>WavelengthsB[1])
+		{
+			logfile("LinearInterpolation2D range fails","/ERROR");
+			throw GeneralException();
+		}
 	}
 
     int m = 0, n = 0;
@@ -1265,12 +1296,7 @@ void LinearInterpolation2D(ArrayXd& WavelengthsA, MatrixXd& ValueA, ArrayXd& Wav
                 ValueB(i,j) = temp1+(WavelengthsB(i)-WavelengthsA(m-1))*(temp2-temp1)/(WavelengthsA(m)-WavelengthsA(m-1));
                 ValueB(j,i) = ValueB(i,j);
             }
-//            cout<<m<<" "<<n<<endl;
-//            cout<<ValueA(m-1,n-1)<<" "<<ValueA(m-1,n)<<endl;
-//            cout<<ValueA(m,n-1)<<" "<<ValueA(m,n)<<endl;            
-//            cout<<ValueB(i,j);
-//            system("PAUSE");
-			
+
         }
 		n = 0;
         
@@ -1543,7 +1569,7 @@ int SearchArray(ArrayXd dataIn, double keyvalue)
     return -1;
 }
 
-double erf(double x)
+double _erf_(double x)
 {
     // constants
     double a1 =  0.254829592;
@@ -1617,7 +1643,7 @@ ArrayXd ROCgen(ArrayXd Mean, ArrayXd Delta, vector<double> Fraction, vector<doub
 				Mean[x] = 2 * Mean[backgroundcount] - Mean[x];
             hm[x] = Mean[x]+Delta[x]*probitP[y];
 			
-            Pdm[x] = 0.5 - 0.5*erf((hm[x]-Mean[backgroundcount])/(1.414*Delta[backgroundcount]));
+            Pdm[x] = 0.5 - 0.5*_erf_((hm[x]-Mean[backgroundcount])/(1.414*Delta[backgroundcount]));
         }
 		cout<<"hm["<<y<<"] = "<<endl<<hm<<endl;
 		cout<<"Pdm["<<y<<"] = "<<endl<<Pdm<<endl;
@@ -1626,7 +1652,7 @@ ArrayXd ROCgen(ArrayXd Mean, ArrayXd Delta, vector<double> Fraction, vector<doub
         Pdmin[y] = Pdm[hindex[y]];
         for(x=0;x<backgroundcount;x++)
         {
-            Pfa[y] = Pfa[y] + Fraction[x]*(0.5 - 0.5*erf((h[y]-Mean[x])/(1.414*Delta[x]))) ;
+            Pfa[y] = Pfa[y] + Fraction[x]*(0.5 - 0.5*_erf_((h[y]-Mean[x])/(1.414*Delta[x]))) ;
         }
     } 
 
