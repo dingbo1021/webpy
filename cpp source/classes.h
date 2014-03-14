@@ -7,8 +7,6 @@
 #include <Eigen/Dense>
 #include <stdio.h>
 #include <windows.h>
-#include <math.h>
-#include <errno.h>
 
 #include <time.h> 
 
